@@ -1,0 +1,5 @@
+node_modules
+pdftools-node-sdk-samples-master/
+private.key
+pdftools-api-credentials.json
+.vscode/
