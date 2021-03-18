@@ -1,0 +1,11 @@
+{
+	"name":"Raymond Camden",
+	"email":"raycamde@adobe.com",
+	"address":"1313 Mockingbird Lane, Lafayette, LA",
+	"cell":"337-555-5555",
+	"cats":[
+        {"name":"Luna", "gender": "female", "breed": "something", "weight": 4},
+        {"name":"Pig", "gender": "female", "breed": "something else", "weight": 8},
+        {"name":"Cracker", "gender": "male", "breed": "large", "weight": 10}
+	]
+}
