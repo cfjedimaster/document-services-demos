@@ -15,8 +15,8 @@ let input = process.argv[2];
 let output = process.argv[3];
 let data = process.argv[4];
 
-if(!input || !output || !data) {
-	console.error(chalk.red('Syntax: generic.js <input word doc> <output location> <location of json file>'));
+if(!input || !output) {
+	console.error(chalk.red('Syntax: generic.js <input word doc> <output location> <optional location of json file>'));
 	process.exit(1);
 }
 
@@ -43,10 +43,16 @@ if(fs.existsSync(output)) {
 	fs.unlinkSync(output);
 }
 
-if(!fs.existsSync(data)) {
-	console.error(chalk.red(`Can't find data file ${data}`));
-	process.exit(1);
-} else data = JSON.parse(fs.readFileSync(data,'utf8'));
+/*
+I've made data nullable so you can test JSONata stuff that works on it's own, but our API
+requires *something*, so I send the object you see below. 
+*/
+if(data) {
+    if(!fs.existsSync(data)) {
+        console.error(chalk.red(`Can't find data file ${data}`));
+        process.exit(1);
+    } else data = JSON.parse(fs.readFileSync(data,'utf8'));
+} else data = {_blank:true};
 
 (async () => {
 
