@@ -16,7 +16,7 @@ let output = process.argv[3];
 let data = process.argv[4];
 
 if(!input || !output || !data) {
-	console.error(chalk.red('Syntax: generic.js <input pdf or word doc> <output location> <location of json file>'));
+	console.error(chalk.red('Syntax: generic.js <input word doc> <output location> <location of json file>'));
 	process.exit(1);
 }
 
