@@ -25,6 +25,11 @@ if(!fs.existsSync(input)) {
 	process.exit(1);
 }
 
+if(input === output) {
+	console.error(chalk.red('Output can`t be the same as input.'));
+	process.exit(1);
+}
+
 let ext = input.split('.').pop().toLowerCase();
 if(['docx'].indexOf(ext) === -1) {
 	console.error(chalk.red(`Input file ${input} is not DOCX`));
