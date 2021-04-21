@@ -1,0 +1,10 @@
+{ 
+	"numberOfCats": [
+		{"date":"11/2020", "amount":210},
+		{"date":"12/2020", "amount":354},
+		{"date":"1/2021", "amount":321},
+		{"date":"2/2021", "amount":337},
+		{"date":"3/2021", "amount":298},
+		{"date":"4/2021", "amount":274}
+	]
+}
