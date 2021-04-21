@@ -17,7 +17,9 @@ const fs = require('fs');
             {name:"Luna", gender: "female", breed: "something", weight: 4},
             {name:"Pig", gender: "female", breed: "something else", weight: 8},
             {name:"Cracker", gender: "male", breed: "large", weight: 10},
-        ]
+        ],
+        catCount: 9345800,
+        dogCount: 8034130
     };
     
     console.log('Creating a Word doc from a Word doc');
