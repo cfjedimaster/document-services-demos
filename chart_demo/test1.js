@@ -27,7 +27,7 @@ function generateQuickChartURL(arr) {
     let data = arr.map(d => d.amount);
     
     
-    let url = `https://quickchart.io/chart?c={type:'line',data:{labels:${JSON.stringify(labels)},datasets:[{label:'Cats',data:${JSON.stringify(data)}}]}}`;
+    let url = `https://quickchart.io/chart?c={type:'line',data:{labels:${JSON.stringify(labels)},datasets:[{label:'Cats',data:${JSON.stringify(data)}}]}}&width=500&height=300`;
     console.log(url);
     return url;    
 }
