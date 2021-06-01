@@ -7,7 +7,7 @@
 		},
 		"invoice":[
 			{"desc":"Wrote cat demos", "total": 9.00 },
-			{"desc":"Wrote more cat demos", "total": 20.50 },
+			{"desc":"Wrote more cat demos", "total": 20.00 },
 			{"desc":"Debugged demos", "total": 60.00 }
 		]
 	},
@@ -31,11 +31,10 @@
 		},
 		"invoice":[
 			{"desc":"Wrote cat demos", "total": 50.00 },
-			{"desc":"Wrote more cat demos", "total": 125.50 },
+			{"desc":"Wrote more cat demos", "total": 125.00 },
 			{"desc":"Wrote even more cat demos", "total": 250.00 },
 			{"desc":"Wrote yet more cat demos", "total": 350.00 },
 			{"desc":"Debugged demos", "total": 900.00 }
 		]
-	},
-
+	}
 ]

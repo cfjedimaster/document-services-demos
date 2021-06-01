@@ -1,0 +1,18 @@
+{
+  "name": "docgen-password",
+  "version": "1.0.0",
+  "description": "",
+  "main": "script.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@adobe/documentservices-pdftools-node-sdk": "^1.3.1",
+    "@sendgrid/mail": "^7.4.4",
+    "slug": "^5.0.1",
+    "threewords": "^0.0.1"
+  }
+}
