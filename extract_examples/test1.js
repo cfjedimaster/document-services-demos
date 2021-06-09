@@ -1,38 +1,40 @@
-const ExtractPdfSdk = require('@adobe/pdftools-extract-node-sdk');
+const PDFServicesSdk = require('@adobe/pdfservices-node-sdk');
 const AdmZip = require('adm-zip');
 const fs = require('fs');
 
 const OUTPUT_ZIP = './output.zip';
 //we remove this, but in case of error, check
 if(fs.existsSync(OUTPUT_ZIP)) fs.unlinkSync(OUTPUT_ZIP);
-const credentials = ExtractPdfSdk.Credentials
+
+const credentials = PDFServicesSdk.Credentials
 		.serviceAccountCredentialsBuilder()
 		.fromFile('pdftools-api-credentials.json')
 		.build();
 
 
-//Create a clientContext using credentials and create a new operation instance.
-const clientContext = ExtractPdfSdk.ExecutionContext
-		.create(credentials),
-	extractPDFOperation = ExtractPdfSdk.ExtractPDF.Operation
-		.createNew(),
+// Create an ExecutionContext using credentials
+const executionContext = PDFServicesSdk.ExecutionContext.create(credentials);
 
-	// Set operation input from a source file.
-	input = ExtractPdfSdk.FileRef.createFromLocalFile(
-		'Beamswords_and_Bazookas.pdf',
-		ExtractPdfSdk.ExtractPDF.SupportedSourceFormat.pdf
+// Build extractPDF options
+const options = new PDFServicesSdk.ExtractPDF.options.ExtractPdfOptions.Builder()
+          .addElementsToExtract(PDFServicesSdk.ExtractPDF.options.ExtractElementType.TEXT).build()
+
+// Create a new operation instance.
+const extractPDFOperation = PDFServicesSdk.ExtractPDF.Operation.createNew(),
+	input = PDFServicesSdk.FileRef.createFromLocalFile(
+		'PlanetaryScienceDecadalSurvey.pdf',
+		PDFServicesSdk.ExtractPDF.SupportedSourceFormat.pdf
 	);
 
 extractPDFOperation.setInput(input);
-
-extractPDFOperation.addElementToExtract(ExtractPdfSdk.PDFElementType.TEXT);
+extractPDFOperation.setOptions(options);
 
 // Execute the operation
-extractPDFOperation.execute(clientContext)
+extractPDFOperation.execute(executionContext)
 	.then(result => result.saveAsFile(OUTPUT_ZIP))
 	.then(() => {
 		let zip = new AdmZip(OUTPUT_ZIP);		
-		var zipEntries = zip.getEntries(); // an array of ZipEntry records
+		let zipEntries = zip.getEntries(); // an array of ZipEntry records
 		zip.extractEntryTo("structuredData.json", "./", false, true);
 		fs.unlinkSync(OUTPUT_ZIP);
 	})

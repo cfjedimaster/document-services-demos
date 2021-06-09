@@ -10,7 +10,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "@adobe/pdftools-extract-node-sdk": "^0.6.0-beta",
+    "@adobe/pdfservices-node-sdk": "^2.0.0",
     "adm-zip": "^0.4.16"
   }
 }
