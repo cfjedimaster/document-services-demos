@@ -16,7 +16,7 @@ logging.basicConfig(level=os.environ.get("LOGLEVEL", "INFO"))
 base_path = os.path.dirname(os.path.abspath(__file__))
 zip_file = base_path + "/python_extract.zip"
 
-#todo - write code to see if zip exists and delete it
+# I added code to remove the zip after getting the json, but keeping this to be sure
 if os.path.isfile(zip_file):
 	print(f"Previous zip file {zip_file} exists, removing it.")
 	os.remove(zip_file)
@@ -55,6 +55,7 @@ try:
 		with open(file_to_extract, 'wb') as f:
 			f.write(z.read(file_to_extract))
 			print("Extracted", file_to_extract)
+			os.remove(zip_file)
 
 except (ServiceApiException, ServiceUsageException, SdkException):
 	logging.exception("Exception encountered while executing operation")
