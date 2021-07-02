@@ -1,0 +1,32 @@
+<html>
+<head>
+<style>
+#pdfview {
+	height: 75vh; 
+	width: 50vw;
+}
+</style>
+</head>
+
+<div id="pdfview">
+</div>
+
+<script src="https://documentcloud.adobe.com/view-sdk/main.js"></script>
+<script>
+const ADOBE_KEY = '9861538238544ff39d37c6841344b78d';
+
+function displayPDF() {
+	var adobeDCView = new AdobeDC.View({clientId: ADOBE_KEY, divId: 'pdfview'});
+	adobeDCView.previewFile({
+		content:{location: {url: 'https://documentcloud.adobe.com/view-sdk-demo/PDFs/Bodea%20Brochure.pdf'}},
+		metaData:{fileName: 'Bodea Brochure.pdf'}
+	}, {embedMode: 'SIZED_CONTAINER'});	
+}
+
+if(window.AdobeDC) displayPDF();
+else {
+	document.addEventListener('adobe_dc_view_sdk.ready', () => displayPDF());
+}
+
+</script>
+</html>

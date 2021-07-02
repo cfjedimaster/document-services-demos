@@ -1,0 +1,83 @@
+<!--
+I document the showing what annotation data looks like.
+-->
+<html>
+<head>
+<style>
+body {
+	margin: 0;
+}
+
+.container {
+	display: grid;
+	grid-template-columns: 60% 40%;
+	height: 90vh;
+}
+
+#pdfview {
+	height: 80%; 
+	width: 100%;
+}
+
+#consoleDump {
+	width: 100%;
+	height: 100%;
+}
+
+#getAnnotations {
+	width: 100%;
+	height: 40px;
+}
+</style>
+</head>
+
+<div class="container">
+	<div id="pdfview">
+	</div>
+	<div>
+
+		<button id="getAnnotations">Get Annotations</button> 
+		<textarea id="consoleDump"></textarea>
+	</div>
+</div>
+
+
+<script src="https://documentcloud.adobe.com/view-sdk/main.js"></script>
+<script>
+const ADOBE_KEY = '9861538238544ff39d37c6841344b78d';
+
+let annotationManager;
+let consoleDump;
+
+async function displayPDF() {
+	let pdfurl = 'https://documentcloud.adobe.com/view-sdk-demo/PDFs/Bodea%20Brochure.pdf';
+	let adobeDCView = new AdobeDC.View({clientId: ADOBE_KEY, divId: "pdfview"});
+	let pdfPromise = await adobeDCView.previewFile({
+		content:{location: {url: pdfurl}},		
+		metaData:{fileName: "Bodea Brochure.pdf", id: 'raydemo bodea brochure.pdf'}
+	}, {
+		enableAnnotationAPIs: true,
+	  	includePDFAnnotations: true
+	});	
+
+	annotationManager = await pdfPromise.getAnnotationManager();
+
+	consoleDump = document.querySelector('#consoleDump');
+	let btn = document.querySelector('#getAnnotations');
+	btn.addEventListener('click', getAnnotations,false);
+
+}
+
+async function getAnnotations() {
+	console.log('get em');
+	let annotations = await annotationManager.getAnnotations();
+	consoleDump.value = JSON.stringify(annotations, null, '\t');
+}
+
+if(window.AdobeDC) displayPDF();
+else {
+	document.addEventListener('adobe_dc_view_sdk.ready', () => displayPDF());
+}
+
+</script>
+</html>
