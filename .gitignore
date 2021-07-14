@@ -4,3 +4,4 @@ private.key
 pdftools-api-credentials.json
 .vscode/
 .env
+/rest_examples

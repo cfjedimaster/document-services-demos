@@ -11,6 +11,8 @@
   "license": "ISC",
   "dependencies": {
     "@adobe/pdfservices-node-sdk": "^2.0.0",
-    "adm-zip": "^0.4.16"
+    "adm-zip": "^0.4.16",
+    "chalk": "^4.1.1",
+    "nanoid": "^3.1.23"
   }
 }

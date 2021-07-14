@@ -58,9 +58,9 @@ extractPDFOperation.setOptions(options);
 let outputZip = './' + nanoid() + '.zip';
 extractPDFOperation.execute(executionContext)
 	.then(result => result.saveAsFile(outputZip))
-	.then(() => {
+	.then(async () => {
 		let zip = new AdmZip(outputZip);	
-		zip.extractAllTo(output);
+		await zip.extractAllTo(output);
 		fs.unlinkSync(outputZip);
 	})
 	.catch(err => console.log(err));
