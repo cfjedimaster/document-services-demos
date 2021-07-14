@@ -1,0 +1,84 @@
+<html>
+<head>
+<title>Test Save PDF</title>
+<style>
+#pdfView {
+	width: 90vw;
+	height: 90vh;
+}
+</style>
+</head>
+
+<body>
+
+<div id="pdfView"></div>
+
+<script src="https://documentcloud.adobe.com/view-sdk/main.js"></script>
+<script>
+const ADOBE_KEY = '9861538238544ff39d37c6841344b78d';
+
+function displayPDF() {
+	let adobeDCView = new AdobeDC.View({clientId: ADOBE_KEY, divId: "pdfView"});
+	adobeDCView.previewFile({
+		content:{location: {url: "the_black_cat.pdf"}},
+		metaData:{fileName: "the_black_cat.pdf"}
+	}, {
+		showDisabledSaveButton: true
+	});	
+
+	adobeDCView.registerCallback(
+		AdobeDC.View.Enum.CallbackType.SAVE_API, 
+		(metaData, content, options) => {
+			console.log('metadata', metaData);
+			return new Promise(async (resolve, reject) => {
+				let result = await savePDF(metaData.fileName, content);
+				console.log('save called', result);
+				resolve({
+					code: AdobeDC.View.Enum.ApiResponseCode.SUCCESS, 
+					data: {
+						metaData: metaData
+					}
+				});
+			});
+		});
+}
+
+if(window.AdobeDC) displayPDF();
+else {
+	document.addEventListener("adobe_dc_view_sdk.ready", () => displayPDF());
+}
+
+// credit Joel: https://codepen.io/practicalPDF/pen/NWNywVo
+function arrayBufferToBase64(buffer) {
+  var binary = "";
+  var bytes = new Uint8Array(buffer);
+  var len = bytes.byteLength;
+  for (var i = 0; i < len; i++) {
+    binary += String.fromCharCode(bytes[i]);
+  }
+  return window.btoa(binary);
+}
+
+async function savePDF(name, data) {
+	console.log(`Woah, lets save ${name}`);
+	
+	let base64PDF = arrayBufferToBase64(data);
+
+	const postData = {
+		pdf: base64PDF
+	};
+
+	const response = await fetch('/.netlify/functions/save-pdf', {
+		method: 'POST', 
+		headers: {
+			'Content-Type': 'application/json',
+		},
+		body: JSON.stringify(postData)
+	});
+	const result = await response.json();
+	return result;
+}
+</script>
+
+</body>
+</html>
