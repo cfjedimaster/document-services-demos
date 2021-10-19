@@ -1,4 +1,4 @@
-const PDFToolsSdk = require('@adobe/documentservices-pdftools-node-sdk');
+const PDFToolsSdk = require('@adobe/pdfservices-node-sdk');
 const fs = require('fs');
 const slug = require('slug')
 const threewords = require('threewords');

@@ -7,7 +7,8 @@ focus on input and output.
 Assumes pdftools-api-credentials.json in the same directory (which also assumes private.key)
 */
 
-const PDFToolsSdk = require('@adobe/documentservices-pdftools-node-sdk');
+const PDFToolsSdk = require('@adobe/pdfservices-node-sdk');
+
 const chalk = require('chalk');
 const fs = require('fs');
 

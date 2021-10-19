@@ -5,3 +5,5 @@ pdftools-api-credentials.json
 .vscode/
 .env
 /rest_examples
+/services/output
+/scratchpad/
