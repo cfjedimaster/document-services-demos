@@ -1,0 +1,454 @@
+Planetary Science Decadal Survey 
+Mission Studies Lessons Learned Report 
+October 2011 
+Contents 
+Introduction............................................................................................................................................................. 1 
+Survey Approach, Process and Participants............................................................................................................ 3 
+Survey Response................................................................................................................................................. 3 
+Summary Findings .............................................................................................................................................. 3 
+Lessons Learned...................................................................................................................................................... 6 
+Final Thoughts ...................................................................................................................................................... 14 
+References............................................................................................................................................................. 14 
+Acknowledgements............................................................................................................................................... 14 
+Appendix A:.......................................................................................................................................................... 15 
+Introduction 
+The Planetary Science Decadal Survey (PSDS) was conducted by the Space Studies Board (SSB) of the National Research Council, (NRC) in 2009-2010 to  
+“…develop a comprehensive science and mission strategy for planetary science that updates and extends the Board’s 2003 solar system exploration decadal survey, New Frontiers in the Solar System: An Integrated Exploration Strategy.”  [Ref 1] 
+A major element in the development of this strategy was the conduct of a broad set of mission and technology studies that were used to assess the feasibility, implementation cost, and science return from missions designed to address high priority science at destinations throughout the solar system.  Mission destinations included inner planets (Mercury, Venus, Moon), Mars, primitive bodies (asteroids, comets, etc.), outer planets (giant planets and ice giants) and outer planet satellites.  Based on science priorities and programmatic guidelines, the NRC science panels identified promising mission concepts they recommended for study.  In some cases, architecture-level trade studies were conducted to rapidly explore alternative mission concepts for a given set of science objectives as a way to select the most promising mission concept, from a science, cost and risk perspective, that the science panel recommended for higher maturity point design study [Ref 2]. In other cases, the panels elected to quickly identify point design mission concepts based on historical study results without doing an architecture level assessment of alternatives.  With the support of NASA HQ, the NRC assigned each study and one of its NRC science panel members to a NASA study center (APL, GSFC, JPL, GRC and MSFC).  Some results from mission studies prior to the PSDS went directly to the Independent Cost Estimators and the Steering Committee.  After a team completed a point design study, the results were reviewed by the relevant NASA HQ point of contact (POC), subjected to independent cost evaluations, and then passed on to the PSDS Steering Committee.  In total, 31 studies at varying levels of concept maturity were conducted.  Table 1 is a complete list of the mission studies. 
+Performing architecture-level trade studies and mission concept point design studies was a major effort, presenting a number of challenges to the study centers, NASA HQ and the NRC PSDS team.  As a result of this work, many lessons were learned along the way that can benefit future efforts that require similar design team study support.  The PSDS Lessons Learned task was undertaken to identify those lessons learned and make them available for future similar efforts. The approach taken was to send questionnaires to the full range of study participants, including the PSDS science champions and panels, study center leads and team participants (JPL, GSFC, APL, GRC and MSFC), and NASA HQ POCs. The set of responses reflects a complete cross-section of study participants and provides excellent insight into the PSDS mission study process. This report documents the lessons learned. 
+Table 1. PSDS Mission and Technology Concept Studies 
+Study Title 
+Institution 
+PSDS Panel 
+Mercury Lander Mission 
+APL 
+Inner Planets 
+Venus Mobile Explorer 
+GSFC 
+Inner Planets 
+Venus Intrepid Tessera Lander 
+GSFC 
+Inner Planets 
+Venus Climate Mission 
+GSFC/JPL 
+Inner Planets 
+Lunar Geophysical Network 
+MSFC/APL 
+Inner Planets 
+Lunar Polar Volatiles Explorer 
+MSFC/APL 
+Inner Planets 
+Near Earth Asteroid Trajectory Opportunities 
+JPL 
+Primitive Bodies 
+Mars 2018 MAX-C Caching Rover 
+JPL 
+Mars 
+Mars Sample Return Orbiter 
+JPL 
+Mars 
+Mars Sample Return Lander 
+JPL 
+Mars 
+Mars 2018 Sky Crane 
+JPL 
+Mars 
+Mars Geophysical Network Options 
+JPL 
+Mars 
+Mars Geophysical Network Concept Study 
+JPL 
+Mars 
+Mars Polar Climate 
+JPL 
+Mars 
+JEO 
+JPL 
+Satellites 
+Io Observer 
+JPL 
+Satellites 
+Ganymede Orbiter 
+JPL 
+Satellites 
+Trojan Tour 
+APL 
+Primitive Bodies 
+TSSM 
+JPL 
+Satellites 
+Saturn Atmospheric Entry Probe Technology Trades 
+JPL 
+Giant Planets 
+Saturn Atmospheric Entry Mission Concept 
+JPL 
+Giant Planets 
+Saturn Ring Observer 
+JPL 
+Giant Planets 
+Enceladus Flyby & Sample Return 
+JPL 
+Satellites 
+Enceladus Orbiter 
+JPL 
+Satellites 
+Titan Lake Lander 
+JPL 
+Satellites 
+Chiron Orbiter 
+GSFC 
+Primitive Bodies 
+Uranus and Neptune Orbiter and Probe 
+APL 
+Giant Planets 
+Neptune-Triton-Kuiper Belt Objects 
+JPL 
+Joint Giant Planets/Satellites/ Primitive Bodies 
+Comet Surface Sample Return 
+APL 
+Primitive Bodies 
+Cryogenic Comet Nucleus SR technology 
+APL 
+Primitive Bodies 
+Small Fission Power System 
+GRC 
+Giant Planets 
+Survey Approach, Process and Participants 
+The initial effort of the Lessons Learned task was development of a questionnaire (Appendix A) to solicit (from study participants) inputs pertaining to a variety of aspects of the mission and architecture trade study process.  The questionnaire focused on four areas: 
+• 
+Approach 
+• 
+Process 
+• 
+Results 
+• 
+Products 
+A fifth area solicited more general comments.  The questionnaire was sent to a broad set of study participants, 73 in all, including PSDS science panel team members, science champions, study leads, center leads, center participants, and NASA points of contact, representing 27 different institutions. The recipients had different points of view of the process resulting in a broad range of responses. This was seen as a strength, allowing evaluation of the mission study process from multiple stakeholder perspectives. 
+Responses to the questionnaire were collected and results synthesized.  In a few cases, respondents were individually interviewed and their input documented by a task team member.   
+Survey Response 
+Responses were received from 24 participants, including 7 from the PSDS science panels, at least 3 from each NASA Center, and 2 from NASA HQ.  These included a representative mix of respondents from all critical areas of the study process including team members from the primary lead study centers (JPL, GSFC, and APL) that performed studies, science champions, PSDS panel leads, and NASA HQ.    
+Table 2 below identifies the organizational affiliations of the respondents.  
+Table 2. Organizational Affiliation of respondents 
+* includes science champions, one panel lead and one steering committee member 
+Summary Findings 
+The responses of the PSDS Mission Studies Survey participants have been synthesized into a set of lessons learned.  The scope of the responses covers all the study types (i.e., mission point design studies, architecture trade studies, technology studies, and detailed studies), science involvement in the studies, the role and results of the independent Aerospace Corp. cost and technical evaluation (CATE) studies, the new concept maturity level (CML) concept, the working documents and their application, and the role and impact of  NASA HQ on the studies.   
+There was general consistency to what was considered the most important topics, but a wide variety of perspectives and opinions about those topics. These perspectives are discussed in the Lessons Learned section of this report.  
+The findings from this study are summarized below. 
+1. 
+Science panels perceived the quality of the mission point design studies to be high among all the NASA study centers 
+• 
+Study center and some science panel participants identified differences in study center products, focusing on various aspects such as appearance of the final report document, level of fidelity of the results, and risk analysis.  The perception of what constitutes the “appropriate level of fidelity” varies among centers 
+2. 
+Architecture Trade Studies, based on JPL’s RMA process, were conducted for the first time as a formal part of the PSDS and they demonstrated high value to the science panels 
+• 
+In several cases, the architecture trade studies identified promising architectures that led to point design studies.  Since this was the initial effort at providing architectural trade space evaluations, study participants identified a number of lessons learned 
+3. 
+Panel science representatives working directly with the study teams, and center science representatives working with the panel science leads, was a very effective strategy 
+• 
+Notably, scientists thought that study results accurately reflected their panels’ science priorities and inputs 
+4. 
+The schedule for the mission study program was extremely tight, which impacted both the science panels’ deliberations and mission study center staffing due to heavy peak loads, and might have reduced the number of studies that could be conducted   
+• 
+Schedule compression was exacerbated by a late start without a concomitant delay in completion date. 
+5. 
+The desire for additional mission studies was common among almost all of the panel respondents, especially for panels dealing with a host of potential destinations (e.g., the Satellites of the Giant Planets Panel and the Primitive Bodies Panel) 
+6. 
+The primary concern about the technology approach was the lack of a consistent, systematic approach for incorporating technology push and pull into the studies 
+7. 
+Rigid separation of the NASA Center and CATE study teams resulted in miscommunications that impacted the consistency of the CATE results with the center mission studies results 
+8. 
+Although there was a general opinion that the CML concept was useful, multiple comments suggest that it is not yet well understood among the scientific, engineering, and management communities, leading to non-uniformity of application 
+9. 
+NASA Centers, NASA HQ, and the panels could have been better prepared for performing the PSDS mission concept design, technology, and architecture trade studies 
+10. 
+The formal “Study Questionnaire” document was very helpful 
+11. 
+The NASA Study Ground Rules were overwhelmingly viewed as generally helpful to the study process and providing a uniform basis that helped foster consistency among mission studies, though there were issues with specific aspects 
+• 
+The ground rules were intentionally conservative, provoking a largely negative response from study participants, who felt that some specific parts of the Ground Rules should be clarified or revised in the future 
+12. 
+Standard report formats are very useful for consistency among mission studies, but different report formats should be allowed for different study types. 
+13. 
+NASA HQ planning for study support to the Decadal Survey should be more timely and more robust 
+14. 
+NASA HQ’s contributions to the mission studies were essential, but some questioned the extent of the oversight role 
+15. 
+It appears that NASA HQ did not have a consistent and robust mission studies review process 
+Lessons Learned 
+1. 
+Science panels perceived the quality of the mission point design studies to be high among all the NASA study centers.  Study center and some science panel participants identified differences in study center products, focusing on various aspects such as appearance of the final report document, level of fidelity of the results, and risk analysis.  The perception of what constitutes the “appropriate level of fidelity” varies among centers. 
+Supporting Information: Some of the final report documents were perceived to have a better appearance than others. In a few cases, this was accomplished by using an alternative to the NASA-provided template.  Some report formats demonstrated a level of documentation consistent with a mission proposal level of effort.  
+Some studies concentrated on current technology solutions including identifying specific components by name, while other studies focused on understanding the requirements of the functionality needed by the mission and alternatives that could be traded, without specifying detailed components.  There appears to be an inconsistency in how various centers and people define “high fidelity” in a point design study.  Some studies went to a mission proposal-level of detail in certain parts of the spacecraft description, providing more significant digits and component serial numbers which were intended as “higher fidelity”. In some of these cases, study cost data reported were inappropriate for the study CML and the “far horizon” nature of the mission concept. Given the long-term nature of the mission concepts being studied, it is possible that new, more attractive options could arise or current components could be unavailable or obsolete.  Keeping the reports short and focused, with a basic no-frills approach, generated appropriately detailed final products while keeping the report generation workload smaller.  The study teams should strive to spend more time working and less time making reports more mature than the products they describe.   
+Capture and documentation of risks associated with the mission studies varied among centers.  This was consistent for all study types. 
+Recommendations for future mission study programs: Have all the study centers better understand the concept of CML and the level of fidelity associated with each CML level, and how they apply to the different types of studies.  Documentation of point design study results should be consistent with CML 4, unless previous work provides a more mature basis.  A more standardized and detailed risk assessment would reduce center and CATE cost estimate differences. 
+2. 
+Architecture Trade Studies, based on JPL’s RMA process, were conducted for the first time as a formal part of the PSDS and they demonstrated high value to the science panels.  In several cases, the architecture trade studies identified promising architectures that led to point design studies.  Since this was the initial effort at providing architectural trade space evaluations, study participants identified a number of lessons learned.   
+Supporting Information: Many of the PSDS architecture trade studies were wide-ranging, rather than merely local excursions around pre-conceived point designs.  This gave the 
+subsequent point design study teams confidence that they were studying the most promising mission concepts.  
+The character of architecture trade space efforts varied considerably among NASA study centers.  This variability spanned scope and depth of the studies, products generated, and use of results.  Though many of the architecture trade studies seriously examined the wide trade space of mission concept options, occasionally some studies only looked at minor variants on a point design, conducted only an abbreviated version of a true architectural trade space evaluation, pursued only architectural alternatives that did not threaten a pre-conceived option, or failed to consider (non-trivial) variations in the science objectives themselves and their effects on mission cost.  Quantitative analysis plays a critical role in trade space assessments; among the centers, the amount of analysis performed varied markedly.   
+The limited resources (schedule and cost) available for doing mission studies led to various approaches concerning architecture trade space evaluations.  In some cases, when the restrictions on the number of studies available to a panel would preclude doing both a trade space study and a subsequent point design study, the panel opted to go straight to a point design study, citing the need for the results of a point design study to support a CATE. Despite this pressure for point design study results, some panel members felt that their studies would have benefitted from an architecture trade study (or a more in-depth architecture trade study).  This premature jump to point design assessment may have led to “higher-fidelity” studies of suboptimal mission concepts.  Some existing mission concepts, though at relatively high CMLs, nonetheless should have been reworked via an architecture trade study to incorporate changes in programmatic environments, science priorities, time-dependent opportunities, etc. 
+Due to schedule pressures and differences among the NASA Centers on how architecture trade studies were performed, lower cost implementations likely were missed.  The search for lower cost implementation options should consider science scope as a part of the trade space. 
+Recommendations for future mission study programs: Since the science panels and Steering Committee were highly supportive of the architectural trade space approach and results, continue using trade space evaluations in the next Decadal Survey. Prior to the next round of multi-center mission studies, NASA should educate those involved about the reasons for, general conduct of, and general products and use of an architectural trade space evaluation.  Trade space analysis should include a range of mission concept options that span the relevant range of science objectives and cost, and not be limited to minor excursions around an early candidate point design concept. 
+3. 
+Panel science representatives working directly with the study teams, and center science representatives working with the panel science leads, was a very effective strategy. Notably, scientists thought that study results accurately reflected their panels’ science priorities and inputs. 
+Supporting Information:   Most respondents felt that having panel science representatives working with other science representatives to directly support the study teams was a very effective strategy.  Examples of “other science representatives” include center science representatives working with the panel science leads, and experts from NASA’s 
+Assessment Groups (e.g., OPAG) working with both the panel and study teams.  Participants on all sides of studies thought the panel/study team interface worked well.  One observation was that the Science Champion approach shut out science voices beyond the science champion.  Some studies began with the Science Champion putting forth a concept that did not appreciably alter by the end of the study.  Small, fully engaged groups of both scientists and engineers are necessary to present and challenge ideas, rather than a group of engineers and one science champion.  
+Recommendations for future mission study programs: Retain this type of broadly-based science capability in future mission studies programs.  Encourage participation from science panel members beyond the Science Champion to better capture the trade space, including science options.  This will reduce the tendency toward a PI-style, single mission concept focus, in favor of more general findings for Decadal Survey purposes. 
+4. 
+The schedule for the mission study program was extremely tight, which impacted both the science panels’ deliberations and mission study center staffing due to heavy peak loads, and might have reduced the number of studies that could be conducted.  Schedule compression was exacerbated by a late start without a concomitant delay in completion date. 
+Supporting Information: Scheduling for the PSDS mission study effort was difficult from the beginning.  PSDS start-up delays propagated to a delay in the start of the mission study program.  The lack of a commensurate extension of the study program end date resulted in significant compression of the study schedule.  Some efforts to address the schedule compression (e.g., early briefings of “actionable items”) were useful to the panels and program of mission studies. 
+Several scientists thought insufficient time was allotted to the mission studies program, with multiple ramifications. 
+• 
+Some scientists wanted more time for a period of panel science deliberations before the start of the mission studies program, to establish science priorities and criteria for evaluation of mission concepts.  There was some feeling that the science “got a bit lost”. 
+• 
+There was not enough time for panels to iterate with the study teams.  This is particularly important when re-scoping mission concept science objectives.   
+• 
+The panels and NASA HQ did not have enough time to properly ingest and analyze study results and the final report. 
+• 
+Some studies ran longer than planned, so studies occurring later in the program were more squeezed for time than earlier ones. 
+• 
+Science ideas that emerged late in the process lost out to ideas with missions already in the fully booked study schedule. 
+• 
+Schedule compression limited the number of mission studies that could be performed and placed even tighter limits on the number that could be run through the independent costing process.  This meant that there were at least several options that were not explored and there were options that could have been more cost efficient may well have been missed. 
+• 
+Schedule compression severely restricted study team assessment of mission architecture options in some cases. Similarly, in some cases science teams were driven to prioritize mission discussions over science discussions.   
+• 
+The schedule provided too little time for NASA HQ review of the results and the final report.  There was rarely time to address any questions or issues beyond the trivial that were raised after hearing of the results or reading the report. Waiting on HQ review of the final reports introduced delay in their final delivery to the DS.  The Centers did an excellent job of accommodating the DS schedule and needs, startingstudies promptly once the DS requested them.  
+• 
+A compressed study schedule drove the need for multiple concurrent studies, which may have impacted the ability to share ideas and lessons from the studies. 
+Recommendations for future mission study programs: Address scheduling needs early in the mission study process.  If the start date for the studies is delayed, a commensurate delay in the end date would be appropriate.  This may require building more time into the overall schedule for the panel to discuss science issues that impact the studies (e.g., science priorities) and to conduct additional mission studies in support of the panels’ efforts.  More time in the schedule would also provide sufficient time for NASA HQ review and comment on results of mission studies.  Retain the early briefing of actionable items to the panels, as this allowed the panels to make decisions without having to wait for the formal review process and delivery of the final study report. 
+5. 
+The desire for additional mission studies was common among almost all of the panel respondents, especially for panels dealing with a host of potential destinations (e.g., the Satellites of the Giant Planets Panel and the Primitive Bodies Panel). 
+Supporting Information: Panel members indicated that an insufficient number of architectural trades and mission point design studies were conducted, and this shortfall impacted the PSDS results and long-term mission options.  There were multiple suggestions that an NRC mid-term reassessment will be critical to address PSDS shortcomings resulting from too few mission studies.  
+Recommendations for future mission study programs: Provide the Survey with additional mission study resources and support for the range of studies needed.  NRC should conduct a mid-term PSDS reassessment to update recommendations based on the current science and budget situation. 
+6. 
+The primary concern about the technology approach was the lack of a consistent, systematic approach for incorporating technology push and pull into the studies.  
+Supporting Information: Participants in multiple studies commented that the technology assessment process was non-uniform among and even within centers, and depended mainly on the skills and knowledge base of the study participants.  Although the mapping of mission needs to technology requirements was deemed adequate or better, the other direction – infusion of available technologies for cost reduction, performance enhancement, etc. – caused more concern. The typical study approach was to use new technologies only when absolutely necessary. For Mars studies, no new technologies were considered. 
+Recommendations for future mission study programs: Providing clear, consistent guidance on the role of technology in the mission studies would be helpful.  Prior to the start of the study program the level of technology allowed in the studies should be agreed upon, and then applied uniformly.  To aid in this effort, the NASA Office of the Chief Technologist could provide a database of technologies as input to the process. 
+7. 
+Rigid separation of the NASA Center and CATE study teams resulted in miscommunications that impacted the consistency of the CATE results with the center mission studies results 
+Supporting Information: Separation of the CATE team and the center mission study teams was by design to ensure independence between the teams.  This was intended to prevent potential biasing of the CATE team by the study teams.  Although the CATE team could communicate with the NRC panels, the panels were not always cognizant of many of the study technical details and assumptions.  Excluding the study teams from communication with the CATE team resulted in: 
+• 
+A perception of inflated CATE “threat” costs.  Study teams could not tell if it was a result of CATE making inappropriate assumptions, not understanding how the study team had already handled the threats in the mission studies, or other issue that could have been resolvable by communication with the mission study teams.  
+• 
+Since CATE cost estimates were systematically higher than study team cost estimates, despite the conservatism of the NASA ground rules, this supports the notion of likely miscommunication between the CATE team and the study teams. 
+• 
+Inability of the CATE teams to better match technical, science and programmatic elements of mission concepts to panels’ intents 
+• 
+No useful insights being provided to the study teams for use in subsequent studies, especially concerning how threat costs were derived 
+• 
+Significant differences in the cost estimating processes used by the study teams and the CATE team, and the results generated, surprising many of the panel members 
+• 
+A perception that the PSDS placed too much faith in the veracity of ICE assumptions and accuracy of CATE results 
+Recommendations for future mission study programs: The next PSDS should include an independent cost estimate and technical evaluation reconciliation with the center study teams. This will increase consistency between the two study efforts.  It was also suggested that the center mission study teams and the independent cost estimate and technical evaluation teams use a similar and consistent cost estimating process. 
+8. 
+Although there was a general opinion that the CML concept was useful, multiple comments suggest that it is not yet well understood among the scientific, engineering, and management communities, leading to non-uniformity of application. 
+Supporting Information: The consensus was that the CML concept should be a part of future Decadal Surveys, but that the concept needs further maturation and dissemination to the study centers by NASA HQ so it is more uniformly applied among studies and centers. An example of a CML aspect needing further maturation is mapping CML to cost confidence. It would be useful to present an overall CML evaluation of the aggregated study results to better convey the level of fidelity of various elements of the studies (cost, concept of operations, Master Equipment Lists, etc.).  This could serve as a reminder to the science community about the levels of uncertainty associated with study results of varying fidelities.   
+Recommendations for future mission study programs: Continue to use the CML concept in future mission study programs.  Evolve the definitions and application of CML to provide a more consistent basis for cross-NASA application. It would be useful for NASA to standardize CML just as it has TRL.  NASA HQ should take steps to ensure that NASA Centers and members of science panels and the Steering Committee understand the CML concept and how to apply it to future mission studies programs. 
+9. 
+NASA Centers, NASA HQ, and the panels could have been better prepared for performing the PSDS mission concept design, technology, and architecture trade studies. 
+Supporting information: Examples of aspects of the study process that could have benefitted from better preparation include: 
+• 
+Study ground rules were not available early enough in the study effort 
+• 
+Study output expectations were not clearly communicated to the centers 
+
+Study results (i.e., fidelity and consistency with CML level) varied from center to center 
+
+Extent to which technology options were evaluated was not consistent among studies 
+• 
+Limited ability to run parallel studies at Centers 
+Recommendations for future mission study programs: Better prepare NASA Centers and the panels for effectively performing future DS mission concept design, technology, and architecture trade studies.  Examples of better preparation approaches include doing some studies every year to provide a database of mission concepts and a group of trained personnel at each center, and conducting pre-DS workshops.  Individual workshops could focus on: trade studies; DS study objectives, approach, constraints, products; study ground rules; etc.  Participants might include NASA HQ, NASA Centers, and DS science panel members.  
+10. 
+The formal “Study Questionnaire” document was very helpful. 
+Supporting Information: The Study Questionnaire provided a succinct summary of science objectives, tying them to the science goals, and a clear statement of study goals. Early definition of the science objectives and goals greatly helped with science traceability when evaluating mission options.  The questionnaire was an excellent reference document which helped make the studies more efficient. 
+Recommendations for future mission study programs: In future study programs, have the panel iterate with the study team when they generate the questionnaire.  This could aid study preparations and reduce rework. 
+11. 
+The NASA Study Ground Rules provided a uniform basis that helped foster consistency among mission studies and were overwhelmingly viewed as generally helpful to the study process, though there were issues with specific aspects. The ground rules were intentionally conservative, provoking a largely negative response from study participants, who felt that some specific parts of the Ground Rules should be clarified or revised in the future.   
+Supporting Information: NRC scientists and NASA study center leads recognized the role of the NASA Ground Rules in providing a uniform basis for the mission studies.  Where 
+clarifications were needed, NASA POCs were typically appropriately responsive to clarification requests, though interpretations could vary among POCs.  
+Specific ground rule items that could be improved or clarified include: 
+• 
+Launch vehicle descriptions were too generic and did not accommodate the wide range of launch C3 considered 
+• 
+Clearer guidelines on cost caps were needed 
+• 
+Problems with costing guidelines and rules (such as launch timing constraints) prevented considering potential cost-saving options 
+• 
+Ground Rules were highly conservative (e.g., requiring a 50% cost reserve). 
+• 
+Mass and power margin guidelines were inconsistent with Discovery and New Frontiers guidelines 
+• 
+Planetary Protection requirements went beyond the scope of what pre-Phase A studies typically provide 
+• 
+NASA HQ planning for the ground rules should have started earlier.  There was insufficient internal conversation and agreement on ground rules prior to sending them out to study participants. 
+Recommendations for future mission study programs: Retain the use of Ground Rules as a mechanism for providing a consistent basis for the studies.  Prior to the start of the study program, consult with center and science panel leads to develop a clear and consistent set of ground rules.  
+12. 
+Standard report formats are very useful for consistency among mission studies, but different report formats should be allowed for different study types. 
+Supporting Information: Though there were several different study types (i.e., point design mission studies, architecture trade studies, technology studies, and detailed studies), there was a single report format that each study team was directed to use.  The template was primarily focused on reporting results from detailed point design studies and contained many sections asking for fidelity consistent with a mission proposal.  Due to the varying types of studies conducted for the PSDS, the report template was inconsistent with the information generated by some of the study types. 
+For many of the point design studies, the template requested information exceeding the depth of study requested by the science panels, and was inconsistent with the resources available.  For the architecture trade studies and technology studies, there were significant inconsistencies between the structure and content of the study and the report template.  This required the study teams to resort to ad hoc formatting, intended to be consistent with the format provided, but possibly resulting in gaps in reporting.  In particular, architecture studies entail multiple (often more than 10) architecture concepts, not the single mission concept description contained in the report template.  Similarly, the technology studies did not generate many of the items requested by the template (e.g., launch date).  
+Many of the participants felt that it would be best to keep the reports short and focused, generating appropriately detailed final products while keeping the report generation workload smaller.  As mentioned in Lesson #1, it is best to spend more time working and less time making reports more mature than the products they describe. 
+Recommendations for future mission study programs: Provide different templates for the different study types or, alternatively, provide standard tables and figures (as the minimum required) for the different study types.  Further, to allow for unique characteristics of a particular study, allow flexibility in the report formats, with approval from the NASA POC. 
+13. 
+NASA HQ planning for study support to the Decadal Survey should be more timely and more robust. 
+Supporting Information: Some NASA HQ POCs felt that they needed to improve their planning for the next decadal survey.  A better up-front planning process would address issues such as: 
+• 
+scheduling for the planning activity 
+• 
+approach for, and cost of, a mission studies program 
+• 
+agreement on rules of engagement for NASA centers and study teams (e.g., who runs the studies and how they should work) 
+• 
+approach for prioritization of mission concepts 
+• 
+NASA reviews of draft and final study products 
+• 
+appropriate (i.e., earlier) timing of placing the independent cost estimator on contract (so that their requirements can be incorporated in a timely manner) 
+• 
+relationship and communications between NASA POCs and NRC Steering Committee and science panels 
+Recommendations for future mission study programs: NASA HQ should define and implement a better up-front planning process prior to initiating a mission studies program. 
+14. 
+NASA HQ’s contributions to the mission studies were essential, but some questioned the extent of the oversight role 
+Supporting Information: NASA HQ’s funding for the mission studies program enabled well-informed assessment by the PSDS science panels and Steering Committee, leading to the PSDS final report and recommendations [Ref 3].   In its role as reviewer of the mission studies generated by the NASA centers, many study participants felt that NASA HQ’s review process required a significant amount of time, which impacted the timely transmission of final report products to the science panels as well as the number of studies that could be conducted in the constrained schedule.  In some cases, the NASA HQ reviewers removed some cost details from the mission study final report drafts. There was a difference of opinion as to the need for these details.  Some respondents felt that the science panels should be fully independent, without the need for NASA HQ oversight.  
+Recommendations for future mission study programs: NASA HQ should continue funding mission study programs in future strategic planning efforts.  This should include an appropriate mix of architecture trade studies, point design studies, technology studies and detailed studies.  
+15. 
+It appears that NASA HQ did not have a robust mission studies review process. 
+Supporting Information: NASA HQ review process was lengthy and not consistent among NASA POCs. 
+Recommendations for future mission study programs: Need advanced planning at HQ with clear direction to the study teams as to expectations.  
+Final Thoughts 
+The results of this study identify a number of observations and potentially valuable recommendations for NASA HQ and/or the NRC to consider in the conduct of future mission studies. 
+References 
+[1] 
+The National Academies, Space Studies Board, Planetary Science Decadal Survey, Project Summary, http://sites.nationalacademies.org/SSB/CurrentProjects/ssb_052412 
+[2] 
+Space Missions Trade Space Generation and Assessment using the JPL Rapid Mission Architecture (RMA) Team Approach, Robert C. Moeller, Chester Borden, Thomas Spilker, William Smythe, Robert Lock, 2011 IEEE Aerospace Conference, Big Sky, Montana, 05 Mar - 12 Mar 2011. 
+[3] 
+(<http://www.nap.edu/catalog.php?record_id=13117>)Vision and Voyages for Planetary Science in the Decade 2013-2022 (PREPUBLICATION COPY, Subject to Further Editorial Correction), Committee on the Planetary Science Decadal Survey, Space Studies Board, Division on Engineering and Physical Sciences, National Research Council of the National Academies, The National Academies Press, Washington, D.C., http://solarsystem.nasa.gov/docs/Vision_and_Voyages-FINAL.pdf. 
+Acknowledgements 
+This task was performed at the Jet Propulsion Laboratory, California Institute of Technology, under contract to the National Aeronautics and Space Administration. 
+We appreciate the inputs of all the participants who graciously provided their comment and suggestions to this study effort. 
+Copyright 2011 California Institute of Technology. Government sponsorship acknowledged. 
+Appendix A: 
+Planetary Science Decadal Survey Mission Studies Lessons Learned 
+Interview Questionnaire 
+INSTRUCTIONS 
+The purpose of this form is to gather feedback based on your experience with the Planetary Science Decadal Survey mission study process in order to assess and improve NASA’s mission study efforts. This form is divided into five main sections: study approach, study process, study results, study products, and final thoughts. Each section has 2–3 questions with bulleted sub-questions. It is not necessary to address all of the sub-questions. Rather, these sub-questions are intended to suggest topics that you may want to discuss in responding to the main question. Respond to each question however you feel is appropriate to provide information that could be used to improve future NASA planetary science mission and technology studies. 
+To fill out the form, simply click in any answer field and begin typing. 
+Please email the completed form or questions to psds-mission-studies-lessons@jpl.nasa.gov. 
+USE OF DATA 
+Responses will be treated discretely, without attribution. Responses will be compiled and synthesized to derive lessons learned. 
+GENERAL INFORMATION 
+FORM TYPE 
+DATE (MM/DD/YYYY) 
+Interview Questionnaire 
+NAME 
+INSTITUTION 
+PHONE 
+EMAIL 
+1. STUDY APPROACH 
+A. 
+Was the approach to identifying the right architecture options appropriate? 
+• 
+Were there any good architecture options that were not explored? If so, why? 
+
+In retrospect, do you think any lower cost implementations may have been missed? 
+• 
+What did you think of the trade space exploration process as a precursor to point design studies? 
+
+Was there appropriate evaluation of alternative architectures prior to diving into a point design? 
+
+How should it be applied in a future Decadal Survey? 
+
+Was the JPL RMA process applied uniformly across the study centers? 
+• 
+Were the NASA ground rules appropriate and useful? 
+• 
+Was the concept of Concept Maturity Level (CML) useful for the Decadal Survey? 
+
+How did concept maturity assessments vary between design centers? 
+
+How did fidelity of point designs vary between design centers? 
+
+Would you recommend the CML concept be part of future Decadal Surveys? 
+B. 
+Was the approach to identifying the right technology needs appropriate? 
+• 
+What criteria were used in deciding to include or exclude new technologies? 
+• 
+Was the mapping of mission needs to technology requirements adequate? 
+C. 
+What worked well with the study approach? What did not? What can NASA do to improve in the future? 
+2. STUDY PROCESS 
+A. 
+How well did the mechanics of the study process work out? 
+• 
+How well did the scheduling of studies work out? Did studies start early enough? Were the results delivered at the right time? 
+• 
+How well did the NASA-PSDS interfaces work? 
+
+What worked best/worst? For example, what did you think of your interface and interactions with NASA HQ, PSDS panels, center study teams, and science champions? 
+• 
+Was the scope of the study effort matched to the study teams’ capabilities? 
+• 
+Were there enough resources to cover the study scope (people, processes, and tools)? 
+• 
+Was the process consistent across study centers? 
+• 
+Was the role of the study center lead scientists helpful? 
+B. 
+What worked well with the study process? What did not? What can NASA do to improve in the future? 
+3. STUDY RESULTS 
+A. 
+How well did the study results meet your expectations and needs? 
+• 
+Did quality of the technical analyses meet your expectations and needs? 
+
+Did the studies answer the right questions? 
+
+Did you have confidence in the results? 
+• 
+How appropriate was the breadth and depth of the technical analyses? 
+• 
+How uniform was the study technical quality across studies and centers? 
+• 
+Do you feel your study was assigned to the right center? How can this be done better in the future? 
+• 
+Were cost estimates from the design teams in line with your expectations? If not, why not? 
+• 
+Did you feel that science was appropriately integrated into the studies? 
+• 
+For Science Champion and Study Participants: Did you feel that your input and contributions were reflected in the results? 
+B. 
+What worked well with the study results? What did not? What can NASA do to improve in the future? 
+4. STUDY PRODUCTS 
+A. 
+How well did the study products (final reports and interim products) meet your expectations and needs? 
+• 
+Did quality of the products meet your expectations and needs? 
+• 
+Was there the right amount of detail? 
+• 
+Was the uncertainty in the inputs and outputs adequately captured? 
+• 
+Were the final and interim products available in a timely manner? 
+• 
+How would you prioritize quick results, additional breadth/depth of options considered, thoroughness of documentation, etc.? 
+• 
+Were the final and interim products useful for you? 
+• 
+Was report quality consistent across studies and study centers? 
+• 
+Did you like any particular report format better than others? 
+• 
+Did the presentation of the actionable results prior to the final report work well? 
+B. 
+What worked well with the study products? What did not? What can NASA do to improve in the future? 
+5. FINAL THOUGHTS 
+A. 
+General suggestions for changes 
+• 
+What worked well? What did not? 
+• 
+What can NASA do to improve in the future? 
+B. 
+What else would you like to add? 
