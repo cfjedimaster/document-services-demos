@@ -1,0 +1,7 @@
+{
+  "dependencies": {
+    "globby": "^11.0.4",
+    "is-pdf-valid": "^0.0.1",
+    "node-fetch": "^3.0.0"
+  }
+}

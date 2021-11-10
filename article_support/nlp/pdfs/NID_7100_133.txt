@@ -1,0 +1,264 @@
+NID 7100.133 
+(<https://nodis3.gsfc.nasa.gov/displayDir.cfm?t=NPR&c=7100&s=1B>)NPR 7100.1B 
+Effective Date: January 29, 2021 
+Expiration Date: January 29, 2022 
+Subject: Protection of Human Research Subjects 
+Responsible Office: Office of the Chief Health & Medical Officer 
+TABLE OF CONTENTS 
+(<https://nodis3.gsfc.nasa.gov/displayDir.cfm?Internal_ID=N_PR_7100_001A_&page_name=Preface>)Preface 
+P.1 
+Purpose 
+P.2 
+Applicability 
+P.3 
+Authority 
+P.4 
+Applicable Documents and Forms 
+P.5 
+Measurement/Verification 
+P.6 
+Cancellation 
+Chapter 1. Introduction 
+1.1 
+Human Subject Research at NASA 
+1.2 
+Common Rule Implementation 
+Chapter 2 Roles and Responsibilities 
+2.1 
+CHMO, NASA IRB IO, and Office of Research Assurance 
+2.2 
+NASA IRB Chair 
+2.3 
+Center Directors 
+2.4 
+Program Personnel 
+2.5 
+Principal Investigators 
+Chapter 3. Criteria for NASA Institutional Review Board (IRB) Approval 
+3.1 
+Criteria for all Research 
+3.2 
+Additional Criteria for Human Research Genetic Testing 
+Chapter 4. NASA Specific Requirements 
+4.1 
+Research Modifications 
+4.2 
+Medical Data 
+4.3 
+Withdrawal from Research 
+4.4 
+Adverse Events 
+4.5 
+Sanctions and Disciplinary Action 
+Appendix A. Definitions 
+Appendix B. Acronyms 
+Appendix C. References 
+Preface 
+P.1 Purpose 
+This directive outlines the implementing procedures and requirements for the Agency to conduct and support research involving human subjects. These guidelines follow the provisions in 14 CFR pt. 1230 (Common Rule). 
+P.2 Applicability 
+a. 
+This NID is applicable to NASA Headquarters and NASA Centers, including Component Facilities and Technical and Service Support Centers. This language applies to the Jet Propulsion Laboratory (a Federally Funded Research and Development Center), other contractors, recipients of grants, cooperative agreements, or other agreements only to the extent specified or referenced in the applicable contracts, grants, or agreements. 
+b. 
+This NID is applicable to all research involving human subjects conducted, sponsored, or supported by NASA. 
+c. 
+In this directive, all mandatory actions (i.e., requirements) are denoted by statements containing the term "shall." The terms: "may" or "can" denote discretionary privilege or permission, "should" denotes a good practice and is recommended, but not required, "will" denotes expected outcome, and "are/is" denotes descriptive material. 
+d. 
+In this directive, all document citations are assumed to be the latest version unless otherwise noted. 
+P.3 Authority 
+a. 
+The National Aeronautics and Space Act, 51 U.S.C. § 20113 (a). 
+b. 
+NPD 7100.8, Protection of Human Research Subjects. 
+c. 
+NPD 7170.1, Use of Human Research Genetic Testing. 
+P.4 Applicable Documents and Forms 
+a. 
+The Privacy Act of 1974, as amended, 5 U.S.C. § 552(a). 
+b. 
+The Genetic Information Nondiscrimination Act of 2008, 42 U.S.C § 2000ff et seq. 
+c. 
+Protection of Human Subjects (Common Rule), 14 CFR pt. 1230. 
+d. 
+NPD 8621.1, NASA Mishap and Close-Call Reporting, Investigating, and Recordkeeping Policy. 
+P.5 Measurement/Verification 
+a. 
+The Chief Health and Medical Officer (CHMO) will measure compliance with this directive by: 
+(1) 
+Monitoring the number and type of research proposals reviewed and approved by the Institutional Review Boards (IRB). 
+(2) 
+Monitoring the number and type of protocol non-compliances, corrective actions taken, and sanctions imposed. 
+(3) 
+Monitoring audit findings and corrective measures adopted. 
+P.6 Cancellation 
+None. 
+Chapter 1. Introduction 
+1.1 Human Subject Research at NASA 
+1.1.1 
+Research designed to understand and overcome the effects of aerospace-relevant conditions, contributing factors, and environments on the health and performance of flight and ground crews often requires Principal Investigators (PI) to rely on human subjects. In some cases, basic and applied research is conducted to understand and predict the ability and successfulness of human performance in simulated or actual ground and flight tasks. In other cases, interventional studies may be conducted to study the efficacy of interventions to mitigate the adverse health effects of these environments. Studies may be conducted by scientists, test engineers, and/or clinicians in laboratories (e.g., human-computer interaction, cardiovascular, neuroscience, musculoskeletal, suit design, exercise, nutrition, immunology labs), work environments (e.g., air traffic and mission control centers, as well as on aircraft and spacecraft), and simulated environments (e.g., the Human Exploration Research Analog, the Vertical Motion Simulator, Flight Simulation Facility). 
+1.1.2 
+An IRB is a committee operating under the Common Rule that reviews research involving human subjects to ensure the ethical, safe, and equitable treatment of the subjects. The NASA IRB, established by the Office of the Chief Health and Medical Officer (OCHMO) Office of Research Assurance, reviews all research involving human subjects in the Agency. 
+1.2 Common Rule Implementation 
+The Common Rule applies to all research involving human subjects conducted and supported by NASA. NPD 7100.8, NPD 7170.1, and this NID are consistent with, but not duplicative, of the common rule. All four documents taken together form NASA’s policy for research involving human subjects. NPD 7100.8 and NPD 7170.1 detail the policy and responsibilities of Headquarters and the Centers, while this NID defines procedures and requirements in addition to the Common Rule. The NASA IRB implements these requirements through a charter. 
+Chapter 2 Responsibilities 
+CHMO, NASA IRB IO, and Office of Research Assurance 
+2.1.1 
+The CHMO has appointed the Director, Medical Policy and Ethics as the NASA IRB IO. 
+2.1.2 
+The NASA IRB IO is responsible for: 
+a. 
+Acting for and, on behalf of NASA for obligating to the terms of the Federalwide Assurance for the protection of human subjects. 
+b. 
+Provides the resources and support necessary to comply with all requirements applicable to research involving human subjects. 
+2.1.3 
+The Office of Research Assurance ensures compliance with all applicable Federal, state, and local laws and regulations, policies, and guidelines. The Office of Research Assurance is responsible for: 
+a. 
+Ensuring all Agency programs, procedures, and activities involving human research subjects comply fully with applicable Federal laws, regulations, and guidelines, follow best practices, and are appropriately harmonized across NASA. 
+b. 
+Ensuring the Administrator, appropriate Mission Directorate Associate Administrators, Office of Safety and Mission Assurance, NASA General Counsel, and NASA Inspector General (when appropriate) are kept well-informed, through official channels, of significant actions, problems, or other matters of substance related to the exercise of this authority. 
+c. 
+Establishing the NASA IRB, with charter. 
+d. 
+Coordinating appointments of Center personnel to the NASA IRB with concurrence of the respective Center Director. 
+e. 
+Reviewing NASA IRB activities annually and submitting a summary of research and IRB activities for the preceding year to the CHMO. This summary will include a review of compliance activities, initial and continuing education, and IRB membership. 
+f. 
+Filing a Federalwide Assurance with the Department of Health and Human Services Office for Human Research Protections for human subject research at NASA. 
+g. 
+Establishing and maintaining mechanisms to obtain timely information and notify the NASA IRB, Center Directors, NASA IRB IO, and Program Managers of reports of noncompliance with NASA policy and applicable Federal laws, regulations, and guidelines received from non-NASA institutions where human subject research is supported by NASA. 
+h. 
+Reviewing all sanctions imposed by the NASA IRB or NASA IRB IO to determine if further actions are warranted including initiating investigations of alleged noncompliance with NASA policy. 
+i. 
+Representing NASA in forums with the external community, including in part, with other Federal Agencies and international partners, on protection of human subject research matters. 
+2.1 
+2.2 NASA IRB Chair 
+2.2.1 
+The NASA IRB Chair is responsible for overseeing the development, coordination, and implementation of human subject research protocol reviews. 
+2.3 Center Directors 
+2.3.1 
+The Center Directors are responsible for: 
+a. 
+Ensuring Center personnel conducting human subject research at their Center or other locations are doing so under NASA IRB approved protocols. 
+b. 
+Concurring (including providing resources) on appointments of their Center’s personnel to the NASA IRB. 
+2.4 Program Personnel 
+2.4.1 
+Program Managers who fund or support human subject research are responsible for: 
+a. 
+Ensuring compliance with NASA Policy through verification of IRB protocol approval. 
+b. 
+Ensuring IRB approval for research at the institution receiving NASA funding prior to conducting research involving human subjects. 
+c. 
+Ensuring peer review and technical implementation feasibility assessments have been performed for planned flight experiments using human research subjects and the IRB has concurred with the assessment prior to selection of an experiment for flight. 
+d. 
+Ensuring this policy is incorporated into the governing agreement (e.g., contract, grant, cooperative agreement, reimbursable agreement, public-private partnership, other transaction or other arrangement) for activities involving human research subjects. 
+2.5 Principal Investigators 
+2.5.1 
+PIs, including civil service and non-civil service (i.e., contractors and grantees), via their funding mechanism, are responsible for: 
+a. 
+Complying with Federal, state, and local laws, regulations and guidelines, as well as, Agency and Center policies and procedures for the conduct of human research. 
+b. 
+Familiarizing themselves with Agency and Center policies and procedures for the conduct of human research. 
+Chapter 3. Criteria for NASA IRB Approval 
+3.1 Criteria for all Research 
+3.1.1 
+In addition to complying with the Common Rule, to ensure human subject welfare and minimal health risk, research will be conducted: 
+a. 
+Using procedures already being performed on the subjects for other experiments, so as to minimize the collective impact of multiple protocols on the subject. 
+b. 
+Only if risk/benefit analysis shows reasonable anticipated benefits and the importance of the new knowledge is reasonably expected to result. This analysis should take into account the collective impact of multiple protocols that may result from the research. Possible long-range effects of new knowledge gained in the research (e.g., the possible effects of the research on public policy) are not considered. 
+3.1.2 
+Research complies with NASA's Information Technology security and privacy policies to protect the privacy of subjects and the confidentiality of data, especially electronically stored data. Biomedical data, if held by NASA and maintained by contractors on our behalf, and if retrievable by personal identifier, are subject to 5 U.S.C. § 552(a) and are maintained under the NASA Privacy Act System of Records and Human Experimental and Research Data Records. Such data held by other institutions will have similar safeguards. 
+3.1.2.1 
+PIs report any inadvertent data release, breach of data security, or other data management incidents contrary to the terms of data access in accordance with the terms in the NASA IRB approved protocol and informed consent. 
+3.1.2.2 
+All results approved for public release are limited to the minimum data necessary to support the research conclusions. 
+3.2 Additional Criteria for Human Research Genetic Testing 
+3.2.1 
+Research involving Human Research Genetic Testing adheres to 5 U.S.C. § 552a and 42 U.S.C § 2000ff et seq. 
+3.2.2 
+All studies involving human genomic testing is categorized as "greater than minimal risk." 
+3.2.3 
+Genetic counseling by a qualified counselor who is not the PI or co-investigator on the protocol or through appropriate education, as determined by the IRB, will include discussion of the potential importance of genetic testing information for the individual and their biological family. This counseling will also indicate which findings were generated in a non-Clinical Laboratory Improvement Amendments certified lab and the analytical validity, clinical validity, clinical utility, and the ethical, legal, and social implications of genetic testing results to the subject. 
+3.2.4 
+Research protocols involving human research genetic testing clearly state: 
+a. 
+Human Research Genetic Testing is performed. 
+b. 
+Whether or not human research genetic data is extracted from biospecimens. 
+c. 
+Attributable or identifiable human research genetic data is not publicly released without the prior approval of the individual research subject and other subjects whose anonymity might be affected by the release, as well as the appropriate NASA IRB or the Lifetime Surveillance of Astronaut Health Advisory Board. 
+d. 
+PIs using human research genetic information offer genetic counseling to research subjects, both before and after obtaining genetic information. 
+3.2.5 
+All human research genetic testing data is considered protected data. 
+3.2.6 
+PIs adhere to IT security and privacy policy practices to ensure only authorized individuals can gain access to data files. 
+3.2.6.1 
+Results from human research genetic testing are not to be data-mined or cross-referenced with other databases of any kind unless approved in advance by the appropriate NASA IRB. 
+3.2.6.2 
+PIs archive original study data at NASA or elsewhere at NASA's direction and destroy all copies of the original study data after the study is complete. PIs return biospecimens to NASA or destroy the biospecimens following completion of the study in accordance with the protocol research. 
+3.2.6.3 
+PIs do not attempt to identify or contact individual participants from whom data was collected without approval from the appropriate NASA IRB. 
+3.2.6.4 
+Because it may be possible to reidentify deidentified genomic data, access to deidentified research subject data is controlled. 
+3.2.6.5 
+Human research genetic data is stored in a database separately from data containing personally identifiable information (e.g., sex, age, name, address, phone number, social security number), unless it has been included in the research subject's Electronic Medical Record. 
+Chapter 4. NASA Specific Requirements 
+4.1 Research Modifications 
+The Flight Surgeon lead for the mission may temporarily suspend research until substantive changes to spaceflight protocol are reviewed by the NASA IRB. 
+4.2 Medical Data 
+Medical data recorded during research for medical monitoring purpose will be available to appropriate medical personnel and will be included as part of the Informed Consent agreements. Research data will be available to the medical personnel (including flight surgeons) for issues involving safety of flight, safety of mission, medical emergencies, contingencies, and as required in the care of the patient. 
+4.3 Withdrawal from Research 
+4.3.1 
+Research subjects may withdraw from participation at any time without explanation, penalty, or loss of benefits to which they are otherwise entitled. 
+4.3.2 
+In the event a subject withdraws from participation, NASA reserves the right to replace that individual with another test subject. 
+4.4 Adverse Events 
+Upon occurrence of an adverse event, the NASA IRB Chair shall notify the NASA Center Safety Officer, the NASA Center Chief Medical Officer, the NASA IRB IO, Office of Research Assurance, the relevant NASA research funding program, and the Flight Surgeon (in the case of astronaut involvement). 
+Note: Human research mishaps are reported and controlled per NPR 8621.1. 
+4.5 Sanctions and Disciplinary Action 
+4.5.1 
+If PIs do not comply with this NID or with the NASA IRB approved protocol, the NASA IRB, NASA IRB IO, or Office of Research Assurance may suspend or terminate the research. Such noncompliance may be cause for revocation of funding or other appropriate remedies including disciplinary action against the PI. 
+4.5.2. 
+If a Federalwide Assurance for a NASA Center or any institution is suspended or terminated for cause, the Office of Research Assurance with the concurrence of the Office of the General Counsel and the Office of Procurement may recommend to the NASA Administrator that all NASA funding for human research to that institution be suspended or terminated. 
+4.5.3. 
+Any evidence of alleged criminal wrongdoing at any level related to information obtained from IRB activities and oversight by the CHMO will be reported to the NASA Office of the Inspector General. 
+Appendix A. Definitions 
+Adverse Event – Any untoward or unfavorable medical occurrence involving a human research subject occurring while associated with the subject's participation in the research. An adverse event is not necessarily a mishap if the protocol-related documents or informed consent documents identify the potential for the medical occurrence. 
+Federalwide Assurance. Assurance of compliance approved by OHRP for NASA use, to ensure institutions engaged in non-exempt human subjects research conducted or supported by NASA, commit to complying with the requirements set forth in the Common Rule. 
+Human Genetic Testing – An analysis of human Deoxyribonucleic acid (DNA), Ribonucleic acid (RNA), chromosomes, proteins, or metabolites, that detects genotypes, mutations, or chromosomal and biochemical changes. These tests can include the following: 
+a. 
+Molecular genetic tests that study single genes or short lengths of DNA or RNA to identify variations or mutations. 
+b. 
+Chromosomal genetic tests that analyze the entire genome or whole chromosomes or long lengths of DNA or RNA. 
+c. 
+Biochemical genetic tests that study the amount or activity of proteins or metabolites and wherein any noted changes can indicate changes in (or characteristics of) DNA or RNA. 
+d. 
+Microbiome testing from human subjects (gut, skin, etc.). 
+Institutional Official – an individual who has administrative and operational authority to commit institutional resources to ensure compliance with Federal laws, regulations, and guidelines. 
+Principal Investigator – A civil servant or non-civil servant (e.g., contractors and parties to agreements) researcher who has overall responsibility for all aspects of the funded and/or sponsored research project. Responsibilities for non-civil servant researchers are implemented through a contract or agreement. 
+Program Manager – The person designated by NASA to manage each program in which NASA has a research or payload interest. Programs may consist of several projects. 
+Appendix B. Acronyms 
+ANO – Authorized NASA Official 
+CHMO – Chief Health and Medical Officer 
+DNA – Deoxyribonucleic Acid 
+IRB – Institutional Review Board 
+JSC – Johnson Space Center 
+PI – Principal Investigator 
+RNA – Ribonucleic Acid 
+Appendix C. References 
+C.1 
+NASA Privacy Act Regulations, 14 CFR pt. 1212. 
+C.2 
+Genetic Information Nondiscrimination Act, 29 CFR pt. 1635. 
+C.3 
+NPR 1382.1, NASA Privacy Procedural Requirements. 
+C.4 
+NPR 1441.1, NASA Records Management Procedural Requirements. 
+C.5 
+NRRS 1441.1, NASA Records Retention Schedules. 
+C.6 
+World Medical Association Declaration of Helsinki, 18th World Medical Assembly, Helsinki, Finland, June 1964, and amended by the 29th World Assembly, Tokyo, Japan, October 1975; 35th World Medical Assembly, Venice, Italy, October 1983; 41st World Medical Assembly, Hong Kong, September 1989; and 64th World Medical Association, Fortaleza, Brazil, October 2013. 
+C.7 
+Standards and Operational Guidance for Ethics Review of Health-Related Research with Human Participants, World Health Organization, 2011. 
