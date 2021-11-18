@@ -8,7 +8,7 @@ const fs = require('fs');
 //clean up previous
 (async ()=> {
 
-	const input = 'https://www.adobe.com';
+	const input = 'https://www.google.com';
 	const output = './urltopdf.pdf';
 	const creds = './pdftools-api-credentials.json';
 
