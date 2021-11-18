@@ -3,8 +3,8 @@ const fs = require('fs');
 
 (async ()=> {
 
-	const input = '/mnt/c/Users/ray/Downloads/friday.pdf';
-	const output = './friday.docx';
+	const input = './hamlet.pdf';
+	const output = './friday.png';
 
 	if(fs.existsSync(output)) fs.unlinkSync(output);
 	await exportPDF(input, output, './pdftools-api-credentials.json');
@@ -33,6 +33,8 @@ async function exportPDF(source, output, creds) {
 			exportPdfOperation = exportPDF.Operation.createNew(exportPDF.SupportedTargetFormats.PPTX);
 		} else if(ext === 'rtf') {
 			exportPdfOperation = exportPDF.Operation.createNew(exportPDF.SupportedTargetFormats.RTF);
+		} else if(ext === 'png') {
+			exportPdfOperation = exportPDF.Operation.createNew(exportPDF.SupportedTargetFormats.PNG);
 		} else {
 			reject(`Invalid extension provided for output, ${ext}`);
 		}
