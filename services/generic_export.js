@@ -1,22 +1,35 @@
 const pdfSDK = require('@adobe/pdfservices-node-sdk');
 const fs = require('fs');
+const chalk = require('chalk');
 
 (async ()=> {
 
-	const input = './hamlet.pdf';
-	const output = './friday.png';
+	let input = process.argv[2];
+	let output = process.argv[3];
 
+	if(!input || !output) {
+		console.error(chalk.red('Syntax: generic.js <input pdf doc> <output file>'));
+		process.exit(1);
+	}
+
+	if(!fs.existsSync(input)) {
+		console.error(chalk.red(`Can't find input file ${input}`));
+		process.exit(1);
+	}
+
+	// careful....
 	if(fs.existsSync(output)) fs.unlinkSync(output);
-	await exportPDF(input, output, './pdftools-api-credentials.json');
-	
+	let fileRef = await exportPDF(input, output, './pdftools-api-credentials.json');
+	fileRef.saveAsFile(output);
+	console.log(chalk.green(`Exported ${output} from ${input}`));
 
 })();
 
-async function exportPDF(source, ext, creds) {
+async function exportPDF(source, output, creds) {
 
     return new Promise((resolve, reject) => {
 
-		const credentials =  PDFServicesSdk.Credentials
+		const credentials =  pdfSDK.Credentials
 			.serviceAccountCredentialsBuilder()
 			.fromFile(creds)
 			.build();
@@ -25,7 +38,8 @@ async function exportPDF(source, ext, creds) {
 				exportPDF = pdfSDK.ExportPDF;
 
 		let exportPdfOperation;
-		
+		let ext = output.split('.').pop();
+
 		if(ext === 'docx') {
 			exportPdfOperation = exportPDF.Operation.createNew(exportPDF.SupportedTargetFormats.DOCX);
 		} else if(ext === 'doc') {
