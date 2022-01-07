@@ -53,8 +53,6 @@ def main(input,output):
 		# Save the result to the specified location.
 		result.save_as(zip_file)
 
-		file_to_extract = "structuredData.json"
-
 		with zipfile.ZipFile(zip_file) as z:
 			z.extractall(output)
 

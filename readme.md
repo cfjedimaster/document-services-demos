@@ -72,13 +72,22 @@ const creds = './pdftools-api-credentials.json';
 A utility for testing PDF extract. Call it at the command line like so:
 
 ```bash
-node generic input.pdf outputdir
+./generic.js input.pdf outputdir
 ```
 
 This uses all the features of Extract so you will get the JSON result, images, and tables as images and CSVs. The zip result from the API is automatically extracted into `outputdir`. 
 
 **extract_examples/test1.py**<br/>
 A Python example. It only gets the JSON output but does handle automatically unzipping.
+
+**extract_examples/generic.js**<br/>
+A utility for testing PDF extract. This time in Python cuz Python is crazy awesome. Call it at the command line like so:
+
+```bash
+./generic.py input.pdf outputdir
+```
+
+This uses all the features of Extract so you will get the JSON result, images, and tables as images and CSVs. The zip result from the API is automatically extracted into `outputdir`. 
 
 ### Document Generation Demos
 
