@@ -1,0 +1,19 @@
+{
+  "name": "computer_vision",
+  "version": "1.0.0",
+  "description": "",
+  "main": "analyze.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@adobe/pdfservices-node-sdk": "^2.2.0",
+    "adm-zip": "^0.5.9",
+    "dotenv": "^14.2.0",
+    "glob": "^7.2.0",
+    "nanoid": "^3.2.0"
+  }
+}

@@ -1,3 +1,5 @@
+#!/usr/bin/env node
+
 const PDFServicesSdk = require('@adobe/pdfservices-node-sdk');
 
 const chalk = require('chalk');

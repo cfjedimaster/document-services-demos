@@ -9,6 +9,7 @@ const glob = util.promisify(require('glob'));
 const fs = require('fs/promises');
 
 const INPUT = './pdfs/';
+const OUTPUT = './pdfdata.json';
 
 (async () => {
 
@@ -25,11 +26,19 @@ const INPUT = './pdfs/';
 		if(jsonExists) {
 			let json = JSON.parse(await fs.readFile(jsonFile, 'utf8'));
 			let people = gatherPeople(json);
-			console.log('people', people.length);
+			//console.log('people', people.length);
 			let categories = gatherCategories(json);
-			console.log(categories);
+			//console.log(categories);
+			result.push({
+				pdf: file, 
+				people, 
+				categories
+			});
 		} else console.log(`The data file ${jsonFile} didn't exist so we are skipping.`);
 	}
+
+	await fs.writeFile(OUTPUT, JSON.stringify(result));
+	console.log(`Done and written to ${OUTPUT}.`);
 
 })();
 

@@ -1,5 +1,6 @@
 const pdfSDK = require('@adobe/pdfservices-node-sdk');
 const fs = require('fs');
+const chalk = require('chalk');
 
 (async ()=> {
 
@@ -10,9 +11,21 @@ const fs = require('fs');
 		process.exit(1);
 	}
 
+	if(!input || !output) {
+		console.error(chalk.red('Syntax: generic.js <input pdf doc> <output file>'));
+		process.exit(1);
+	}
+
+	if(!fs.existsSync(input)) {
+		console.error(chalk.red(`Can't find input file ${input}`));
+		process.exit(1);
+	}
+
+	// careful....
 	if(fs.existsSync(output)) fs.unlinkSync(output);
-	await exportPDF(input, output, './pdftools-api-credentials.json');
-	
+	let fileRef = await exportPDF(input, output, './pdftools-api-credentials.json');
+	fileRef.saveAsFile(output);
+	console.log(chalk.green(`Exported ${output} from ${input}`));
 
 })();
 
@@ -21,22 +34,30 @@ async function exportPDF(source, output, creds) {
     return new Promise((resolve, reject) => {
 
 		const credentials =  pdfSDK.Credentials
-		.serviceAccountCredentialsBuilder()
-		.fromFile(creds)
-		.build();
+			.serviceAccountCredentialsBuilder()
+			.fromFile(creds)
+			.build();
 
 		const executionContext = pdfSDK.ExecutionContext.create(credentials),
 				exportPDF = pdfSDK.ExportPDF;
 
 		let exportPdfOperation;
+		let ext = output.split('.').pop();
 
-		let ext = output.split('.').pop().toLowerCase();
 		if(ext === 'docx') {
 			exportPdfOperation = exportPDF.Operation.createNew(exportPDF.SupportedTargetFormats.DOCX);
+		} else if(ext === 'doc') {
+			exportPdfOperation = exportPDF.Operation.createNew(exportPDF.SupportedTargetFormats.DOC);
+		} else if(ext === 'jpeg') {
+			exportPdfOperation = exportPDF.Operation.createNew(exportPDF.SupportedTargetFormats.JPEG);
+		} else if(ext === 'png') {
+			exportPdfOperation = exportPDF.Operation.createNew(exportPDF.SupportedTargetFormats.PNG);
 		} else if(ext === 'pptx') {
 			exportPdfOperation = exportPDF.Operation.createNew(exportPDF.SupportedTargetFormats.PPTX);
 		} else if(ext === 'rtf') {
 			exportPdfOperation = exportPDF.Operation.createNew(exportPDF.SupportedTargetFormats.RTF);
+		} else if(ext === 'xlsx') {
+			exportPdfOperation = exportPDF.Operation.createNew(exportPDF.SupportedTargetFormats.XLSX);
 		} else {
 			reject(`Invalid extension provided for output, ${ext}`);
 		}
@@ -47,8 +68,7 @@ async function exportPDF(source, output, creds) {
 
 		// Execute the operation and Save the result to the specified location.
 		exportPdfOperation.execute(executionContext)
-		.then(result => result.saveAsFile(output))
-		.then(() => resolve())
+		.then(result => resolve(result))
 		.catch(err => {
 			if(err instanceof pdfSDK.Error.ServiceApiError
 			|| err instanceof pdfSDK.Error.ServiceUsageError) {

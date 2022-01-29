@@ -8,6 +8,8 @@ Assumes pdftools-api-credentials.json in the same directory (which also assumes 
 */
 
 const PDFToolsSdk = require('@adobe/pdfservices-node-sdk');
+// remove once sdk updated
+const Fragments = require('@adobe/pdfservices-node-sdk/src/operation/option/documentmerge/fragments');
 
 const chalk = require('chalk');
 const fs = require('fs');
@@ -15,9 +17,11 @@ const fs = require('fs');
 let input = process.argv[2];
 let output = process.argv[3];
 let data = process.argv[4];
+let fragments = process.argv[5];
+let fragmentsOb;
 
 if(!input || !output) {
-	console.error(chalk.red('Syntax: generic.js <input word doc> <output location> <optional location of json file>'));
+	console.error(chalk.red('Syntax: generic.js <input word doc> <output location> <optional location of json file> <optional location of fragments>'));
 	process.exit(1);
 }
 
@@ -60,15 +64,25 @@ if(data) {
     } else data = JSON.parse(fs.readFileSync(data,'utf8'));
 } else data = {_blank:true};
 
+if(fragments) {
+    if(!fs.existsSync(fragments)) {
+        console.error(chalk.red(`Can't find fragments file ${fragmenmts}`));
+        process.exit(1);
+    } else {
+        fragmentsOb = new Fragments();
+        fragmentsOb.addFragment(JSON.parse(fs.readFileSync(fragments,'utf-8')));
+    }
+}
+
 (async () => {
 
 	console.log(chalk.green(`Merging ${input} with your data to create ${output}`));
-	await generateFromTemplate(input, data, output, './pdftools-api-credentials.json');
+	await generateFromTemplate(input, data, output, fragmentsOb, './pdftools-api-credentials.json');
 	console.log(chalk.green(`Merging is now complete. Have a nice day.`));
 
 })();
 
-async function generateFromTemplate(template, data, dest, creds) {
+async function generateFromTemplate(template, data, dest, fragments, creds) {
     return new Promise((resolve, reject) => {
 
         // Initial setup, create credentials instance.
@@ -91,7 +105,8 @@ async function generateFromTemplate(template, data, dest, creds) {
         else throw('Invalid destination extension')
 
         // Create a new DocumentMerge options instance.
-        options = new documentMergeOptions.DocumentMergeOptions(data, format);
+        if(!fragments) options = new documentMergeOptions.DocumentMergeOptions(data, format);
+        else options = new documentMergeOptions.DocumentMergeOptions(data, format, fragmentsOb);
 
         // Create a new operation instance using the options instance.
         const documentMergeOperation = documentMerge.Operation.createNew(options);

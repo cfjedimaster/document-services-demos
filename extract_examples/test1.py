@@ -9,6 +9,7 @@ from adobe.pdfservices.operation.pdfops.options.extractpdf.extract_element_type 
 from adobe.pdfservices.operation.execution_context import ExecutionContext
 from adobe.pdfservices.operation.io.file_ref import FileRef
 from adobe.pdfservices.operation.pdfops.extract_pdf_operation import ExtractPDFOperation
+from adobe.pdfservices.operation.pdfops.options.extractpdf.extract_renditions_element_type import ExtractRenditionsElementType
 
 logging.basicConfig(level=os.environ.get("LOGLEVEL", "INFO"))
 
@@ -33,13 +34,21 @@ try:
 	extract_pdf_operation = ExtractPDFOperation.create_new()
 
 	#Set operation input from a source file.
-	source = FileRef.create_from_local_file(base_path + "/PlanetaryScienceDecadalSurvey.pdf")
+	#source = FileRef.create_from_local_file(base_path + "/mnt/c/Users/ray/Downloads/AnalogDialogue.pdf")
+	source = FileRef.create_from_local_file("/mnt/c/Users/ray/Downloads/victoria_bridge_50.pdf")
 	extract_pdf_operation.set_input(source)
 
 	# Build ExtractPDF options and set them into the operation
+	#extract_pdf_options: ExtractPDFOptions = ExtractPDFOptions.builder() \
+	#	.with_element_to_extract(ExtractElementType.TEXT) \
+	#	.build()
+    
 	extract_pdf_options: ExtractPDFOptions = ExtractPDFOptions.builder() \
-		.with_element_to_extract(ExtractElementType.TEXT) \
-		.build()
+		.with_elements_to_extract([ExtractElementType.TEXT, ExtractElementType.TABLES]) \
+		.with_elements_to_extract_renditions([ExtractRenditionsElementType.TABLES,
+        ExtractRenditionsElementType.FIGURES]) \
+        .build()
+
 	extract_pdf_operation.set_options(extract_pdf_options)
 
 	#Execute the operation.
@@ -55,7 +64,7 @@ try:
 		with open(file_to_extract, 'wb') as f:
 			f.write(z.read(file_to_extract))
 			print("Extracted", file_to_extract)
-			os.remove(zip_file)
+			#os.remove(zip_file)
 
 except (ServiceApiException, ServiceUsageException, SdkException):
 	logging.exception("Exception encountered while executing operation")

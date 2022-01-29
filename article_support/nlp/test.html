@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<title>PDF List</title>
+</head>
+<body>
+
+<h2>List of PDFs</h2>
+
+<div id="result"></div>
+
+<script>
+document.addEventListener('DOMContentLoaded', init, false);
+
+async function init() {
+	let data = await (await fetch('./pdfdata.json')).json();
+	let html = '';
+	data.forEach(d => {
+		/*
+		For the people array, we detect an empty one, and we use slice as some PDFs had LOTS of people.
+		*/
+		if(d.people.length === 0) d.people.push('No people detected.');
+		let pdf = `
+<h2>${d.pdf}</h2>
+<p>
+This PDF discusses the following people: ${d.people.slice(0,5).join(', ')}<br/>
+This PDF discusses the following categories: ${d.categories.join(', ')}<br/>
+</p>
+		`;
+		
+
+		html += pdf;
+	});
+
+	document.querySelector('#result').innerHTML = html;
+	console.log(data);
+}
+</script>
+</body>
+</html>
