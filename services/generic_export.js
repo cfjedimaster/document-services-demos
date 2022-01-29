@@ -3,8 +3,12 @@ const fs = require('fs');
 
 (async ()=> {
 
-	const input = '/mnt/c/Users/ray/Downloads/friday.pdf';
-	const output = './friday.docx';
+	const input = process.argv[2];
+	const output = process.argv[3];
+	if(!input || !output) {
+		console.log('Usage: node generic_export.js pathToPDF pathToOutput');
+		process.exit(1);
+	}
 
 	if(fs.existsSync(output)) fs.unlinkSync(output);
 	await exportPDF(input, output, './pdftools-api-credentials.json');
