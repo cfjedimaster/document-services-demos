@@ -20,6 +20,11 @@ if(!fs.existsSync(inputPDF)) {
 	process.exit(1);
 }
 
+if(!fs.existsSync(output)) {
+	fs.mkdirSync(output);
+}
+
+
 let outputStatus = fs.statSync(output);
 if(!outputStatus.isDirectory()) {
 	console.error(chalk.red(`Output directory ${output} does not exist. Please make it first.`));
@@ -45,7 +50,8 @@ const options = new PDFServicesSdk.ExtractPDF.options.ExtractPdfOptions.Builder(
 				PDFServicesSdk.ExtractPDF.options.ExtractRenditionsElementType.FIGURES
 			)
 			.addTableStructureFormat(PDFServicesSdk.ExtractPDF.options.TableStructureType.CSV)
-          	.build()
+			.getStylingInfo(true)
+			.build()
 
 // Create a new operation instance.
 const extractPDFOperation = PDFServicesSdk.ExtractPDF.Operation.createNew(),
@@ -64,5 +70,6 @@ extractPDFOperation.execute(executionContext)
 		let zip = new AdmZip(outputZip);	
 		await zip.extractAllTo(output);
 		fs.unlinkSync(outputZip);
+		console.log(chalk.green(`Extracted data from ${inputPDF} to output directory ${output}.`));
 	})
 	.catch(err => console.log(err));
