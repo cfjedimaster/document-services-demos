@@ -7,7 +7,7 @@ I will:
 	For each PDF with images:
 		Get a list of the images, maxed out to some sensible #
 		For each image, look for: [filename].json
-		If not, call Microsoft's service and get that shit, then save it.
+		If not, call Microsoft's service and get that stuff, then save it.
 
 */
 
