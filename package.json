@@ -1,7 +1,8 @@
 {
   "dependencies": {
+    "@azure/cognitiveservices-computervision": "^8.1.0",
     "globby": "^11.0.4",
     "is-pdf-valid": "^0.0.1",
-    "node-fetch": "^3.0.0"
+    "node-fetch": "^2.6.6"
   }
 }
