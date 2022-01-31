@@ -9,7 +9,7 @@ const fs = require('fs');
 (async ()=> {
 
 	// hamlet.docx was too big for conversion
-	const input = '/mnt/c/Users/ray/Desktop/hello.docx';
+	const input = './hamlet2.docx';
 	const output = './hello.pdf';
 	const creds = './pdftools-api-credentials.json';
 
@@ -42,8 +42,8 @@ async function createPDF(source, creds) {
 		createPdfOperation.execute(executionContext)
 		.then(result => resolve(result))
 		.catch(err => {
-			if(err instanceof PDFToolsSdk.Error.ServiceApiError
-			|| err instanceof PDFToolsSdk.Error.ServiceUsageError) {
+			if(err instanceof pdfSDK.Error.ServiceApiError
+			|| err instanceof pdfSDK.Error.ServiceUsageError) {
 				reject(err);
 			} else {
 				reject(err);
