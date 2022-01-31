@@ -17,7 +17,7 @@ const executionContext = PDFServicesSdk.ExecutionContext.create(credentials);
 
 // Build extractPDF options
 const options = new PDFServicesSdk.ExtractPDF.options.ExtractPdfOptions.Builder()
-          .addElementsToExtract(PDFServicesSdk.ExtractPDF.options.ExtractElementType.TEXT).build()
+		.addElementsToExtract(PDFServicesSdk.ExtractPDF.options.ExtractElementType.TEXT).build()
 
 // Create a new operation instance.
 const extractPDFOperation = PDFServicesSdk.ExtractPDF.Operation.createNew(),
