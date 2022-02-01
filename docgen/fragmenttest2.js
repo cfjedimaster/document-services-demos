@@ -1,5 +1,4 @@
 const PDFToolsSdk = require('@adobe/pdfservices-node-sdk');
-//const Fragments = require('@adobe/pdfservices-node-sdk/src/operation/option/documentmerge/fragments');
 const fs = require('fs');
 
 const templateFile = './docTemplate.docx';
@@ -28,7 +27,7 @@ const data = {
 };
 
 const fragments = {
-	"AllCats": "The cats for <strong>{{ customerName }}</strong> are " + data.cats.reduce((prev, cur) => { 
+	"AllCats": "from fragments2 The cats for <strong>{{ customerName }}</strong> are " + data.cats.reduce((prev, cur) => { 
 		if(prev) return prev + ', '+cur.name;
 		return cur.name;
 	}, ''),
@@ -39,13 +38,11 @@ const fragments = {
 // Create an ExecutionContext using credentials.
 const executionContext = PDFToolsSdk.ExecutionContext.create(credentials);
 
-let fragmentsOb = new Fragments();
-fragmentsOb.addFragment(fragments);
 
 // Create a new DocumentMerge options instance.
 const documentMerge = PDFToolsSdk.DocumentMerge,
       documentMergeOptions = documentMerge.options,
-      options = new documentMergeOptions.DocumentMergeOptions(data, documentMergeOptions.OutputFormat.PDF, fragmentsOb);
+      options = new documentMergeOptions.DocumentMergeOptions(data, documentMergeOptions.OutputFormat.PDF, fragments);
 
 // Create a new operation instance using the options instance.
 const documentMergeOperation = documentMerge.Operation.createNew(options);
