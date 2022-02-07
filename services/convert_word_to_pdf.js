@@ -9,7 +9,7 @@ const fs = require('fs');
 (async ()=> {
 
 	// hamlet.docx was too big for conversion
-	const input = './hamlet2.docx';
+	const input = '/mnt/c/Users/ray/Downloads/largedocxtest.docx';
 	const output = './hello.pdf';
 	const creds = './pdftools-api-credentials.json';
 
@@ -26,12 +26,18 @@ async function createPDF(source, creds) {
 
     return new Promise((resolve, reject) => {
 
+		const clientConfig = pdfSDK.ClientConfig
+		.clientConfigBuilder()
+		.withConnectTimeout(60000)
+		.withReadTimeout(60000)
+		.build();
+
 		const credentials =  pdfSDK.Credentials
 		.serviceAccountCredentialsBuilder()
 		.fromFile(creds)
 		.build();
 
-		const executionContext = pdfSDK.ExecutionContext.create(credentials),
+		const executionContext = pdfSDK.ExecutionContext.create(credentials, clientConfig),
 				createPdfOperation = pdfSDK.CreatePDF.Operation.createNew();
 
 		// Set operation input from a source file
