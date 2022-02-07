@@ -31,12 +31,10 @@ const output = './hello.pdf';
 ```
 
 **services/generic_export.js**<br/>
-As the name says, a generic export script. As with the other scripts, you modify the input and output here:
+As the name says, a generic export script. Input and output are passed via the CLI. I'd use `generic.js` instead though.
 
-```js
-const input = './hamlet.pdf';
-const output = './friday.png';
-```
+**services/convert.js**<br/>
+A more generic script. Either pass foo.pdf foo.supportedExt to go from PDF to a supported format, or foo.supportedExt foo.pdf to go from a supported format to PDF. 
 
 **services/merge.js**<br/>
 A script that tests the PDF Merge operation. Use it at the command line like so:
