@@ -120,9 +120,8 @@ async function exportPDF(source, output, creds) {
 		// Set operation input from a source file
 		const input = pdfSDK.FileRef.createFromLocalFile(source);
 		createPDF.setInput(input);
-
 		// Execute the operation and Save the result to the specified location.
-		createPdfOperation.execute(executionContext)
+		createPDF.execute(executionContext)
 		.then(result => resolve(result))
 		.catch(err => {
 			if(err instanceof pdfSDK.Error.ServiceApiError
