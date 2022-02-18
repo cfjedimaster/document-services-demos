@@ -31,7 +31,10 @@ const output = './hello.pdf';
 ```
 
 **services/generic_export.js**<br/>
-As the name says, a generic export script. Input and output are passed via the CLI. I'd use `generic.js` instead though.
+As the name says, a generic export script. Input and output are passed via the CLI. I'd use `convert.js` instead though.
+
+**services/generic_ocr.js**<br/>
+As the name says, a generic ocr script. Input and output are passed via the CLI. You can also specify a [supported locale](https://opensource.adobe.com/pdfservices-node-sdk-samples/apidocs/latest/OCROptions.html#.OCRSupportedLocale).
 
 **services/convert.js**<br/>
 A more generic script. Either pass foo.pdf foo.supportedExt to go from PDF to a supported format, or foo.supportedExt foo.pdf to go from a supported format to PDF. 
