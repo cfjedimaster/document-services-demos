@@ -6,13 +6,9 @@ const chalk = require('chalk');
 
 	const input = process.argv[2];
 	const output = process.argv[3];
-	if(!input || !output) {
-		console.log('Usage: node generic_export.js pathToPDF pathToOutput');
-		process.exit(1);
-	}
 
 	if(!input || !output) {
-		console.error(chalk.red('Syntax: generic.js <input pdf doc> <output file>'));
+		console.error(chalk.red('Syntax: generic_export.js <input pdf doc> <output file>'));
 		process.exit(1);
 	}
 
