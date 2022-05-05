@@ -43,8 +43,8 @@ async function getPDFProperties(source, creds) {
 		pdfOperation.execute(executionContext)
 		.then(result => resolve(result))
 		.catch(err => {
-			if(err instanceof PDFToolsSdk.Error.ServiceApiError
-			|| err instanceof PDFToolsSdk.Error.ServiceUsageError) {
+			if(err instanceof pdfSDK.Error.ServiceApiError
+			|| err instanceof pdfSDK.Error.ServiceUsageError) {
 				reject(err);
 			} else {
 				reject(err);
