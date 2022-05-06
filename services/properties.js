@@ -4,16 +4,21 @@ Demonstrate getting the metadata properties for a PDF.
 
 const pdfSDK = require('@adobe/pdfservices-node-sdk');
 const fs = require('fs');
+const chalk = require('chalk');
 
-//clean up previous
 (async ()=> {
 
-	// hamlet.docx was too big for conversion
-	const input = './hamlet.pdf';
+	let inputPDF = process.argv[2];
+
+	if(!inputPDF) {
+		console.error(chalk.red('Syntax: properties.js <input pdf doc> '));
+		process.exit(1);
+	}
+
 	const creds = './pdftools-api-credentials.json';
 
-	let result = await getPDFProperties(input, creds);
-	console.log('Got result:', JSON.stringify(result, null, '\t'));
+	let result = await getPDFProperties(inputPDF, creds);
+	console.log(JSON.stringify(result, null, '\t'));
 
 })();
 
