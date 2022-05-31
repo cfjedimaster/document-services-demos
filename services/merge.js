@@ -1,6 +1,6 @@
 const pdfSDK = require('@adobe/pdfservices-node-sdk');
 const fs = require('fs');
-const creds = './pdftools-api-credentials.json';
+const creds = './pdfservices-api-credentials.json';
 
 (async () => {
 

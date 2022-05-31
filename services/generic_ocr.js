@@ -21,7 +21,7 @@ const chalk = require('chalk');
 	// careful....
 	if(fs.existsSync(output)) fs.unlinkSync(output);
 
-	await ocrPDF(input, output, locale, './pdftools-api-credentials.json');
+	await ocrPDF(input, output, locale, './pdfservices-api-credentials.json');
 	console.log(chalk.green(`OCRed ${input} to ${output}`));
 
 

@@ -33,7 +33,7 @@ if(!outputStatus.isDirectory()) {
 
 const credentials = PDFServicesSdk.Credentials
 		.serviceAccountCredentialsBuilder()
-		.fromFile('pdftools-api-credentials.json')
+		.fromFile('pdfservices-api-credentials.json')
 		.build();
 
 const config = PDFServicesSdk.ClientConfig.clientConfigBuilder().withConnectTimeout(360000).withReadTimeout(360000).build();

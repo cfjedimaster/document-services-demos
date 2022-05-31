@@ -14,7 +14,7 @@ const chalk = require('chalk');
 
 
 	if(!input || !output) {
-		console.error(chalk.red('Syntax: generic.js <input doc> <output file>'));
+		console.error(chalk.red('Syntax: convert.js <input doc> <output file>'));
 		process.exit(1);
 	}
 
@@ -31,7 +31,7 @@ const chalk = require('chalk');
 	let fileRef;
 	if(output.toLowerCase().indexOf('.pdf') >= 0) {
 		try {
-			fileRef = await exportPDF(input, output, './pdftools-api-credentials.json');
+			fileRef = await exportPDF(input, output, './pdfservices-api-credentials.json');
 			fileRef.saveAsFile(output);
 		} catch(e) {
 			console.log(chalk.red(`Error: ${e}`));
@@ -40,7 +40,7 @@ const chalk = require('chalk');
 		
 	} else {
 		try {
-			fileRef = await exportDoc(input, output, './pdftools-api-credentials.json');
+			fileRef = await exportDoc(input, output, './pdfservices-api-credentials.json');
 			fileRef.saveAsFile(output);
 		} catch(e) {
 			console.log(chalk.red(`Error: ${e}`));

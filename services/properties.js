@@ -15,7 +15,7 @@ const chalk = require('chalk');
 		process.exit(1);
 	}
 
-	const creds = './pdftools-api-credentials.json';
+	const creds = './pdfservices-api-credentials.json';
 
 	let result = await getPDFProperties(inputPDF, creds);
 	console.log(JSON.stringify(result, null, '\t'));
