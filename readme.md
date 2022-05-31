@@ -81,7 +81,7 @@ This uses all the features of Extract so you will get the JSON result, images, a
 **extract_examples/test1.py**<br/>
 A Python example. It only gets the JSON output but does handle automatically unzipping.
 
-**extract_examples/generic.js**<br/>
+**extract_examples/generic.py**<br/>
 A utility for testing PDF extract. This time in Python cuz Python is crazy awesome. Call it at the command line like so:
 
 ```bash
