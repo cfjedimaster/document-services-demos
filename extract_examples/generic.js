@@ -36,8 +36,10 @@ const credentials = PDFServicesSdk.Credentials
 		.fromFile('pdftools-api-credentials.json')
 		.build();
 
+const config = PDFServicesSdk.ClientConfig.clientConfigBuilder().withConnectTimeout(360000).withReadTimeout(360000).build();
+
 // Create an ExecutionContext using credentials
-const executionContext = PDFServicesSdk.ExecutionContext.create(credentials);
+const executionContext = PDFServicesSdk.ExecutionContext.create(credentials,config);
 
 // Build extractPDF options
 const options = new PDFServicesSdk.ExtractPDF.options.ExtractPdfOptions.Builder()
