@@ -1,0 +1,141 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Visualizer</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+	<style>
+	body {
+		margin: 30px;
+	}
+	</style>
+  </head>
+  <body>
+
+	<nav class="navbar navbar-dark navbar-expand-lg bg-dark mb-3">
+		<div class="container-fluid">
+			<a class="navbar-brand" href="/">Adobe Extract/IBM Watson Demo</a>
+		</div>
+	</nav>
+
+	<p>
+	This demo illustrates the use of the <a href="https://developer.adobe.com/document-services/apis/pdf-extract/">Adobe PDF Extract API</a>
+	combined with the power of IBM's <a href="https://www.ibm.com/cloud/watson-natural-language-understanding">Watson Natural Language Understanding API</a>. The results
+	below are driven by extracting the textual content from a source PDF and passing the result to Watson.
+	</p>
+
+
+	<div x-data="analysis">
+		<h2 class="mb-3">Report on PDF: <span x-text="pdfInput"></span></h2>
+
+		<h3>Summarization</h3>
+		<p x-text="summary"></p>
+
+		<h3>Keywords</h3>
+		<p>
+		For each keyword, the number in parenthesis represents the relevancy which is then followed by the strongest emotion associated with that word.
+		</p>
+
+		<ul>
+		<template x-for="keyword in keywords">
+			<li><span x-text="keyword.word"></span> (<span x-text="keyword.relevancy"></span>, <span x-text="keyword.emotion"></span>)</li>
+		</template>
+		</ul>
+
+		<h3>Entities</h3>
+		<p>
+		For each entity, the values in parenthesis represent the type and sentiment.
+		</p>
+
+		<ul>
+		<template x-for="entity in entities">
+			<li><span x-text="entity.name"></span> (<span x-text="entity.type"></span>, <span x-text="entity.sentiment"></span>)</li>
+		</template>
+		</ul>
+
+		<h3>Concepts</h3>
+		<p>
+		For each concept, the value in parenthesis represents the relevance.
+		</p>
+
+		<ul>
+		<template x-for="concept in concepts">
+			<li><span x-text="concept.name"></span> (<span x-text="concept.relevance"></span>)</li>
+		</template>
+		</ul>
+
+		<h3>Categories</h3>
+		<p>
+		For each category, the value in parenthesis represents the score.
+		</p>
+
+		<ul>
+		<template x-for="category in categories">
+			<li><span x-text="category.name"></span> (<span x-text="category.score"></span>)</li>
+		</template>
+		</ul>
+	</div>
+
+	<script src="//unpkg.com/alpinejs" defer></script>
+	<script>
+	document.addEventListener('alpine:init', () => {
+			Alpine.data('analysis', () => ({
+				open: false,
+				pdfInput:'',
+				summary:'',
+				keywords:[],
+				entities:[],
+				concepts:[],
+				categories:[],
+				async init() {
+					console.log('loading data');
+					let resp = await fetch('./output.json');
+					let data = JSON.parse(await resp.text());
+					this.pdfInput = data.input;
+					this.summary = data.analysis.summarization.text;
+					this.keywords = data.analysis.keywords.map(k => {
+						let highestEmotion = -1;
+						let emotion = '';
+						for(e in k.emotion) {
+							if(k.emotion[e] > highestEmotion) {
+								emotion = e;
+								highestEmotion = k.emotion[e];
+							}
+						}
+						return {
+							word: k.text,
+							relevancy: k.relevance,
+							emotion
+						}
+					});
+
+					this.entities = data.analysis.entities.map(e => {
+						return {
+							name: e.text,
+							type: e.type,
+							sentiment: e.sentiment.label
+						}
+					});
+
+					this.concepts = data.analysis.concepts.map(c => {
+						return {
+							name: c.text,
+							relevance: c.relevance
+						}
+					});
+
+					this.categories = data.analysis.categories.map(c => {
+						return {
+							name: c.label,
+							score: c.score
+						}
+					});
+
+					console.log(data);
+				}
+			}))
+		})
+	</script>
+  </body>
+</html>

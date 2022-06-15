@@ -1,0 +1,10 @@
+Details on free plan:
+
+	
+30,000 NLU Items Per Month
+1 Custom Model
+Fixed API Rate Limit. See Standard plan for higher API Rate Limit
+NOTE: A NLU item is based on the number of data units enriched and the number of enrichment features applied. 
+A data unit is 10,000 characters or less. For example: extracting Entities and Sentiment from 15,000 characters 
+of text is (2 Data Units * 2 Enrichment Features) = 4 NLU Items. A custom model refers to an annotation model developed with
+ Watson Knowledge Studio.
