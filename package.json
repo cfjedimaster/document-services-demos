@@ -1,8 +1,30 @@
 {
   "dependencies": {
+    "@adobe/pdfservices-node-sdk": "^2.2.2",
     "@azure/cognitiveservices-computervision": "^8.1.0",
+    "adm-zip": "^0.5.9",
+    "dotenv": "^16.0.1",
     "globby": "^11.0.4",
     "is-pdf-valid": "^0.0.1",
-    "node-fetch": "^2.6.6"
-  }
+    "nanoid": "^4.0.0",
+    "node-fetch": "^2.6.7"
+  },
+  "name": "document-services-demos",
+  "description": "Welcome to my repository of demos, scripts, tools, and more for [Adobe Document Services](https://www.adobe.io/apis/documentcloud/dcsdk/). There are quite a few things in this repository and a good portion of it is crap I wrote for one off tests, my own curiosity, and so forth. There's also a whole folder (`/article_support`) for demos related to my blog posts. That being said, there are some useful scripts in here I think folks may like. While you are free to use anything and everything here, I'd consider the items below to be useful and somewhat stable.",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cfjedimaster/document-services-demos.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/cfjedimaster/document-services-demos/issues"
+  },
+  "homepage": "https://github.com/cfjedimaster/document-services-demos#readme"
 }
