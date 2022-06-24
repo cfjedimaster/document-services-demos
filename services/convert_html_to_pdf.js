@@ -1,7 +1,7 @@
 const PDFServicesSdk = require('@adobe/pdfservices-node-sdk');
 const fs = require('fs');
 
-const inputFile = '/mnt/c/Users/ray/Downloads/email.html';
+const inputFile = './test.html';
 const output = './html_to_pdf.pdf';
 
 if(fs.existsSync(output)) fs.unlinkSync(output);
@@ -24,7 +24,7 @@ try {
    // Initial setup, create credentials instance.
    const credentials =  PDFServicesSdk.Credentials
      .serviceAccountCredentialsBuilder()
-     .fromFile("pdftools-api-credentials.json")
+     .fromFile("pdfservices-api-credentials.json")
      .build();
 
    // Create an ExecutionContext using credentials and create a new operation instance.
