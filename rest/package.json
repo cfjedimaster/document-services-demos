@@ -1,0 +1,17 @@
+{
+  "name": "rest_2022",
+  "version": "1.0.0",
+  "description": "",
+  "main": "newapi.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@adobe/jwt-auth": "^1.0.1",
+    "dotenv": "^16.0.2",
+    "node-fetch": "^2.6.7"
+  }
+}
