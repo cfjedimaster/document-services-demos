@@ -148,6 +148,31 @@ class ServicesWrapper {
 		return req.headers.get('location');
 	}
 
+	/* fragments not ready yet */
+	async createDocumentGenerationJob(asset, outputFormat, data, fragments) {
+
+		let token = await this.accessToken;
+
+		let body = {
+			'assetID': asset.assetID,
+			'outputFormat': outputFormat, 
+			'jsonDataForMerge':data
+		};
+		body = JSON.stringify(body);
+
+		let req = await fetch(REST_API+'operation/documentgeneration', {
+			method:'post',
+			headers: {
+				'X-API-Key':this.creds.clientId,
+				'Authorization':`Bearer ${token}`,
+				'Content-Type':'application/json'
+			},
+			body: body
+		});
+
+		return req.headers.get('location');
+	}
+
 	async pollJob(url) {
 
 		let token = await this.accessToken;
