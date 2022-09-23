@@ -10,9 +10,9 @@ const ORG_ID = process.env.ORGID;
 const KEY = process.env.KEY;
 
 /*
-Root URL for all REST stuff, currently pointing to stage
+Root URL for all REST stuff
 */
-const REST_API = "https://pdf-services-stage.adobe.io/";
+const REST_API = "https://pdf-services.adobe.io/";
 
 
 async function getAccessToken(creds) {
@@ -20,8 +20,7 @@ async function getAccessToken(creds) {
 	These values are hard coded for now - I believe ims can go away
 	once we're in production, not sure about metaScopes
 	*/
-	creds.metaScopes = "https://ims-na1-stg1.adobelogin.com/s/ent_documentcloud_sdk";
-	creds.ims = "https://ims-na1-stg1.adobelogin.com";
+	creds.metaScopes = "https://ims-na1.adobelogin.com/s/ent_documentcloud_sdk";
 
 	let result = await auth(creds);
 	return result.access_token;

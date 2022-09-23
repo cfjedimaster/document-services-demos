@@ -22,7 +22,6 @@ let sw = new ServicesWrapper(creds);
 
 
 	let asset = await sw.upload(filePath, mediaType);
-	console.log('Doc template uploaded');
 
 	for(let i=0; i<data.length; i++) {
 		let resultPath = 'dynamicpdf_'+i+'.pdf';
