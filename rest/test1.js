@@ -181,5 +181,3 @@ async function downloadFile(url, filePath) {
 	await downloadFile(downloadURL, downloadPath);
 	console.log(`Download operation complete. File saved to ${downloadPath}.`);
 })();
-
-
