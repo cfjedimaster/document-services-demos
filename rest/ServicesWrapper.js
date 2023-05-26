@@ -4,7 +4,7 @@ const fs = require('fs');
 
 
 //Will switch to non-stage later
-const REST_API = "https://pdf-services-stage.adobe.io/";
+const REST_API = "https://pdf-services.adobe.io/";
 
 class ServicesWrapper {
 
@@ -17,7 +17,6 @@ class ServicesWrapper {
 		clientSecret
 		privateKey
 	*/
-
 
 	constructor(creds) {
 
@@ -39,8 +38,8 @@ class ServicesWrapper {
 
 		return new Promise(async (resolve, reject) => {
 
-			this.creds.metaScopes = "https://ims-na1-stg1.adobelogin.com/s/ent_documentcloud_sdk";
-			this.creds.ims = "https://ims-na1-stg1.adobelogin.com";
+			this.creds.metaScopes = "https://ims-na1.adobelogin.com/s/ent_documentcloud_sdk";
+			this.creds.ims = "https://ims-na1.adobelogin.com";
 			let result = await auth(this.creds);
 			this._cachedToken = result.access_token;
 			resolve(this._cachedToken);
@@ -173,12 +172,39 @@ class ServicesWrapper {
 		return req.headers.get('location');
 	}
 
+	async createProtectJob(asset, passwordProtection, encryptionAlgorithm, contentToEncrypt, permissions) {
+
+		let token = await this.accessToken;
+
+		let body = {
+			'assetID': asset.assetID,
+			'passwordProtection': passwordProtection, 
+			'encryptionAlgorithm':encryptionAlgorithm
+		};
+
+		if(contentToEncrypt) body.contentToEncrypt = contentToEncrypt;
+		if(permissions) body.permissions = permissions;
+		
+		body = JSON.stringify(body);
+
+		let req = await fetch(REST_API+'operation/protectpdf', {
+			method:'post',
+			headers: {
+				'X-API-Key':this.creds.clientId,
+				'Authorization':`Bearer ${token}`,
+				'Content-Type':'application/json'
+			},
+			body: body
+		});
+
+		return req.headers.get('location');
+	}
 	async pollJob(url) {
 
 		let token = await this.accessToken;
 
 		let status = null;
-		let location; 
+		let asset; 
 
 		while(status !== 'done') {
 			let req = await fetch(url, {
@@ -191,11 +217,11 @@ class ServicesWrapper {
 
 			let res = await req.json();
 			status = res.status;
-			if(status === 'done') location = res.asset.downloadUri;
+			if(status === 'done') asset = res.asset;
 			else await this.delay(2000);
 		}
 
-		return location;
+		return asset;
 	}
 
 	async downloadFile(url, filePath) {
@@ -215,10 +241,10 @@ class ServicesWrapper {
 	*/
 	async downloadWhenDone(job, downloadPath) {
 
-		let downloadURL = await this.pollJob(job);
-		await this.downloadFile(downloadURL, downloadPath);
+		let jobResult = await this.pollJob(job);
+		console.log('ready to dl', jobResult.downloadUri, ' and path is ', downloadPath);
+		await this.downloadFile(jobResult.downloadUri, downloadPath);
 		return;
-
 	}
 
 
