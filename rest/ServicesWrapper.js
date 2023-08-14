@@ -1,9 +1,6 @@
-const auth=require("@adobe/jwt-auth");
 const fetch = require('node-fetch');
 const fs = require('fs');
 
-
-//Will switch to non-stage later
 const REST_API = "https://pdf-services.adobe.io/";
 
 class ServicesWrapper {
@@ -38,13 +35,22 @@ class ServicesWrapper {
 
 		return new Promise(async (resolve, reject) => {
 
-			this.creds.metaScopes = "https://ims-na1.adobelogin.com/s/ent_documentcloud_sdk";
-			this.creds.ims = "https://ims-na1.adobelogin.com";
-			let result = await auth(this.creds);
-			this._cachedToken = result.access_token;
-			resolve(this._cachedToken);
-		});
+			const params = new URLSearchParams();
+			params.append('client_secret', this.creds.clientSecret);
+			params.append('grant_type', 'client_credentials');
+			params.append('scope', 'openid,AdobeID,read_organizations');
 
+			let resp = await fetch(`https://ims-na1.adobelogin.com/ims/token/v2?client_id=${this.creds.clientId}`, 
+				{ 
+					method: 'POST', 
+					body: params
+				}
+			);
+			let data = await resp.json();
+			this._cachedToken = data.access_token;
+			resolve(this._cachedToken);
+
+		});
 	}
 
 	async getUploadData(mediaType) {
@@ -172,6 +178,35 @@ class ServicesWrapper {
 		return req.headers.get('location');
 	}
 
+	// Todo - options
+	async createExtractJob(asset) {
+
+		let token = await this.accessToken;
+
+		let body = {
+			'assetID': asset.assetID,
+			'getCharBounds': false,
+			'includeStyling': false, 
+			'elementsToExtract': [
+				'text', 'tables'
+			],
+			'tableOutputFormat':'csv',
+			'renditionsToExtract': [ 'tables', 'figures' ]
+		};
+		body = JSON.stringify(body);
+
+		let req = await fetch(REST_API+'operation/extractpdf', {
+			method:'post',
+			headers: {
+				'X-API-Key':this.creds.clientId,
+				'Authorization':`Bearer ${token}`,
+				'Content-Type':'application/json'
+			},
+			body: body
+		});
+		return req.headers.get('location');
+	}
+
 	async createProtectJob(asset, passwordProtection, encryptionAlgorithm, contentToEncrypt, permissions) {
 
 		let token = await this.accessToken;
@@ -199,6 +234,7 @@ class ServicesWrapper {
 
 		return req.headers.get('location');
 	}
+
 	async pollJob(url) {
 
 		let token = await this.accessToken;
@@ -216,11 +252,24 @@ class ServicesWrapper {
 			});
 
 			let res = await req.json();
-			status = res.status;
-			if(status === 'done') asset = res.asset;
-			else await this.delay(2000);
-		}
 
+			status = res.status;
+			//if(status === 'done') asset = res.asset;
+			if(status === 'done') {
+				/*
+				For everything (so far) but Extract, it's res.asset
+				For extract, there's .content which points to the zip, 
+				.resource which points to the whole zip
+				*/
+				if(res.asset) asset = res.asset;
+				else if(res.content && res.resource) {
+					asset = { content: res.content, resource: res.resource};
+				}
+			} else {
+				await this.delay(2000);
+			}
+		}
+		console.log('returning', asset);
 		return asset;
 	}
 
@@ -242,7 +291,6 @@ class ServicesWrapper {
 	async downloadWhenDone(job, downloadPath) {
 
 		let jobResult = await this.pollJob(job);
-		console.log('ready to dl', jobResult.downloadUri, ' and path is ', downloadPath);
 		await this.downloadFile(jobResult.downloadUri, downloadPath);
 		return;
 	}
@@ -256,15 +304,16 @@ class ServicesWrapper {
 	}
 
 	/*
-	I return an array of exceptions, things missing basically
+	I return an array of exceptions, things missing basically.
+	Updated for OAuth Server to Server
 	*/
 	validateCreds(c) {
 		let issues = [];
 		if(!c.clientId) issues.push('clientId missing');
-		if(!c.technicalAccountId) issues.push('technicalAccountId missing');
-		if(!c.orgId) issues.push('orgId missing');
+		//if(!c.technicalAccountId) issues.push('technicalAccountId missing');
+		//if(!c.orgId) issues.push('orgId missing');
 		if(!c.clientSecret) issues.push('clientSecret missing');
-		if(!c.privateKey) issues.push('privateKey missing');
+		//if(!c.privateKey) issues.push('privateKey missing');
 		return issues;
 	}
 
