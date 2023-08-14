@@ -10,10 +10,11 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "@adobe/jwt-auth": "^1.0.1",
     "adm-zip": "^0.5.9",
     "dotenv": "^10.0.0",
     "form-data": "^4.0.0",
     "node-blob": "^0.0.2",
-    "node-fetch": "^2.6.1"
+    "node-fetch": "^2.6.7"
   }
 }
