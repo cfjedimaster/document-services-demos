@@ -7,7 +7,7 @@ let sw = new ServicesWrapper({
 });
 
 (async () => {
-	let filePath = './schoolcalendar.pdf';
+	let filePath = '../source_pdfs/schoolcalendar.pdf';
 	let mediaType = 'application/pdf';
 	//let downloadPath = './extract.zip';
 
