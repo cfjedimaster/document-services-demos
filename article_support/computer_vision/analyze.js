@@ -102,7 +102,7 @@ async function getImages(pdf,outputDir) {
 
 	const credentials = PDFServicesSdk.Credentials
 			.serviceAccountCredentialsBuilder()
-			.fromFile('pdftools-api-credentials.json')
+			.fromFile('pdfservice-api-credentials.json')
 			.build();
 
 	// Create an ExecutionContext using credentials
