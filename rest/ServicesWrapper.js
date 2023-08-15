@@ -1,19 +1,10 @@
-const fetch = require('node-fetch');
 const fs = require('fs');
+const { Readable } = require('stream');
+const { finished } = require('stream/promises');
 
 const REST_API = "https://pdf-services.adobe.io/";
 
 class ServicesWrapper {
-
-	/*
-	creds is an object with: 
-
-		clientId:
-		technicalAccountId
-		orgId
-		clientSecret
-		privateKey
-	*/
 
 	constructor(creds) {
 
@@ -89,6 +80,7 @@ class ServicesWrapper {
 				'Content-Type':mediaType, 
 				'Content-Length':fileSizeInBytes
 			},
+			duplex:'half',
 			body:stream
 		});
 
@@ -273,17 +265,13 @@ class ServicesWrapper {
 		return asset;
 	}
 
+	// Credit: https://stackoverflow.com/a/74722656/52160
 	async downloadFile(url, filePath) {
 		let res = await fetch(url);
-		let stream = fs.createWriteStream(filePath);
-		await new Promise((resolve, reject) => {
-			res.body.pipe(stream);
-			res.body.on('error', reject);
-			stream.on('finish', resolve);
-		});
-		return;
+		const body = Readable.fromWeb(res.body);
+		const download_write_stream = fs.createWriteStream(filePath);
+		return await finished(body.pipe(download_write_stream));
 	}
-
 
 	/*
 	I'll sit and poll the job and then dl for you when complete.
