@@ -6,15 +6,12 @@ const REST_API = "https://pdf-services.adobe.io/";
 
 class ServicesWrapper {
 
-	constructor(creds) {
+	constructor(clientId, clientSecret) {
 
-		if(!creds) throw('Creds object when creating a new ServicesWrapper object.');
+		if(!clientId) throw('clientId required when constructing ServicesWrapper');
+		if(!clientSecret) throw('clientSecret required when constructing ServicesWrapper');
 
-		let issues = this.validateCreds(creds);
-		if(issues.length) {
-			throw(`Invalid creds object passed: ${issues.join('\n')}`);
-		}
-		this.creds = creds;
+		this.creds = { clientId, clientSecret };
 
 		this._cachedToken = null;
 
@@ -100,16 +97,12 @@ class ServicesWrapper {
 		return uploadData;
 	}
 
-	async createOCRJob(asset) {
-
+	async apiWrapper(endpoint, body) {
 		let token = await this.accessToken;
 
-		let body = {
-			'assetID': asset.assetID
-		};
 		body = JSON.stringify(body);
 
-		let req = await fetch(REST_API+'operation/ocr', {
+		let req = await fetch(REST_API+endpoint, {
 			method:'post',
 			headers: {
 				'X-API-Key':this.creds.clientId,
@@ -122,86 +115,57 @@ class ServicesWrapper {
 		return req.headers.get('location');
 	}
 
+	async createOCRJob(asset) {
+
+
+		let body = {
+			'assetID': asset.assetID
+		};
+
+		return await this.apiWrapper('operation/ocr',body);
+	}
+
 	async createCompressJob(asset, level="MEDIUM") {
 
-		let token = await this.accessToken;
 
 		let body = {
 			'assetID': asset.assetID,
 			'compressionLevel':level
 		};
-		body = JSON.stringify(body);
 
-		let req = await fetch(REST_API+'operation/compresspdf', {
-			method:'post',
-			headers: {
-				'X-API-Key':this.creds.clientId,
-				'Authorization':`Bearer ${token}`,
-				'Content-Type':'application/json'
-			},
-			body: body
-		});
+		return await this.apiWrapper('operation/compresspdf',body);
 
-		return req.headers.get('location');
 	}
 
 	/* fragments not ready yet */
 	async createDocumentGenerationJob(asset, outputFormat, data, fragments) {
-
-		let token = await this.accessToken;
 
 		let body = {
 			'assetID': asset.assetID,
 			'outputFormat': outputFormat, 
 			'jsonDataForMerge':data
 		};
-		body = JSON.stringify(body);
 
-		let req = await fetch(REST_API+'operation/documentgeneration', {
-			method:'post',
-			headers: {
-				'X-API-Key':this.creds.clientId,
-				'Authorization':`Bearer ${token}`,
-				'Content-Type':'application/json'
-			},
-			body: body
-		});
+		return await this.apiWrapper('operation/documentgeneration',body);
 
-		return req.headers.get('location');
 	}
 
-	// Todo - options
-	async createExtractJob(asset) {
-
-		let token = await this.accessToken;
+	async createExtractJob(asset, options={}) {
 
 		let body = {
 			'assetID': asset.assetID,
-			'getCharBounds': false,
-			'includeStyling': false, 
-			'elementsToExtract': [
-				'text', 'tables'
-			],
-			'tableOutputFormat':'csv',
-			'renditionsToExtract': [ 'tables', 'figures' ]
+			'getCharBounds': options.getCharBounds?options.getCharBounds:false,
+			'includeStyling': options.includeStyling?options.includeStyling:false, 
+			'elementsToExtract': options.elementsToExtract?options.elementsToExtract:['text', 'tables'],
+			'tableOutputFormat':options.tableOutputFormat?options.tableOutputFormat:'csv',
+			'renditionsToExtract': options.renditionsToExtract?options.renditionsToExtract:[ 'tables', 'figures' ]
 		};
-		body = JSON.stringify(body);
 
-		let req = await fetch(REST_API+'operation/extractpdf', {
-			method:'post',
-			headers: {
-				'X-API-Key':this.creds.clientId,
-				'Authorization':`Bearer ${token}`,
-				'Content-Type':'application/json'
-			},
-			body: body
-		});
-		return req.headers.get('location');
+		return await this.apiWrapper('operation/extractpdf',body);
 	}
 
+	// ToDo: use style used for Extract
 	async createProtectJob(asset, passwordProtection, encryptionAlgorithm, contentToEncrypt, permissions) {
-
-		let token = await this.accessToken;
 
 		let body = {
 			'assetID': asset.assetID,
@@ -212,19 +176,7 @@ class ServicesWrapper {
 		if(contentToEncrypt) body.contentToEncrypt = contentToEncrypt;
 		if(permissions) body.permissions = permissions;
 		
-		body = JSON.stringify(body);
-
-		let req = await fetch(REST_API+'operation/protectpdf', {
-			method:'post',
-			headers: {
-				'X-API-Key':this.creds.clientId,
-				'Authorization':`Bearer ${token}`,
-				'Content-Type':'application/json'
-			},
-			body: body
-		});
-
-		return req.headers.get('location');
+		return await this.apiWrapper('operation/protectpdf',body);
 	}
 
 	async pollJob(url) {
@@ -246,7 +198,6 @@ class ServicesWrapper {
 			let res = await req.json();
 
 			status = res.status;
-			//if(status === 'done') asset = res.asset;
 			if(status === 'done') {
 				/*
 				For everything (so far) but Extract, it's res.asset
@@ -261,7 +212,7 @@ class ServicesWrapper {
 				await this.delay(2000);
 			}
 		}
-		console.log('returning', asset);
+
 		return asset;
 	}
 
@@ -289,20 +240,6 @@ class ServicesWrapper {
 		return new Promise(resolve => {
 			setTimeout(() => resolve(), x);
 		});
-	}
-
-	/*
-	I return an array of exceptions, things missing basically.
-	Updated for OAuth Server to Server
-	*/
-	validateCreds(c) {
-		let issues = [];
-		if(!c.clientId) issues.push('clientId missing');
-		//if(!c.technicalAccountId) issues.push('technicalAccountId missing');
-		//if(!c.orgId) issues.push('orgId missing');
-		if(!c.clientSecret) issues.push('clientSecret missing');
-		//if(!c.privateKey) issues.push('privateKey missing');
-		return issues;
 	}
 
 }

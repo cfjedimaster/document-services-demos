@@ -1,15 +1,11 @@
 require('dotenv').config();
 const ServicesWrapper = require('./ServicesWrapper');
 
-let sw = new ServicesWrapper({
-	clientId: process.env.CLIENTID,
-	clientSecret: process.env.CLIENTSECRET
-});
+let sw = new ServicesWrapper(process.env.CLIENTID, process.env.CLIENTSECRET);
 
 (async () => {
 	let filePath = '../source_pdfs/schoolcalendar.pdf';
 	let mediaType = 'application/pdf';
-	//let downloadPath = './extract.zip';
 
 	let asset = await sw.upload(filePath, mediaType);
 	console.log('PDF uploaded');
@@ -20,8 +16,15 @@ let sw = new ServicesWrapper({
 	let result = await sw.pollJob(job);
 	console.log('Job done');
 
+	/* 
+	One example, download the json, or you can download the zip at result.resource.downloadUri...
 	await sw.downloadFile(result.content.downloadUri, './extract.json');
-	console.log('Done');
+	
+	But instead, let's just fetch the json direct.
+	*/
+	let jsonReq = await fetch(result.content.downloadUri);
+	let json = await jsonReq.json();
+	console.log(JSON.stringify(json.extended_metadata, null, '\t'));
 
 
 })();
