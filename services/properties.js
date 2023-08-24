@@ -1,6 +1,7 @@
 /*
 Demonstrate getting the metadata properties for a PDF.
 */
+require('dotenv').config();
 
 const pdfSDK = require('@adobe/pdfservices-node-sdk');
 const fs = require('fs');
@@ -27,9 +28,10 @@ async function getPDFProperties(source, creds) {
     return new Promise((resolve, reject) => {
 
 		const credentials =  pdfSDK.Credentials
-		.serviceAccountCredentialsBuilder()
-		.fromFile(creds)
-		.build();
+			.servicePrincipalCredentialsBuilder()
+			.withClientId(process.env.CLIENT_ID)
+			.withClientSecret(process.env.CLIENT_SECRET)
+			.build();
 
 		const executionContext = pdfSDK.ExecutionContext.create(credentials),
 			pdfOperation = pdfSDK.PDFProperties.Operation.createNew();
