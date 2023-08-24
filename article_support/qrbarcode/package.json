@@ -1,0 +1,17 @@
+{
+  "name": "qrbarcode",
+  "version": "1.0.0",
+  "description": "",
+  "main": "test0.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "javascript-barcode-reader": "^0.6.9",
+    "jimp": "^0.16.2",
+    "qrcode-reader": "^1.0.4"
+  }
+}
