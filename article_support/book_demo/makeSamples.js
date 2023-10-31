@@ -5,7 +5,7 @@ import { makeSample } from './pdfProcessor.js';
 const SOURCE_DIR = './sourcePDFs/';
 // Where to store the samples
 const SAMPLE_DIR = './samplePDFs/';
-// How much of a sample should be provide, in pages
+// How much of a sample should be provided, in pages
 const SAMPLE_SIZE = 5;
 // The PDF used to prepend to the sample
 const PREPEND_PDF = './prepend.pdf';
