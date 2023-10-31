@@ -6,6 +6,7 @@ This version will not overwrite
 const pdfSDK = require('@adobe/pdfservices-node-sdk');
 const fs = require('fs');
 const chalk = require('chalk');
+require('dotenv').config();
 
 (async ()=> {
 
@@ -52,14 +53,15 @@ const chalk = require('chalk');
 
 })();
 
-async function exportDoc(source, output, creds) {
+async function exportDoc(source, output) {
 
     return new Promise((resolve, reject) => {
 
-		const credentials =  pdfSDK.Credentials
-			.serviceAccountCredentialsBuilder()
-			.fromFile(creds)
-			.build();
+		const credentials = pdfSDK.Credentials
+         .servicePrincipalCredentialsBuilder()
+         .withClientId(process.env.CLIENT_ID)
+         .withClientSecret(process.env.CLIENT_SECRET)
+         .build()
 
 		const executionContext = pdfSDK.ExecutionContext.create(credentials),
 				exportPDF = pdfSDK.ExportPDF;
@@ -108,10 +110,11 @@ async function exportPDF(source, output, creds) {
 
     return new Promise((resolve, reject) => {
 
-		const credentials =  pdfSDK.Credentials
-			.serviceAccountCredentialsBuilder()
-			.fromFile(creds)
-			.build();
+		const credentials = pdfSDK.Credentials
+         .servicePrincipalCredentialsBuilder()
+         .withClientId(process.env.CLIENT_ID)
+         .withClientSecret(process.env.CLIENT_SECRET)
+         .build()
 
 		const executionContext = pdfSDK.ExecutionContext.create(credentials),
 				createPDF = pdfSDK.CreatePDF.Operation.createNew();
