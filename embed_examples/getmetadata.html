@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+ <title>Adobe Acrobat Services PDF Embed API Sample</title>
+ <meta charset="utf-8"/>
+ <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"/>
+ <meta id="viewport" name="viewport" content="width=device-width, initial-scale=1"/>
+</head>
+
+<body>
+	<div id="adobe-dc-view" style="width:500px; height: 500px"></div>
+
+	<h2>Metadata</h2>
+	<pre id="mdDisplay"></pre>
+
+	<script src="https://acrobatservices.adobe.com/view-sdk/viewer.js"></script>
+	<script type="text/javascript">
+	document.addEventListener("adobe_dc_view_sdk.ready", async function() {
+		var adobeDCView = new AdobeDC.View({clientId: "9861538238544ff39d37c6841344b78d", divId: "adobe-dc-view"});
+		let previewOb = await adobeDCView.previewFile({
+			content:   {location: {url: "../source_pdfs/pdf_with_protections.pdf"}},
+			metaData: {fileName: "protected.pdf"}
+		});
+
+		let apis = await previewOb.getAPIs();
+		let metadata = await apis.getPDFMetadata();
+		document.querySelector('#mdDisplay').innerHTML = JSON.stringify(metadata,null,'\t');
+
+	});
+	</script>
+</body>
+</html>
