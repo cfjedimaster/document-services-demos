@@ -1,0 +1,6 @@
+Adobe has a vendor security review program that evaluates vendors that collect, store, process, 
+transmit, or dispose of Adobe data outside of Adobe-controlled physical offices or data center 
+locations. The VSR program includes requirements for vendors to follow when handling sensitive 
+data and assigns a risk level score to vendors based on their compliance with Adobe standards. 
+If a vendor fails the VSR program, Adobe holds discussions with the business owner to understand 
+the details of the vendor's security practices and determine whether or not to continue working with them.
