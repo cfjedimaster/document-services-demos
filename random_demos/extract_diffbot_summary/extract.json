@@ -1,1 +1,4560 @@
-{"version": {"json_export": "193", "page_segmentation": "5", "schema": "1.1.0", "structure": "1.1074.0", "table_structure": "5"}, "extended_metadata": {"ID_instance": "37 92 F6 90 D7 B8 B2 11 0A 00 67 45 8B 6B C6 23 ", "ID_permanent": "32 41 20 31 34 20 45 42 20 39 30 20 44 37 20 42 38 20 42 32 20 31 31 20 30 41 20 30 30 20 36 37 20 34 35 20 38 42 20 36 42 20 43 36 20 32 33 20 ", "pdf_version": "1.6", "pdfa_compliance_level": "", "is_encrypted": false, "has_acroform": false, "is_digitally_signed": false, "pdfua_compliance_level": "", "page_count": 3, "has_embedded_files": false, "is_certified": false, "is_XFA": false, "language": "en"}, "elements": [{"Bounds": [44.62139892578125, 756.9429931640625, 245.0037841796875, 766.3184967041016], "Font": {"alt_family_name": "* Arial", "embedded": true, "encoding": "Identity-H", "family_name": "* Arial", "font_type": "CIDFontType0", "italic": false, "monospaced": false, "name": "*Arial-6539", "subset": false, "weight": 400}, "HasClip": false, "Lang": "en", "Page": 0, "Path": "//Document/Sect/P", "Text": "Adobe Vendor Security Review Program White Paper ", "TextSize": 8.5, "attributes": {"SpaceAfter": 18}}, {"Bounds": [0.0, 0.0, 630.0, 820.7799987792969], "ClipBounds": [548.72802734375, 739.1929931640625, 602.5444488525391, 820.7799987792969], "Page": 0, "Path": "//Document/Sect/Figure", "attributes": {"BBox": [548.9779999999737, 739.4429999999993, 587.61599999998, 790.920999999973], "Placement": "Block"}}, {"Bounds": [0.0, 0.0, 630.0, 820.7799987792969], "ClipBounds": [548.72802734375, 739.1929931640625, 602.5444488525391, 820.7799987792969], "Font": {"alt_family_name": "* Times New Roman", "embedded": true, "encoding": "Identity-H", "family_name": "* Times New Roman", "font_type": "CIDFontType0", "italic": false, "monospaced": false, "name": "*Times New Roman-Bold-6537", "subset": false, "weight": 700}, "HasClip": false, "Page": 0, "Path": "//Document/Sect/Figure", "Text": ", .., Adobe ", "TextSize": 18.0, "attributes": {"BBox": [548.9779999999737, 739.4429999999993, 587.61599999998, 790.920999999973], "Placement": "Block"}}, {"Bounds": [185.0399932861328, 634.2005004882812, 510.10943603515625, 655.0820007324219], "Font": {"alt_family_name": "* Arial", "embedded": true, "encoding": "Identity-H", "family_name": "* Arial", "font_type": "CIDFontType0", "italic": false, "monospaced": false, "name": "*Arial-Bold-6543", "subset": false, "weight": 700}, "HasClip": false, "Lang": "en", "Page": 0, "Path": "//Document/Sect/Title", "Text": "Adobe\u00aeVendor Security Review Program ", "TextSize": 18.5, "attributes": {"LineHeight": 22.25, "SpaceAfter": 14.625}}, {"Bounds": [184.8582000732422, 608.8079986572266, 239.6191864013672, 621.7799987792969], "Font": {"alt_family_name": "* Arial", "embedded": true, "encoding": "Identity-H", "family_name": "* Arial", "font_type": "CIDFontType0", "italic": false, "monospaced": false, "name": "*Arial-6540", "subset": false, "weight": 400}, "HasClip": false, "Lang": "en", "Page": 0, "Path": "//Document/Sect[2]/H1", "Text": "Overview ", "TextSize": 12.0, "attributes": {"LineHeight": 14.375}}, {"Bounds": [45.600006103515625, 493.0574951171875, 108.43504333496094, 499.0800018310547], "Font": {"alt_family_name": "* Arial", "embedded": true, "encoding": "Identity-H", "family_name": "* Arial", "font_type": "CIDFontType0", "italic": false, "monospaced": false, "name": "*Arial-Bold-6542", "subset": false, "weight": 700}, "HasClip": false, "Lang": "en", "Page": 0, "Path": "//Document/Sect[2]/P", "Text": "Table of Contents ", "TextSize": 7.5}, {"Bounds": [45.600006103515625, 479.8630065917969, 49.21759033203125, 489.2384948730469], "Font": {"alt_family_name": "* Arial", "embedded": true, "encoding": "Identity-H", "family_name": "* Arial", "font_type": "CIDFontType0", "italic": false, "monospaced": false, "name": "*Arial-6539", "subset": false, "weight": 400}, "HasClip": false, "Page": 0, "Path": "//Document/Sect[2]/L/LI/Lbl", "Text": "1 ", "TextSize": 8.5}, {"Bounds": [51.72599792480469, 479.7429962158203, 90.68144226074219, 489.1184997558594], "Font": {"alt_family_name": "* Arial", "embedded": true, "encoding": "Identity-H", "family_name": "* Arial", "font_type": "CIDFontType0", "italic": false, "monospaced": false, "name": "*Arial-6539", "subset": false, "weight": 400}, "HasClip": false, "Page": 0, "Path": "//Document/Sect[2]/L/LI/LBody", "Text": "Overview ", "TextSize": 8.5}, {"Bounds": [45.600006103515625, 468.88299560546875, 48.634490966796875, 478.2584991455078], "Font": {"alt_family_name": "* Arial", "embedded": true, "encoding": "Identity-H", "family_name": "* Arial", "font_type": "CIDFontType0", "italic": false, "monospaced": false, "name": "*Arial-6539", "subset": false, "weight": 400}, "HasClip": false, "Page": 0, "Path": "//Document/Sect[2]/L/LI[2]/Lbl", "Text": "1 ", "TextSize": 8.5}, {"Bounds": [50.160003662109375, 459.2259979248047, 133.18125915527344, 478.1385040283203], "Font": {"alt_family_name": "* Arial", "embedded": true, "encoding": "Identity-H", "family_name": "* Arial", "font_type": "CIDFontType0", "italic": false, "monospaced": false, "name": "*Arial-6539", "subset": false, "weight": 400}, "HasClip": false, "Page": 0, "Path": "//Document/Sect[2]/L/LI[2]/LBody", "Text": "Adobe Vendor Security Review {VSR) Process ", "TextSize": 8.5}, {"Bounds": [45.600006103515625, 448.2429962158203, 48.634490966796875, 457.6184997558594], "Font": {"alt_family_name": "* Arial", "embedded": true, "encoding": "Identity-H", "family_name": "* Arial", "font_type": "CIDFontType0", "italic": false, "monospaced": false, "name": "*Arial-6539", "subset": false, "weight": 400}, "HasClip": false, "Page": 0, "Path": "//Document/Sect[2]/L/LI[3]/Lbl", "Text": "1 ", "TextSize": 8.5}, {"Bounds": [51.839996337890625, 448.18299865722656, 116.05351257324219, 457.5585021972656], "Font": {"alt_family_name": "* Arial", "embedded": true, "encoding": "Identity-H", "family_name": "* Arial", "font_type": "CIDFontType0", "italic": false, "monospaced": false, "name": "*Arial-6539", "subset": false, "weight": 400}, "HasClip": false, "Page": 0, "Path": "//Document/Sect[2]/L/LI[3]/LBody", "Text": "Data Classification ", "TextSize": 8.5}, {"Bounds": [45.600006103515625, 437.14300537109375, 51.32704162597656, 446.51849365234375], "Font": {"alt_family_name": "* Arial", "embedded": true, "encoding": "Identity-H", "family_name": "* Arial", "font_type": "CIDFontType0", "italic": false, "monospaced": false, "name": "*Arial-6539", "subset": false, "weight": 400}, "HasClip": false, "Page": 0, "Path": "//Document/Sect[2]/L/LI[4]/Lbl", "Text": "4 ", "TextSize": 8.5}, {"Bounds": [56.399993896484375, 437.14300537109375, 130.58421325683594, 446.51849365234375], "Font": {"alt_family_name": "* Arial", "embedded": true, "encoding": "Identity-H", "family_name": "* Arial", "font_type": "CIDFontType0", "italic": false, "monospaced": false, "name": "*Arial-6539", "subset": false, "weight": 400}, "HasClip": false, "Page": 0, "Path": "//Document/Sect[2]/L/LI[4]/LBody", "Text": "VSR Security Controls ", "TextSize": 8.5}, {"Bounds": [45.839996337890625, 426.1029968261719, 51.314971923828125, 435.47850036621094], "Font": {"alt_family_name": "* Arial", "embedded": true, "encoding": "Identity-H", "family_name": "* Arial", "font_type": "CIDFontType0", "italic": false, "monospaced": false, "name": "*Arial-6539", "subset": false, "weight": 400}, "HasClip": false, "Page": 0, "Path": "//Document/Sect[2]/L/LI[5]/Lbl", "Text": "5 ", "TextSize": 8.5}, {"Bounds": [56.399993896484375, 406.6634979248047, 123.48707580566406, 435.47850036621094], "Font": {"alt_family_name": "* Arial", "embedded": true, "encoding": "Identity-H", "family_name": "* Arial", "font_type": "CIDFontType0", "italic": false, "monospaced": false, "name": "*Arial-6539", "subset": false, "weight": 400}, "HasClip": false, "Page": 0, "Path": "//Document/Sect[2]/L/LI[5]/LBody", "Text": "The Adobe Vendor Information Security Standard ", "TextSize": 8.5}, {"Bounds": [46.08000183105469, 395.6230010986328, 51.30110168457031, 404.9985046386719], "Font": {"alt_family_name": "* Arial", "embedded": true, "encoding": "Identity-H", "family_name": "* Arial", "font_type": "CIDFontType0", "italic": false, "monospaced": false, "name": "*Arial-6539", "subset": false, "weight": 400}, "HasClip": false, "Page": 0, "Path": "//Document/Sect[2]/L/LI[6]/Lbl", "Text": "5 ", "TextSize": 8.5}, {"Bounds": [56.399993896484375, 395.56300354003906, 127.16777038574219, 404.9385070800781], "Font": {"alt_family_name": "* Arial", "embedded": true, "encoding": "Identity-H", "family_name": "* Arial", "font_type": "CIDFontType0", "italic": false, "monospaced": false, "name": "*Arial-6539", "subset": false, "weight": 400}, "HasClip": false, "Page": 0, "Path": "//Document/Sect[2]/L/LI[6]/LBody", "Text": "Vendor Engagement ", "TextSize": 8.5}, {"Bounds": [45.839996337890625, 386.7519989013672, 51.483062744140625, 392.03700256347656], "Font": {"alt_family_name": "* Arial", "embedded": true, "encoding": "Identity-H", "family_name": "* Arial", "font_type": "CIDFontType0", "italic": true, "monospaced": false, "name": "*Arial-Italic-6541", "subset": false, "weight": 400}, "HasClip": false, "Page": 0, "Path": "//Document/Sect[2]/L/LI[7]/Lbl", "Text": "6 ", "TextSize": 7.0}, {"Bounds": [56.8800048828125, 384.5229949951172, 122.72946166992188, 393.89849853515625], "Font": {"alt_family_name": "* Arial", "embedded": true, "encoding": "Identity-H", "family_name": "* Arial", "font_type": "CIDFontType0", "italic": false, "monospaced": false, "name": "*Arial-6539", "subset": false, "weight": 400}, "HasClip": false, "Page": 0, "Path": "//Document/Sect[2]/L/LI[7]/LBody", "Text": "Privacy Assessment ", "TextSize": 8.5}, {"Bounds": [45.839996337890625, 373.5429992675781, 51.314971923828125, 382.9185028076172], "Font": {"alt_family_name": "* Arial", "embedded": true, "encoding": "Identity-H", "family_name": "* Arial", "font_type": "CIDFontType0", "italic": false, "monospaced": false, "name": "*Arial-6539", "subset": false, "weight": 400}, "HasClip": false, "Page": 0, "Path": "//Document/Sect[2]/L/LI[8]/Lbl", "Text": "6 ", "TextSize": 8.5}, {"Bounds": [56.8800048828125, 373.5429992675781, 115.98051452636719, 382.9185028076172], "Font": {"alt_family_name": "* Arial", "embedded": true, "encoding": "Identity-H", "family_name": "* Arial", "font_type": "CIDFontType0", "italic": false, "monospaced": false, "name": "*Arial-6539", "subset": false, "weight": 400}, "HasClip": false, "Page": 0, "Path": "//Document/Sect[2]/L/LI[8]/LBody", "Text": "Legal Obligations ", "TextSize": 8.5}, {"Bounds": [45.36000061035156, 362.5030059814453, 50.58110046386719, 371.8784942626953], "Font": {"alt_family_name": "* Arial", "embedded": true, "encoding": "Identity-H", "family_name": "* Arial", "font_type": "CIDFontType0", "italic": false, "monospaced": false, "name": "*Arial-6539", "subset": false, "weight": 400}, "HasClip": false, "Page": 0, "Path": "//Document/Sect[2]/L/LI[9]/Lbl", "Text": "7 ", "TextSize": 8.5}, {"Bounds": [56.8800048828125, 362.5030059814453, 95.5078125, 371.8784942626953], "Font": {"alt_family_name": "* Arial", "embedded": true, "encoding": "Identity-H", "family_name": "* Arial", "font_type": "CIDFontType0", "italic": false, "monospaced": false, "name": "*Arial-6539", "subset": false, "weight": 400}, "HasClip": false, "Page": 0, "Path": "//Document/Sect[2]/L/LI[9]/LBody", "Text": "Conclusion ", "TextSize": 8.5}, {"Bounds": [184.5, 543.5155029296875, 572.9459686279297, 602.0384979248047], "Font": {"alt_family_name": "* Arial", "embedded": true, "encoding": "Identity-H", "family_name": "* Arial", "font_type": "CIDFontType0", "italic": false, "monospaced": false, "name": "*Arial-6539", "subset": false, "weight": 400}, "HasClip": false, "Lang": "en", "Page": 0, "Path": "//Document/Sect[2]/P[2]", "Text": "Managed by the Adobe Information Security team, Adobe's vendor security review (VSR) program includes a set of requirements to which third-party vendors that collect, store, process, transmit, or dispose of Adobe Internal, Confidential, or Restricted data outside of Adobe-controlled physical offices or data center locations must adhere. Typical scenarios include vendors processing and storing Adobe data at their site, cloud services (e.g., Saas, PaaS, laaS, and XaaS), and data centers. ", "TextSize": 8.5, "attributes": {"SpaceAfter": 5.625}}, {"Bounds": [184.55859375, 488.8350067138672, 583.2221069335938, 534.9389953613281], "Font": {"alt_family_name": "* Arial", "embedded": true, "encoding": "Identity-H", "family_name": "* Arial", "font_type": "CIDFontType0", "italic": false, "monospaced": false, "name": "*Arial-6539", "subset": false, "weight": 400}, "HasClip": false, "Lang": "en", "Page": 0, "Path": "//Document/Sect[2]/P[3]", "Text": "The Adobe VSR program evaluates each vendor's compliance to Adobe's Vendor Information Security Standard, providing a risk-based review of the vendor's security practices and enabling Adobe managers to make fact-based decisions concerning whether or not to enter into a relationship with that vendor. ", "TextSize": 8.5, "attributes": {"SpaceAfter": 5.875}}, {"Bounds": [184.3159942626953, 397.06500244140625, 579.3908386230469, 480.06300354003906], "Font": {"alt_family_name": "* Arial", "embedded": true, "encoding": "Identity-H", "family_name": "* Arial", "font_type": "CIDFontType0", "italic": false, "monospaced": false, "name": "*Arial-6539", "subset": false, "weight": 400}, "HasClip": false, "Lang": "en", "Page": 0, "Path": "//Document/Sect[2]/P[4]", "Text": "The management of vendor relationships and their interactions with Adobe information and technologyresources is an essential element of information security. The VSR program is a logical extension of Adobe's belief that every action taken on or interaction with data should be conducted with a lens of security to help ensure the security, privacy, and availability of our customers' and employees' data, no matter where it is stored or processed, which is one of the key controls within the Adobe Common Controls Framework (CCF). With the VSR program, Adobe helps ensure that its culture of security extends to any vendor with whom the company does business. ", "TextSize": 8.5}, {"Bounds": [184.8000030517578, 368.0279998779297, 484.4060516357422, 381.0], "Font": {"alt_family_name": "* Arial", "embedded": true, "encoding": "Identity-H", "family_name": "* Arial", "font_type": "CIDFontType0", "italic": false, "monospaced": false, "name": "*Arial-6540", "subset": false, "weight": 400}, "HasClip": false, "Lang": "en", "Page": 0, "Path": "//Document/Sect[3]/H1", "Text": "Adobe Vendor Security Review (VSR) Program Process ", "TextSize": 12.0, "attributes": {"LineHeight": 14.375, "SpaceAfter": 4.625}}, {"Bounds": [184.55999755859375, 339.4642028808594, 574.7658538818359, 361.18170166015625], "Font": {"alt_family_name": "* Arial", "embedded": true, "encoding": "Identity-H", "family_name": "* Arial", "font_type": "CIDFontType0", "italic": false, "monospaced": false, "name": "*Arial-6539", "subset": false, "weight": 400}, "HasClip": false, "Lang": "en", "Page": 0, "Path": "//Document/Sect[3]/P", "Text": "The VSR program evaluates a third-party vendor's compliance with the Adobe Vendor Information Security Standard (described above). ", "TextSize": 8.5, "attributes": {"SpaceAfter": 5.625}}, {"Bounds": [184.5540008544922, 284.5639953613281, 567.9839935302734, 330.8385009765625], "Font": {"alt_family_name": "* Arial", "embedded": true, "encoding": "Identity-H", "family_name": "* Arial", "font_type": "CIDFontType0", "italic": false, "monospaced": false, "name": "*Arial-6539", "subset": false, "weight": 400}, "HasClip": false, "Lang": "en", "Page": 0, "Path": "//Document/Sect[3]/P[2]", "Text": "Business owners within Adobe that wish to enter into a relationship with a third-party vendor initiatethe process with a VSR request, which includes a description of the service provided by the vendor, whether the vendor will process Adobe data off-site, and the classification of the data the vendor intends to process. ", "TextSize": 8.5, "attributes": {"SpaceAfter": 5.5}}, {"Bounds": [184.80149841308594, 242.18569946289062, 550.8556518554688, 277.0791015625], "Font": {"alt_family_name": "* Arial", "embedded": true, "encoding": "Identity-H", "family_name": "* Arial", "font_type": "CIDFontType0", "italic": false, "monospaced": false, "name": "*Arial-6539", "subset": false, "weight": 400}, "HasClip": false, "Lang": "en", "Page": 0, "Path": "//Document/Sect[3]/P[3]", "Text": "Based on the information provided by the business owner, Adobe sends the main point of contactat the vendor a detailed questionnaire, including questions from each security control area (see VSR Security Controls section). ", "TextSize": 8.5, "attributes": {"SpaceAfter": 5.625}}, {"Bounds": [184.79200744628906, 138.34840393066406, 582.8944396972656, 233.63470458984375], "Font": {"alt_family_name": "* Arial", "embedded": true, "encoding": "Identity-H", "family_name": "* Arial", "font_type": "CIDFontType0", "italic": false, "monospaced": false, "name": "*Arial-6539", "subset": false, "weight": 400}, "HasClip": false, "Lang": "en", "Page": 0, "Path": "//Document/Sect[3]/P[4]", "Text": "After the vendor completes and returns the questionnaire, Adobe information security analysts review the information and perform a gap assessment. A vendor is assigned a risk level score of \"critical,\" \"high,\" \"medium,\" or \"low\" based upon a risk matrix used by our risk analysts. If Adobe finds any gaps in, or deviations from, Adobe security standards, a risk analyst holds discussions with the business owner to understand the details about the gap and to provide potential remediation suggestions. The analyst documents the recommended remediation and the actions to be performed by the vendor and/or the business owner. If necessary, risk analysts will meet directly with vendors to resolve more complex issues. ", "TextSize": 8.5}, {"Bounds": [185.52000427246094, 109.27290344238281, 286.5287628173828, 122.24490356445312], "Font": {"alt_family_name": "* Arial", "embedded": true, "encoding": "Identity-H", "family_name": "* Arial", "font_type": "CIDFontType0", "italic": false, "monospaced": false, "name": "*Arial-6540", "subset": false, "weight": 400}, "HasClip": false, "Lang": "en", "Page": 0, "Path": "//Document/Sect[4]/H1", "Text": "Data Classification ", "TextSize": 12.0, "attributes": {"LineHeight": 14.375, "SpaceAfter": 4.75}}, {"Bounds": [184.5574951171875, 31.568099975585938, 579.3262176513672, 102.53759765625], "Font": {"alt_family_name": "* Arial", "embedded": true, "encoding": "Identity-H", "family_name": "* Arial", "font_type": "CIDFontType0", "italic": false, "monospaced": false, "name": "*Arial-6539", "subset": false, "weight": 400}, "HasClip": false, "Lang": "en", "Page": 0, "Path": "//Document/Sect[4]/P", "Text": "Adobe developed the Adobe Data Classification and Handling Standard to aid in ensuring the security and privacy of all data that Adobe collects, processes, stores, uses, or otherwise handles regardless of whether the data is owned by Adobe or a third party, where the data is located (e.g., Adobe data center,colocation), or the type of hardware or media on which the data resides, whether paper or electronic (e.g., server, desktop, laptop, mobile device, USB flash drive). The standard establishes that all data ", "TextSize": 8.5}, {"Bounds": [184.67250061035156, 719.8399047851562, 536.2516479492188, 766.0204010009766], "Font": {"alt_family_name": "* Arial", "embedded": true, "encoding": "Identity-H", "family_name": "* Arial", "font_type": "CIDFontType0", "italic": false, "monospaced": false, "name": "*Arial-11622", "subset": false, "weight": 400}, "HasClip": false, "Lang": "en", "Page": 1, "Path": "//Document/Sect[4]/P[2]", "Text": "collected, processed, transmitted, stored, or destroyed by or on behalf of Adobe must be classified and then protected in accordance with its designated classification. The specific classifications in the standard define with whom employees can share Adobe data and determine where and how toshare, protect, and secure this data. ", "TextSize": 8.5}, {"Bounds": [184.57049560546875, 701.8368988037109, 515.8367767333984, 711.2209014892578], "Font": {"alt_family_name": "* Arial", "embedded": true, "encoding": "Identity-H", "family_name": "* Arial", "font_type": "CIDFontType0", "italic": false, "monospaced": false, "name": "*Arial-11622", "subset": false, "weight": 400}, "HasClip": false, "Lang": "en", "Page": 1, "Path": "//Document/Sect[4]/P[3]", "Text": "The Adobe Data Classification and Handling Standard includes four (4) classifications: ", "TextSize": 8.5}, {"Bounds": [0.0, 0.0, 630.0, 810.0], "ClipBounds": [184.4219970703125, 688.5549926757812, 191.8820037841797, 695.7749633789062], "Page": 1, "Path": "//Document/Sect[4]/L/LI/Lbl/Figure", "attributes": {"BBox": [184.67199999999866, 688.804999999993, 191.6319999999978, 695.5249999999942]}}, {"Bounds": [0.0, 0.0, 630.0, 810.0], "ClipBounds": [184.4219970703125, 688.5549926757812, 191.8820037841797, 695.7749633789062], "Page": 1, "Path": "//Document/Sect[4]/L/LI/Lbl/Figure", "attributes": {"BBox": [184.67199999999866, 688.804999999993, 191.6319999999978, 695.5249999999942]}}, {"Bounds": [192.08450317382812, 686.7153930664062, 262.75633239746094, 696.0993957519531], "Font": {"alt_family_name": "* Arial", "embedded": true, "encoding": "Identity-H", "family_name": "* Arial", "font_type": "CIDFontType0", "italic": false, "monospaced": false, "name": "*Arial-11622", "subset": false, "weight": 400}, "HasClip": false, "Page": 1, "Path": "//Document/Sect[4]/L/LI/LBody", "Text": "Adobe Restricted ", "TextSize": 8.5}, {"Bounds": [0.0, 0.0, 630.0, 810.0], "ClipBounds": [184.4219970703125, 670.3159790039062, 191.8820037841797, 677.7760009765625], "Page": 1, "Path": "//Document/Sect[4]/L/LI[2]/Lbl/Figure", "attributes": {"BBox": [184.67199999999866, 670.5659999999916, 191.6319999999978, 677.5249999999942]}}, {"Bounds": [0.0, 0.0, 630.0, 810.0], "ClipBounds": [184.4219970703125, 670.3159790039062, 191.8820037841797, 677.7760009765625], "Page": 1, "Path": "//Document/Sect[4]/L/LI[2]/Lbl/Figure", "attributes": {"BBox": [184.67199999999866, 670.5659999999916, 191.6319999999978, 677.5249999999942]}}, {"Bounds": [191.76150512695312, 668.5594024658203, 270.9207305908203, 677.9434051513672], "Font": {"alt_family_name": "* Arial", "embedded": true, "encoding": "Identity-H", "family_name": "* Arial", "font_type": "CIDFontType0", "italic": false, "monospaced": false, "name": "*Arial-11622", "subset": false, "weight": 400}, "HasClip": false, "Page": 1, "Path": "//Document/Sect[4]/L/LI[2]/LBody", "Text": "Adobe Confidential ", "TextSize": 8.5}, {"Bounds": [0.0, 0.0, 630.0, 810.0], "ClipBounds": [184.1820068359375, 652.3159790039062, 191.8820037841797, 659.7760009765625], "Page": 1, "Path": "//Document/Sect[4]/L/LI[3]/Lbl/Figure", "attributes": {"BBox": [184.43199999999342, 652.5659999999916, 191.6319999999978, 659.5259999999835]}}, {"Bounds": [0.0, 0.0, 630.0, 810.0], "ClipBounds": [184.1820068359375, 652.3159790039062, 191.8820037841797, 659.7760009765625], "Page": 1, "Path": "//Document/Sect[4]/L/LI[3]/Lbl/Figure", "attributes": {"BBox": [184.43199999999342, 652.5659999999916, 191.6319999999978, 659.5259999999835]}}, {"Bounds": [191.76150512695312, 650.5733947753906, 253.85025024414062, 659.9573974609375], "Font": {"alt_family_name": "* Arial", "embedded": true, "encoding": "Identity-H", "family_name": "* Arial", "font_type": "CIDFontType0", "italic": false, "monospaced": false, "name": "*Arial-11622", "subset": false, "weight": 400}, "HasClip": false, "Page": 1, "Path": "//Document/Sect[4]/L/LI[3]/LBody", "Text": "Adobe Internal ", "TextSize": 8.5}, {"Bounds": [0.0, 0.0, 630.0, 810.0], "ClipBounds": [184.78199768066406, 634.3170166015625, 192.36199951171875, 641.5369873046875], "Page": 1, "Path": "//Document/Sect[4]/L/LI[4]/Lbl/Figure", "attributes": {"BBox": [185.03199999999924, 634.5669999999809, 192.1119999999937, 641.2869999999821]}}, {"Bounds": [0.0, 0.0, 630.0, 810.0], "ClipBounds": [184.78199768066406, 634.3170166015625, 192.36199951171875, 641.5369873046875], "Page": 1, "Path": "//Document/Sect[4]/L/LI[4]/Lbl/Figure", "attributes": {"BBox": [185.03199999999924, 634.5669999999809, 192.1119999999937, 641.2869999999821]}}, {"Bounds": [192.24600219726562, 632.4853973388672, 218.7928009033203, 641.8694000244141], "Font": {"alt_family_name": "* Arial", "embedded": true, "encoding": "Identity-H", "family_name": "* Arial", "font_type": "CIDFontType0", "italic": false, "monospaced": false, "name": "*Arial-11622", "subset": false, "weight": 400}, "HasClip": false, "Page": 1, "Path": "//Document/Sect[4]/L/LI[4]/LBody", "Text": "Public ", "TextSize": 8.5}, {"Bounds": [184.53399658203125, 575.0717926025391, 544.5558929443359, 622.1217956542969], "Font": {"alt_family_name": "* Arial", "embedded": true, "encoding": "Identity-H", "family_name": "* Arial", "font_type": "CIDFontType0", "italic": false, "monospaced": false, "name": "*Arial-11622", "subset": false, "weight": 400}, "HasClip": false, "Lang": "en", "Page": 1, "Path": "//Document/Sect[4]/P[4]", "Text": "A VSR is required for all third-party vendors that store or process data classified as Adobe Restricted, Confidential, or Internal off-premise (not at Adobe). Depending on the classification of the data handled by the vendor, a new VSR is required either annually or bi\u00adannually (see Recertification section). ", "TextSize": 8.5, "attributes": {"SpaceAfter": 5.875}}, {"Bounds": [184.55099487304688, 532.4187927246094, 547.1853790283203, 566.4273071289062], "Font": {"alt_family_name": "* Arial", "embedded": true, "encoding": "Identity-H", "family_name": "* Arial", "font_type": "CIDFontType0", "italic": false, "monospaced": false, "name": "*Arial-11622", "subset": false, "weight": 400}, "HasClip": false, "Lang": "en", "Page": 1, "Path": "//Document/Sect[4]/P[5]", "Text": "Each data classification includes specific protection and handling requirements, and if data falls into multiple classifications, it must be protected in accordance with the most restrictive classification. ", "TextSize": 8.5, "attributes": {"SpaceAfter": 5.75}}, {"Bounds": [184.79750061035156, 489.8580017089844, 553.7337341308594, 523.7913055419922], "Font": {"alt_family_name": "* Arial", "embedded": true, "encoding": "Identity-H", "family_name": "* Arial", "font_type": "CIDFontType0", "italic": false, "monospaced": false, "name": "*Arial-11622", "subset": false, "weight": 400}, "HasClip": false, "Lang": "en", "Page": 1, "Path": "//Document/Sect[4]/P[6]", "Text": "Any business owner requesting an exception to the Data Classification and Handling Standard mustsubmit a request in writing to the appropriate management personnel for review and approval. ", "TextSize": 8.5, "attributes": {"SpaceAfter": 5.5}}, {"Bounds": [184.78799438476562, 447.2899932861328, 561.4839782714844, 481.3580017089844], "Font": {"alt_family_name": "* Arial", "embedded": true, "encoding": "Identity-H", "family_name": "* Arial", "font_type": "CIDFontType0", "italic": false, "monospaced": false, "name": "*Arial-11622", "subset": false, "weight": 400}, "HasClip": false, "Lang": "en", "Page": 1, "Path": "//Document/Sect[4]/P[7]", "Text": "If Adobe finds that data that should be classified as Adobe Restricted or Adobe Confidential has been handled incorrectly, either due to incorrect classification or negligence in its handling, Adobe may take disciplinary action against the offender. ", "TextSize": 8.5}, {"Bounds": [184.8000030517578, 425.843994140625, 299.0189514160156, 434.28599548339844], "Font": {"alt_family_name": "* Arial", "embedded": true, "encoding": "Identity-H", "family_name": "* Arial", "font_type": "CIDFontType0", "italic": false, "monospaced": false, "name": "*Arial-Bold-11624", "subset": false, "weight": 700}, "HasClip": false, "Lang": "en", "Page": 1, "Path": "//Document/Sect[4]/Sect/H2", "Text": "Adobe Restricted Data ", "TextSize": 10.5, "attributes": {"SpaceAfter": 3}}, {"Bounds": [184.31199645996094, 359.27720642089844, 565.3503875732422, 417.7657012939453], "Font": {"alt_family_name": "* Arial", "embedded": true, "encoding": "Identity-H", "family_name": "* Arial", "font_type": "CIDFontType0", "italic": true, "monospaced": false, "name": "*Arial-Italic-11623", "subset": false, "weight": 400}, "HasClip": false, "Lang": "en", "Page": 1, "Path": "//Document/Sect[4]/Sect/P", "Text": "Adobe Restricted data is the most restrictive classification and requires the most care; only very limited segments of the Adobe workforce need access to Adobe Restricted data to perform their jobs. Unauthorized disclosure of Adobe Restricted data could cause severe harm to Adobe, its employees, customers, stockholders, or business partners. Adobe Restricted data includes the following: ", "TextSize": 9.0}, {"Bounds": [0.0, 0.0, 630.0, 810.0], "ClipBounds": [184.66200256347656, 343.9289855957031, 192.12200927734375, 353.5489807128906], "Page": 1, "Path": "//Document/Sect[4]/Sect/L/LI/Lbl/Figure", "attributes": {"BBox": [184.91199999999662, 344.1789999999892, 191.87199999999575, 353.29899999999907]}}, {"Bounds": [0.0, 0.0, 630.0, 810.0], "ClipBounds": [184.66200256347656, 343.9289855957031, 192.12200927734375, 353.5489807128906], "Page": 1, "Path": "//Document/Sect[4]/Sect/L/LI/Lbl/Figure", "attributes": {"BBox": [184.91199999999662, 344.1789999999892, 191.87199999999575, 353.29899999999907]}}, {"Bounds": [192.00450134277344, 344.1811981201172, 361.9842987060547, 353.56520080566406], "Font": {"alt_family_name": "* Arial", "embedded": true, "encoding": "Identity-H", "family_name": "* Arial", "font_type": "CIDFontType0", "italic": false, "monospaced": false, "name": "*Arial-11622", "subset": false, "weight": 400}, "HasClip": false, "Page": 1, "Path": "//Document/Sect[4]/Sect/L/LI/LBody", "Text": "Cardholder data, as defined by the PCI DSS ", "TextSize": 8.5}, {"Bounds": [0.0, 0.0, 630.0, 810.0], "ClipBounds": [184.54200744628906, 328.0899963378906, 192.3620147705078, 335.30999755859375], "Page": 1, "Path": "//Document/Sect[4]/Sect/L/LI[2]/Lbl/Figure", "attributes": {"BBox": [184.791999999994, 328.3399999999965, 192.1119999999937, 335.05899999999383]}}, {"Bounds": [0.0, 0.0, 630.0, 810.0], "ClipBounds": [184.54200744628906, 328.0899963378906, 192.3620147705078, 335.30999755859375], "Page": 1, "Path": "//Document/Sect[4]/Sect/L/LI[2]/Lbl/Figure", "attributes": {"BBox": [184.791999999994, 328.3399999999965, 192.1119999999937, 335.05899999999383]}}, {"Bounds": [192.25950622558594, 326.2377014160156, 284.5728454589844, 335.6217041015625], "Font": {"alt_family_name": "* Arial", "embedded": true, "encoding": "Identity-H", "family_name": "* Arial", "font_type": "CIDFontType0", "italic": false, "monospaced": false, "name": "*Arial-11622", "subset": false, "weight": 400}, "HasClip": false, "Page": 1, "Path": "//Document/Sect[4]/Sect/L/LI[2]/LBody", "Text": "Bank account numbers ", "TextSize": 8.5}, {"Bounds": [0.0, 0.0, 630.0, 810.0], "ClipBounds": [184.66200256347656, 307.69000244140625, 191.8820037841797, 317.30999755859375], "Page": 1, "Path": "//Document/Sect[4]/Sect/L/LI[3]/Lbl/Figure", "attributes": {"BBox": [184.91199999999662, 307.9399999999878, 191.6319999999978, 317.0599999999977]}}, {"Bounds": [0.0, 0.0, 630.0, 810.0], "ClipBounds": [184.66200256347656, 307.69000244140625, 191.8820037841797, 317.30999755859375], "Page": 1, "Path": "//Document/Sect[4]/Sect/L/LI[3]/Lbl/Figure", "attributes": {"BBox": [184.91199999999662, 307.9399999999878, 191.6319999999978, 317.0599999999977]}}, {"Bounds": [191.77499389648438, 308.158203125, 489.9954376220703, 317.5422058105469], "Font": {"alt_family_name": "* Arial", "embedded": true, "encoding": "Identity-H", "family_name": "* Arial", "font_type": "CIDFontType0", "italic": false, "monospaced": false, "name": "*Arial-11622", "subset": false, "weight": 400}, "HasClip": false, "Page": 1, "Path": "//Document/Sect[4]/Sect/L/LI[3]/LBody", "Text": "Social Security and taxpayer identification numbers relating to an individual ", "TextSize": 8.5}, {"Bounds": [0.0, 0.0, 630.0, 810.0], "ClipBounds": [184.1820068359375, 289.6910095214844, 192.36199951171875, 299.3110046386719], "Page": 1, "Path": "//Document/Sect[4]/Sect/L/LI[4]/Lbl/Figure", "attributes": {"BBox": [184.43199999999342, 289.9409999999916, 192.1119999999937, 299.06099999998696]}}, {"Bounds": [0.0, 0.0, 630.0, 810.0], "ClipBounds": [184.1820068359375, 289.6910095214844, 192.36199951171875, 299.3110046386719], "Page": 1, "Path": "//Document/Sect[4]/Sect/L/LI[4]/Lbl/Figure", "attributes": {"BBox": [184.43199999999342, 289.9409999999916, 192.1119999999937, 299.06099999998696]}}, {"Bounds": [191.86000061035156, 277.7536926269531, 520.9809875488281, 299.3182067871094], "Font": {"alt_family_name": "* Arial", "embedded": true, "encoding": "Identity-H", "family_name": "* Arial", "font_type": "CIDFontType0", "italic": false, "monospaced": false, "name": "*Arial-11622", "subset": false, "weight": 400}, "HasClip": false, "Page": 1, "Path": "//Document/Sect[4]/Sect/L/LI[4]/LBody", "Text": "Driver's license numbers or identification card number used to verify an individual's identity(state, military, student, voter, tribal, operator's number, etc.) ", "TextSize": 8.5}, {"Bounds": [0.0, 0.0, 630.0, 810.0], "ClipBounds": [183.822998046875, 259.4519958496094, 192.3629913330078, 269.0719909667969], "Page": 1, "Path": "//Document/Sect[4]/Sect/L/LI[5]/Lbl/Figure", "attributes": {"BBox": [184.07299999999668, 259.7019999999902, 192.1119999999937, 268.82199999998556]}}, {"Bounds": [0.0, 0.0, 630.0, 810.0], "ClipBounds": [183.822998046875, 259.4519958496094, 192.3629913330078, 269.0719909667969], "Page": 1, "Path": "//Document/Sect[4]/Sect/L/LI[5]/Lbl/Figure", "attributes": {"BBox": [184.07299999999668, 259.7019999999902, 192.1119999999937, 268.82199999998556]}}, {"Bounds": [192.25950622558594, 259.7507019042969, 276.5856628417969, 269.13470458984375], "Font": {"alt_family_name": "* Arial", "embedded": true, "encoding": "Identity-H", "family_name": "* Arial", "font_type": "CIDFontType0", "italic": false, "monospaced": false, "name": "*Arial-11622", "subset": false, "weight": 400}, "HasClip": false, "Page": 1, "Path": "//Document/Sect[4]/Sect/L/LI[5]/LBody", "Text": "Passport information ", "TextSize": 8.5}, {"Bounds": [0.0, 0.0, 630.0, 810.0], "ClipBounds": [184.06199645996094, 241.4530029296875, 192.1219940185547, 250.8330078125], "Page": 1, "Path": "//Document/Sect[4]/Sect/L/LI[6]/Lbl/Figure", "attributes": {"BBox": [184.31299999999464, 241.70299999999406, 191.87199999999575, 250.58299999999872]}}, {"Bounds": [0.0, 0.0, 630.0, 810.0], "ClipBounds": [184.06199645996094, 241.4530029296875, 192.1219940185547, 250.8330078125], "Page": 1, "Path": "//Document/Sect[4]/Sect/L/LI[6]/Lbl/Figure", "attributes": {"BBox": [184.31299999999464, 241.70299999999406, 191.87199999999575, 250.58299999999872]}}, {"Bounds": [192.02149963378906, 229.51620483398438, 549.0724487304688, 250.97019958496094], "Font": {"alt_family_name": "* Arial", "embedded": true, "encoding": "Identity-H", "family_name": "* Arial", "font_type": "CIDFontType0", "italic": false, "monospaced": false, "name": "*Arial-11622", "subset": false, "weight": 400}, "HasClip": false, "Page": 1, "Path": "//Document/Sect[4]/Sect/L/LI[6]/LBody", "Text": "Credential stores used to authenticate Adobe users or employees, such as Active Directory {butnot including personal password managers, such as Splash ID) ", "TextSize": 8.5}, {"Bounds": [0.0, 0.0, 630.0, 810.0], "ClipBounds": [183.58299255371094, 211.21400451660156, 192.12298583984375, 220.59400939941406], "Page": 1, "Path": "//Document/Sect[4]/Sect/L/LI[7]/Lbl/Figure", "attributes": {"BBox": [183.83299999999872, 211.46399999999994, 191.87199999999575, 220.34399999999732]}}, {"Bounds": [0.0, 0.0, 630.0, 810.0], "ClipBounds": [183.58299255371094, 211.21400451660156, 192.12298583984375, 220.59400939941406], "Page": 1, "Path": "//Document/Sect[4]/Sect/L/LI[7]/Lbl/Figure", "attributes": {"BBox": [183.83299999999872, 211.46399999999994, 191.87199999999575, 220.34399999999732]}}, {"Bounds": [192.02999877929688, 186.8632049560547, 539.0001983642578, 220.89720153808594], "Font": {"alt_family_name": "* Arial", "embedded": true, "encoding": "Identity-H", "family_name": "* Arial", "font_type": "CIDFontType0", "italic": false, "monospaced": false, "name": "*Arial-11622", "subset": false, "weight": 400}, "HasClip": false, "Page": 1, "Path": "//Document/Sect[4]/Sect/L/LI[7]/LBody", "Text": "Credentials, secrets, tokens, or keys permitting access to systems storing Restricted data or permitting decryption of Restricted data (e.g., identity management systems, deployment systems, or secret stores) ", "TextSize": 8.5}, {"Bounds": [0.0, 0.0, 630.0, 810.0], "ClipBounds": [184.06199645996094, 168.49600219726562, 192.36199951171875, 178.11599731445312], "Page": 1, "Path": "//Document/Sect[4]/Sect/L/LI[8]/Lbl/Figure", "attributes": {"BBox": [184.31299999999464, 168.74599999999919, 192.1119999999937, 177.86599999999453]}}, {"Bounds": [0.0, 0.0, 630.0, 810.0], "ClipBounds": [184.06199645996094, 168.49600219726562, 192.36199951171875, 178.11599731445312], "Page": 1, "Path": "//Document/Sect[4]/Sect/L/LI[8]/Lbl/Figure", "attributes": {"BBox": [184.31299999999464, 168.74599999999919, 192.1119999999937, 177.86599999999453]}}, {"Bounds": [192.28500366210938, 168.877197265625, 392.76300048828125, 179.22520446777344], "Font": {"alt_family_name": "* Arial", "embedded": true, "encoding": "Identity-H", "family_name": "* Arial", "font_type": "CIDFontType0", "italic": false, "monospaced": false, "name": "*Arial-11622", "subset": false, "weight": 400}, "HasClip": false, "Page": 1, "Path": "//Document/Sect[4]/Sect/L/LI[8]/LBody", "Text": "Digital certificates used for signing Adobe software ", "TextSize": 8.5}, {"Bounds": [0.0, 0.0, 630.0, 810.0], "ClipBounds": [183.7030029296875, 150.4969940185547, 192.36300659179688, 160.35699462890625], "Page": 1, "Path": "//Document/Sect[4]/Sect/L/LI[9]/Lbl/Figure", "attributes": {"BBox": [183.95299999999406, 150.74699999999575, 192.1119999999937, 160.10599999999977]}}, {"Bounds": [0.0, 0.0, 630.0, 810.0], "ClipBounds": [183.7030029296875, 150.4969940185547, 192.36300659179688, 160.35699462890625], "Page": 1, "Path": "//Document/Sect[4]/Sect/L/LI[9]/Lbl/Figure", "attributes": {"BBox": [183.95299999999406, 150.74699999999575, 192.1119999999937, 160.10599999999977]}}, {"Bounds": [192.23599243164062, 150.91270446777344, 549.0762786865234, 160.2967071533203], "Font": {"alt_family_name": "* Arial", "embedded": true, "encoding": "Identity-H", "family_name": "* Arial", "font_type": "CIDFontType0", "italic": false, "monospaced": false, "name": "*Arial-11622", "subset": false, "weight": 400}, "HasClip": false, "Page": 1, "Path": "//Document/Sect[4]/Sect/L/LI[9]/LBody", "Text": "Medical or health information, including electronically protected health information (ePHI) ", "TextSize": 8.5}, {"Bounds": [0.0, 0.0, 630.0, 810.0], "ClipBounds": [184.06199645996094, 132.4980010986328, 192.36199951171875, 142.1179962158203], "Page": 1, "Path": "//Document/Sect[4]/Sect/L/LI[10]/Lbl/Figure", "attributes": {"BBox": [184.31299999999464, 132.7479999999996, 192.1119999999937, 141.86699999999837]}}, {"Bounds": [0.0, 0.0, 630.0, 810.0], "ClipBounds": [184.06199645996094, 132.4980010986328, 192.36199951171875, 142.1179962158203], "Page": 1, "Path": "//Document/Sect[4]/Sect/L/LI[10]/Lbl/Figure", "attributes": {"BBox": [184.31299999999464, 132.7479999999996, 192.1119999999937, 141.86699999999837]}}, {"Bounds": [192.2274932861328, 132.84170532226562, 357.7143096923828, 142.22569274902344], "Font": {"alt_family_name": "* Arial", "embedded": true, "encoding": "Identity-H", "family_name": "* Arial", "font_type": "CIDFontType0", "italic": false, "monospaced": false, "name": "*Arial-11622", "subset": false, "weight": 400}, "HasClip": false, "Page": 1, "Path": "//Document/Sect[4]/Sect/L/LI[10]/LBody", "Text": "Federal classified or intelligence contracts ", "TextSize": 8.5}, {"Bounds": [0.0, 0.0, 630.0, 810.0], "ClipBounds": [184.54200744628906, 114.49800109863281, 191.8820037841797, 124.35800170898438], "Page": 1, "Path": "//Document/Sect[4]/Sect/L/LI[11]/Lbl/Figure", "attributes": {"BBox": [184.791999999994, 114.74799999999959, 191.6319999999978, 124.10799999999654]}}, {"Bounds": [0.0, 0.0, 630.0, 810.0], "ClipBounds": [184.54200744628906, 114.49800109863281, 191.8820037841797, 124.35800170898438], "Page": 1, "Path": "//Document/Sect[4]/Sect/L/LI[11]/Lbl/Figure", "attributes": {"BBox": [184.791999999994, 114.74799999999959, 191.6319999999978, 124.10799999999654]}}, {"Bounds": [191.75999450683594, 102.47970581054688, 485.2201690673828, 124.18020629882812], "Font": {"alt_family_name": "* Arial", "embedded": true, "encoding": "Identity-H", "family_name": "* Arial", "font_type": "CIDFontType0", "italic": false, "monospaced": false, "name": "*Arial-11622", "subset": false, "weight": 400}, "HasClip": false, "Page": 1, "Path": "//Document/Sect[4]/Sect/L/LI[11]/LBody", "Text": "Security question response (including mother's maiden name) or Personal Identification Number (PIN) ", "TextSize": 8.5}, {"Bounds": [0.0, 0.0, 630.0, 810.0], "ClipBounds": [184.78199768066406, 84.260009765625, 192.36199951171875, 93.63999938964844], "Page": 1, "Path": "//Document/Sect[4]/Sect/L/LI[12]/Lbl/Figure", "attributes": {"BBox": [185.03199999999924, 84.50949999999648, 192.1119999999937, 93.3891999999978]}}, {"Bounds": [0.0, 0.0, 630.0, 810.0], "ClipBounds": [184.78199768066406, 84.260009765625, 192.36199951171875, 93.63999938964844], "Page": 1, "Path": "//Document/Sect[4]/Sect/L/LI[12]/Lbl/Figure", "attributes": {"BBox": [185.03199999999924, 84.50949999999648, 192.1119999999937, 93.3891999999978]}}, {"Bounds": [192.2530059814453, 84.55320739746094, 305.5239562988281, 93.93719482421875], "Font": {"alt_family_name": "* Arial", "embedded": true, "encoding": "Identity-H", "family_name": "* Arial", "font_type": "CIDFontType0", "italic": false, "monospaced": false, "name": "*Arial-11622", "subset": false, "weight": 400}, "HasClip": false, "Page": 1, "Path": "//Document/Sect[4]/Sect/L/LI[12]/LBody", "Text": "Private key digital signatures ", "TextSize": 8.5}, {"Bounds": [0.0, 0.0, 630.0, 810.0], "ClipBounds": [184.302001953125, 68.18000793457031, 192.36199951171875, 75.63999938964844], "Page": 1, "Path": "//Document/Sect[4]/Sect/L/LI[13]/Lbl/Figure", "attributes": {"BBox": [184.55199999999604, 68.43019999999888, 192.1119999999937, 75.3898999999983]}}, {"Bounds": [0.0, 0.0, 630.0, 810.0], "ClipBounds": [184.302001953125, 68.18000793457031, 192.36199951171875, 75.63999938964844], "Page": 1, "Path": "//Document/Sect[4]/Sect/L/LI[13]/Lbl/Figure", "attributes": {"BBox": [184.55199999999604, 68.43019999999888, 192.1119999999937, 75.3898999999983]}}, {"Bounds": [192.26150512695312, 66.38870239257812, 280.6277618408203, 75.772705078125], "Font": {"alt_family_name": "* Arial", "embedded": true, "encoding": "Identity-H", "family_name": "* Arial", "font_type": "CIDFontType0", "italic": false, "monospaced": false, "name": "*Arial-11622", "subset": false, "weight": 400}, "HasClip": false, "Page": 1, "Path": "//Document/Sect[4]/Sect/L/LI[13]/LBody", "Text": "Biometric information ", "TextSize": 8.5}, {"Bounds": [0.0, 0.0, 630.0, 810.0], "ClipBounds": [184.4219970703125, 758.3920288085938, 192.1219940185547, 765.85205078125], "Page": 2, "Path": "//Document/Sect[4]/Sect/L/LI[14]/Lbl/Figure", "attributes": {"BBox": [184.67199999999866, 758.6419999999925, 191.87199999999575, 765.6019999999844]}}, {"Bounds": [0.0, 0.0, 630.0, 810.0], "ClipBounds": [184.4219970703125, 758.3920288085938, 192.1219940185547, 765.85205078125], "Page": 2, "Path": "//Document/Sect[4]/Sect/L/LI[14]/Lbl/Figure", "attributes": {"BBox": [184.67199999999866, 758.6419999999925, 191.87199999999575, 765.6019999999844]}}, {"Bounds": [192.0, 756.6331939697266, 272.8689422607422, 766.0171966552734], "Font": {"alt_family_name": "* Arial", "embedded": true, "encoding": "Identity-H", "family_name": "* Arial", "font_type": "CIDFontType0", "italic": false, "monospaced": false, "name": "*Arial-16669", "subset": false, "weight": 400}, "HasClip": false, "Page": 2, "Path": "//Document/Sect[4]/Sect/L/LI[14]/LBody", "Text": "Genetic information ", "TextSize": 8.5}, {"Bounds": [0.0, 0.0, 630.0, 810.0], "ClipBounds": [184.54200744628906, 738.2329711914062, 192.3620147705078, 747.6129760742188], "Page": 2, "Path": "//Document/Sect[4]/Sect/L/LI[15]/Lbl/Figure", "attributes": {"BBox": [184.791999999994, 738.4829999999783, 192.1119999999937, 747.362999999983]}}, {"Bounds": [0.0, 0.0, 630.0, 810.0], "ClipBounds": [184.54200744628906, 738.2329711914062, 192.3620147705078, 747.6129760742188], "Page": 2, "Path": "//Document/Sect[4]/Sect/L/LI[15]/Lbl/Figure", "attributes": {"BBox": [184.791999999994, 738.4829999999783, 192.1119999999937, 747.362999999983]}}, {"Bounds": [192.2465057373047, 738.5706939697266, 242.89271545410156, 747.9546966552734], "Font": {"alt_family_name": "* Arial", "embedded": true, "encoding": "Identity-H", "family_name": "* Arial", "font_type": "CIDFontType0", "italic": false, "monospaced": false, "name": "*Arial-16669", "subset": false, "weight": 400}, "HasClip": false, "Page": 2, "Path": "//Document/Sect[4]/Sect/L/LI[15]/LBody", "Text": "Racial origin ", "TextSize": 8.5}, {"Bounds": [0.0, 0.0, 630.0, 810.0], "ClipBounds": [184.66200256347656, 720.2340087890625, 192.36199951171875, 729.614013671875], "Page": 2, "Path": "//Document/Sect[4]/Sect/L/LI[16]/Lbl/Figure", "attributes": {"BBox": [184.91199999999662, 720.4839999999967, 192.1119999999937, 729.362999999983]}}, {"Bounds": [0.0, 0.0, 630.0, 810.0], "ClipBounds": [184.66200256347656, 720.2340087890625, 192.36199951171875, 729.614013671875], "Page": 2, "Path": "//Document/Sect[4]/Sect/L/LI[16]/Lbl/Figure", "attributes": {"BBox": [184.91199999999662, 720.4839999999967, 192.1119999999937, 729.362999999983]}}, {"Bounds": [191.78750610351562, 720.5081939697266, 242.89688110351562, 729.8921966552734], "Font": {"alt_family_name": "* Arial", "embedded": true, "encoding": "Identity-H", "family_name": "* Arial", "font_type": "CIDFontType0", "italic": false, "monospaced": false, "name": "*Arial-16669", "subset": false, "weight": 400}, "HasClip": false, "Page": 2, "Path": "//Document/Sect[4]/Sect/L/LI[16]/LBody", "Text": "Ethnic origin ", "TextSize": 8.5}, {"Bounds": [0.0, 0.0, 630.0, 810.0], "ClipBounds": [184.90199279785156, 702.2340087890625, 192.36199951171875, 711.614013671875], "Page": 2, "Path": "//Document/Sect[4]/Sect/L/LI[17]/Lbl/Figure", "attributes": {"BBox": [185.1519999999946, 702.4839999999967, 192.1119999999937, 711.3639999999723]}}, {"Bounds": [0.0, 0.0, 630.0, 810.0], "ClipBounds": [184.90199279785156, 702.2340087890625, 192.36199951171875, 711.614013671875], "Page": 2, "Path": "//Document/Sect[4]/Sect/L/LI[17]/Lbl/Figure", "attributes": {"BBox": [185.1519999999946, 702.4839999999967, 192.1119999999937, 711.3639999999723]}}, {"Bounds": [192.2550048828125, 702.4201965332031, 261.42356872558594, 711.80419921875], "Font": {"alt_family_name": "* Arial", "embedded": true, "encoding": "Identity-H", "family_name": "* Arial", "font_type": "CIDFontType0", "italic": false, "monospaced": false, "name": "*Arial-16669", "subset": false, "weight": 400}, "HasClip": false, "Page": 2, "Path": "//Document/Sect[4]/Sect/L/LI[17]/LBody", "Text": "Political opinions ", "TextSize": 8.5}, {"Bounds": [0.0, 0.0, 630.0, 810.0], "ClipBounds": [184.90199279785156, 683.9949951171875, 192.36199951171875, 693.614990234375], "Page": 2, "Path": "//Document/Sect[4]/Sect/L/LI[18]/Lbl/Figure", "attributes": {"BBox": [185.1519999999946, 684.2449999999953, 192.1119999999937, 693.3649999999907]}}, {"Bounds": [0.0, 0.0, 630.0, 810.0], "ClipBounds": [184.90199279785156, 683.9949951171875, 192.36199951171875, 693.614990234375], "Page": 2, "Path": "//Document/Sect[4]/Sect/L/LI[18]/Lbl/Figure", "attributes": {"BBox": [185.1519999999946, 684.2449999999953, 192.1119999999937, 693.3649999999907]}}, {"Bounds": [192.2550048828125, 684.3661956787109, 257.74729919433594, 693.7501983642578], "Font": {"alt_family_name": "* Arial", "embedded": true, "encoding": "Identity-H", "family_name": "* Arial", "font_type": "CIDFontType0", "italic": false, "monospaced": false, "name": "*Arial-16669", "subset": false, "weight": 400}, "HasClip": false, "Page": 2, "Path": "//Document/Sect[4]/Sect/L/LI[18]/LBody", "Text": "Religious beliefs ", "TextSize": 8.5}, {"Bounds": [0.0, 0.0, 630.0, 810.0], "ClipBounds": [184.54200744628906, 666.2360229492188, 192.3620147705078, 675.6160278320312], "Page": 2, "Path": "//Document/Sect[4]/Sect/L/LI[19]/Lbl/Figure", "attributes": {"BBox": [184.791999999994, 666.4859999999753, 192.1119999999937, 675.3649999999907]}}, {"Bounds": [0.0, 0.0, 630.0, 810.0], "ClipBounds": [184.54200744628906, 666.2360229492188, 192.3620147705078, 675.6160278320312], "Page": 2, "Path": "//Document/Sect[4]/Sect/L/LI[19]/Lbl/Figure", "attributes": {"BBox": [184.791999999994, 666.4859999999753, 192.1119999999937, 675.3649999999907]}}, {"Bounds": [192.50999450683594, 666.439697265625, 274.7752380371094, 675.8236999511719], "Font": {"alt_family_name": "* Arial", "embedded": true, "encoding": "Identity-H", "family_name": "* Arial", "font_type": "CIDFontType0", "italic": false, "monospaced": false, "name": "*Arial-16669", "subset": false, "weight": 400}, "HasClip": false, "Page": 2, "Path": "//Document/Sect[4]/Sect/L/LI[19]/LBody", "Text": "Philosophical beliefs ", "TextSize": 8.5}, {"Bounds": [0.0, 0.0, 630.0, 810.0], "ClipBounds": [184.54200744628906, 648.2369995117188, 191.8820037841797, 657.3770141601562], "Page": 2, "Path": "//Document/Sect[4]/Sect/L/LI[20]/Lbl/Figure", "attributes": {"BBox": [184.791999999994, 648.4869999999937, 191.6319999999978, 657.1259999999893]}}, {"Bounds": [0.0, 0.0, 630.0, 810.0], "ClipBounds": [184.54200744628906, 648.2369995117188, 191.8820037841797, 657.3770141601562], "Page": 2, "Path": "//Document/Sect[4]/Sect/L/LI[20]/Lbl/Figure", "attributes": {"BBox": [184.791999999994, 648.4869999999937, 191.6319999999978, 657.1259999999893]}}, {"Bounds": [191.7790069580078, 648.3262023925781, 293.99989318847656, 657.710205078125], "Font": {"alt_family_name": "* Arial", "embedded": true, "encoding": "Identity-H", "family_name": "* Arial", "font_type": "CIDFontType0", "italic": false, "monospaced": false, "name": "*Arial-16669", "subset": false, "weight": 400}, "HasClip": false, "Page": 2, "Path": "//Document/Sect[4]/Sect/L/LI[20]/LBody", "Text": "Trade union membership ", "TextSize": 8.5}, {"Bounds": [0.0, 0.0, 630.0, 810.0], "ClipBounds": [184.302001953125, 631.9169921875, 192.12200927734375, 639.3770141601562], "Page": 2, "Path": "//Document/Sect[4]/Sect/L/LI[21]/Lbl/Figure", "attributes": {"BBox": [184.55199999999604, 632.1669999999867, 191.87199999999575, 639.1269999999786]}}, {"Bounds": [0.0, 0.0, 630.0, 810.0], "ClipBounds": [184.302001953125, 631.9169921875, 192.12200927734375, 639.3770141601562], "Page": 2, "Path": "//Document/Sect[4]/Sect/L/LI[21]/Lbl/Figure", "attributes": {"BBox": [184.55199999999604, 632.1669999999867, 191.87199999999575, 639.1269999999786]}}, {"Bounds": [192.02549743652344, 630.2127075195312, 270.4880065917969, 639.5966949462891], "Font": {"alt_family_name": "* Arial", "embedded": true, "encoding": "Identity-H", "family_name": "* Arial", "font_type": "CIDFontType0", "italic": false, "monospaced": false, "name": "*Arial-16669", "subset": false, "weight": 400}, "HasClip": false, "Page": 2, "Path": "//Document/Sect[4]/Sect/L/LI[21]/LBody", "Text": "Sex life information ", "TextSize": 8.5}, {"Bounds": [0.0, 0.0, 630.0, 810.0], "ClipBounds": [184.4219970703125, 614.1580200195312, 191.8820037841797, 621.1380004882812], "Page": 2, "Path": "//Document/Sect[4]/Sect/L/LI[22]/Lbl/Figure", "attributes": {"BBox": [184.67199999999866, 614.4079999999958, 191.6319999999978, 620.8879999999772]}}, {"Bounds": [0.0, 0.0, 630.0, 810.0], "ClipBounds": [184.4219970703125, 614.1580200195312, 191.8820037841797, 621.1380004882812], "Page": 2, "Path": "//Document/Sect[4]/Sect/L/LI[22]/Lbl/Figure", "attributes": {"BBox": [184.67199999999866, 614.4079999999958, 191.6319999999978, 620.8879999999772]}}, {"Bounds": [191.78750610351562, 612.2691955566406, 265.9226837158203, 621.6531982421875], "Font": {"alt_family_name": "* Arial", "embedded": true, "encoding": "Identity-H", "family_name": "* Arial", "font_type": "CIDFontType0", "italic": false, "monospaced": false, "name": "*Arial-16669", "subset": false, "weight": 400}, "HasClip": false, "Page": 2, "Path": "//Document/Sect[4]/Sect/L/LI[22]/LBody", "Text": "Sexual orientation ", "TextSize": 8.5}, {"Bounds": [0.0, 0.0, 630.0, 810.0], "ClipBounds": [184.78199768066406, 595.9190063476562, 192.1219940185547, 603.3790283203125], "Page": 2, "Path": "//Document/Sect[4]/Sect/L/LI[23]/Lbl/Figure", "attributes": {"BBox": [185.03199999999924, 596.1689999999944, 191.87199999999575, 603.127999999997]}}, {"Bounds": [0.0, 0.0, 630.0, 810.0], "ClipBounds": [184.78199768066406, 595.9190063476562, 192.1219940185547, 603.3790283203125], "Page": 2, "Path": "//Document/Sect[4]/Sect/L/LI[23]/Lbl/Figure", "attributes": {"BBox": [185.03199999999924, 596.1689999999944, 191.87199999999575, 603.127999999997]}}, {"Bounds": [192.02549743652344, 594.2066955566406, 325.3677520751953, 603.5906982421875], "Font": {"alt_family_name": "* Arial", "embedded": true, "encoding": "Identity-H", "family_name": "* Arial", "font_type": "CIDFontType0", "italic": false, "monospaced": false, "name": "*Arial-16669", "subset": false, "weight": 400}, "HasClip": false, "Page": 2, "Path": "//Document/Sect[4]/Sect/L/LI[23]/LBody", "Text": "Criminal offenses and convictions ", "TextSize": 8.5}, {"Bounds": [0.0, 0.0, 630.0, 810.0], "ClipBounds": [184.54200744628906, 577.9190063476562, 192.3620147705078, 585.3790283203125], "Page": 2, "Path": "//Document/Sect[4]/Sect/L/LI[24]/Lbl/Figure", "attributes": {"BBox": [184.791999999994, 578.1689999999944, 192.1119999999937, 585.1289999999863]}}, {"Bounds": [0.0, 0.0, 630.0, 810.0], "ClipBounds": [184.54200744628906, 577.9190063476562, 192.3620147705078, 585.3790283203125], "Page": 2, "Path": "//Document/Sect[4]/Sect/L/LI[24]/Lbl/Figure", "attributes": {"BBox": [184.791999999994, 578.1689999999944, 192.1119999999937, 585.1289999999863]}}, {"Bounds": [192.2635040283203, 576.1611938476562, 253.39230346679688, 585.5451965332031], "Font": {"alt_family_name": "* Arial", "embedded": true, "encoding": "Identity-H", "family_name": "* Arial", "font_type": "CIDFontType0", "italic": false, "monospaced": false, "name": "*Arial-16669", "subset": false, "weight": 400}, "HasClip": false, "Page": 2, "Path": "//Document/Sect[4]/Sect/L/LI[24]/LBody", "Text": "Birth certificate ", "TextSize": 8.5}, {"Bounds": [0.0, 0.0, 630.0, 810.0], "ClipBounds": [184.66200256347656, 557.760009765625, 192.36199951171875, 567.3800048828125], "Page": 2, "Path": "//Document/Sect[4]/Sect/L/LI[25]/Lbl/Figure", "attributes": {"BBox": [184.91199999999662, 558.0099999999802, 192.1119999999937, 567.1299999999756]}}, {"Bounds": [0.0, 0.0, 630.0, 810.0], "ClipBounds": [184.66200256347656, 557.760009765625, 192.36199951171875, 567.3800048828125], "Page": 2, "Path": "//Document/Sect[4]/Sect/L/LI[25]/Lbl/Figure", "attributes": {"BBox": [184.91199999999662, 558.0099999999802, 192.1119999999937, 567.1299999999756]}}, {"Bounds": [192.2635040283203, 558.0222015380859, 270.8649139404297, 567.4062042236328], "Font": {"alt_family_name": "* Arial", "embedded": true, "encoding": "Identity-H", "family_name": "* Arial", "font_type": "CIDFontType0", "italic": false, "monospaced": false, "name": "*Arial-16669", "subset": false, "weight": 400}, "HasClip": false, "Page": 2, "Path": "//Document/Sect[4]/Sect/L/LI[25]/LBody", "Text": "Marriage certificate ", "TextSize": 8.5}, {"Bounds": [0.0, 0.0, 630.0, 810.0], "ClipBounds": [183.9429931640625, 539.52099609375, 192.3629913330078, 549.1409912109375], "Page": 2, "Path": "//Document/Sect[4]/Sect/L/LI[26]/Lbl/Figure", "attributes": {"BBox": [184.1929999999993, 539.7709999999788, 192.1119999999937, 548.8909999999742]}}, {"Bounds": [0.0, 0.0, 630.0, 810.0], "ClipBounds": [183.9429931640625, 539.52099609375, 192.3629913330078, 549.1409912109375], "Page": 2, "Path": "//Document/Sect[4]/Sect/L/LI[26]/Lbl/Figure", "attributes": {"BBox": [184.1929999999993, 539.7709999999788, 192.1119999999937, 548.8909999999742]}}, {"Bounds": [192.2469940185547, 527.7384948730469, 506.23377990722656, 550.2200012207031], "Font": {"alt_family_name": "* Arial", "embedded": true, "encoding": "Identity-H", "family_name": "* Arial", "font_type": "CIDFontType0", "italic": false, "monospaced": false, "name": "*Arial-16669", "subset": false, "weight": 400}, "HasClip": false, "Page": 2, "Path": "//Document/Sect[4]/Sect/L/LI[26]/LBody", "Text": "Information or data collected through use or operation of an automated license platerecognition system ", "TextSize": 8.5}, {"Bounds": [184.90499877929688, 313.0509948730469, 563.3807373046875, 504.36000061035156], "Page": 2, "Path": "//Document/Sect[4]/Sect/Table", "attributes": {"BBox": [185.03199999999924, 314.65999999998894, 560.8569999999891, 504.25199999999313], "NumCol": 3, "NumRow": 5, "Placement": "Block", "SpaceAfter": 4.125}}, {"Bounds": [185.4998016357422, 496.44000244140625, 231.7296905517578, 504.36000061035156], "Page": 2, "Path": "//Document/Sect[4]/Sect/Table/TR/TH", "attributes": {"BBox": [185.03199999999924, 493.93299999999, 303.82799999999406, 504.25199999999313], "BlockAlign": "Before", "ColIndex": 0, "Height": 10.375, "InlineAlign": "Start", "RowIndex": 0, "Width": 118.75}}, {"Bounds": [185.4998016357422, 496.44000244140625, 231.7296905517578, 504.36000061035156], "Font": {"alt_family_name": "* Arial", "embedded": true, "encoding": "Identity-H", "family_name": "* Arial", "font_type": "CIDFontType0", "italic": false, "monospaced": false, "name": "*Arial-Bold-16672", "subset": false, "weight": 700}, "HasClip": false, "Lang": "en", "Page": 2, "Path": "//Document/Sect[4]/Sect/Table/TR/TH/P", "Text": "Classification ", "TextSize": 7.5, "attributes": {"LineHeight": 9}}, {"Bounds": [320.1542053222656, 496.44000244140625, 354.45912170410156, 504.36000061035156], "Page": 2, "Path": "//Document/Sect[4]/Sect/Table/TR/TH[2]", "attributes": {"BBox": [303.82799999999406, 493.93299999999, 431.2619999999879, 504.25199999999313], "BlockAlign": "Before", "ColIndex": 1, "Height": 10.375, "InlineAlign": "Start", "RowIndex": 0, "Width": 127.375}}, {"Bounds": [320.1542053222656, 496.44000244140625, 354.45912170410156, 504.36000061035156], "Font": {"alt_family_name": "* Arial", "embedded": true, "encoding": "Identity-H", "family_name": "* Arial", "font_type": "CIDFontType0", "italic": false, "monospaced": false, "name": "*Arial-Bold-16672", "subset": false, "weight": 700}, "HasClip": false, "Lang": "en", "Page": 2, "Path": "//Document/Sect[4]/Sect/Table/TR/TH[2]/P", "Text": "Examples ", "TextSize": 7.5, "attributes": {"LineHeight": 9}}, {"Bounds": [443.52000427246094, 496.44000244140625, 563.3807373046875, 504.36000061035156], "Page": 2, "Path": "//Document/Sect[4]/Sect/Table/TR/TH[3]", "attributes": {"BBox": [431.2619999999879, 493.93299999999, 560.8569999999891, 504.25199999999313], "BlockAlign": "Before", "ColIndex": 2, "Height": 10.375, "InlineAlign": "End", "RowIndex": 0, "Width": 129.625}}, {"Bounds": [443.52000427246094, 496.44000244140625, 563.3807373046875, 504.36000061035156], "Font": {"alt_family_name": "* Arial", "embedded": true, "encoding": "Identity-H", "family_name": "* Arial", "font_type": "CIDFontType0", "italic": false, "monospaced": false, "name": "*Arial-Bold-16672", "subset": false, "weight": 700}, "HasClip": false, "Lang": "en", "Page": 2, "Path": "//Document/Sect[4]/Sect/Table/TR/TH[3]/P", "Text": "Impact of Unauthorized Disclosure ", "TextSize": 7.5, "attributes": {"LineHeight": 9}}, {"Bounds": [185.2790069580078, 473.3695068359375, 273.40708923339844, 491.6365051269531], "Page": 2, "Path": "//Document/Sect[4]/Sect/Table/TR[2]/TD", "attributes": {"BBox": [185.03199999999924, 450.73499999998603, 303.82799999999406, 493.93299999999], "BlockAlign": "Before", "ColIndex": 0, "Height": 43.25, "InlineAlign": "Start", "RowIndex": 1, "Width": 118.75}}, {"Bounds": [185.2790069580078, 473.3695068359375, 273.40708923339844, 491.6365051269531], "Font": {"alt_family_name": "* Arial", "embedded": true, "encoding": "Identity-H", "family_name": "* Arial", "font_type": "CIDFontType0", "italic": false, "monospaced": false, "name": "*Arial-Bold-16672", "subset": false, "weight": 700}, "HasClip": false, "Lang": "en", "Page": 2, "Path": "//Document/Sect[4]/Sect/Table/TR[2]/TD/P", "Text": "Restricted data has a High Business Impact ", "TextSize": 7.5, "attributes": {"LineHeight": 10}}, {"Bounds": [319.6734924316406, 452.73150634765625, 410.48094177246094, 491.5765075683594], "Page": 2, "Path": "//Document/Sect[4]/Sect/Table/TR[2]/TD[2]", "attributes": {"BBox": [303.82799999999406, 450.73499999998603, 431.2619999999879, 493.93299999999], "BlockAlign": "Before", "ColIndex": 1, "Height": 43.25, "InlineAlign": "Start", "RowIndex": 1, "Width": 127.375}}, {"Bounds": [319.6734924316406, 452.73150634765625, 410.48094177246094, 491.5765075683594], "Font": {"alt_family_name": "* Arial", "embedded": true, "encoding": "Identity-H", "family_name": "* Arial", "font_type": "CIDFontType0", "italic": false, "monospaced": false, "name": "*Arial-16671", "subset": false, "weight": 400}, "HasClip": false, "Lang": "en", "Page": 2, "Path": "//Document/Sect[4]/Sect/Table/TR[2]/TD[2]/P", "Text": "Regulatory protected data, material financial data, intellectual property, passwords and credential. ", "TextSize": 8.5, "attributes": {"LineHeight": 10.125}}, {"Bounds": [442.8314971923828, 463.2884979248047, 560.0465240478516, 491.5765075683594], "Page": 2, "Path": "//Document/Sect[4]/Sect/Table/TR[2]/TD[3]", "attributes": {"BBox": [431.2619999999879, 450.73499999998603, 560.8569999999891, 493.93299999999], "BlockAlign": "Before", "ColIndex": 2, "Height": 43.25, "InlineAlign": "Start", "RowIndex": 1, "Width": 129.625}}, {"Bounds": [442.8314971923828, 463.2884979248047, 560.0465240478516, 491.5765075683594], "Font": {"alt_family_name": "* Arial", "embedded": true, "encoding": "Identity-H", "family_name": "* Arial", "font_type": "CIDFontType0", "italic": false, "monospaced": false, "name": "*Arial-16671", "subset": false, "weight": 400}, "HasClip": false, "Lang": "en", "Page": 2, "Path": "//Document/Sect[4]/Sect/Table/TR[2]/TD[3]/P", "Text": "Likely to cause severe harm to Adobe, its employees, customers, stockholders, or business partners. ", "TextSize": 8.5, "attributes": {"LineHeight": 10}}, {"Bounds": [184.90499877929688, 429.6914978027344, 291.9852294921875, 448.1365051269531], "Page": 2, "Path": "//Document/Sect[4]/Sect/Table/TR[3]/TD", "attributes": {"BBox": [185.03199999999924, 388.0969999999943, 303.82799999999406, 450.73499999998603], "BlockAlign": "Before", "ColIndex": 0, "Height": 62.625, "InlineAlign": "Start", "RowIndex": 2, "Width": 118.75}}, {"Bounds": [184.90499877929688, 429.6914978027344, 291.9852294921875, 448.1365051269531], "Font": {"alt_family_name": "* Arial", "embedded": true, "encoding": "Identity-H", "family_name": "* Arial", "font_type": "CIDFontType0", "italic": false, "monospaced": false, "name": "*Arial-16671", "subset": false, "weight": 400}, "HasClip": false, "Lang": "en", "Page": 2, "Path": "//Document/Sect[4]/Sect/Table/TR[3]/TD/P", "Text": "Confidential data has a Medium Business Impact ", "TextSize": 8.5, "attributes": {"LineHeight": 10.125}}, {"Bounds": [319.6649932861328, 388.88800048828125, 420.73707580566406, 448.13299560546875], "Page": 2, "Path": "//Document/Sect[4]/Sect/Table/TR[3]/TD[2]", "attributes": {"BBox": [303.82799999999406, 388.0969999999943, 431.2619999999879, 450.73499999998603], "BlockAlign": "Before", "ColIndex": 1, "Height": 62.625, "InlineAlign": "Start", "RowIndex": 2, "Width": 127.375}}, {"Bounds": [319.6649932861328, 388.88800048828125, 420.73707580566406, 448.13299560546875], "Font": {"alt_family_name": "* Arial", "embedded": true, "encoding": "Identity-H", "family_name": "* Arial", "font_type": "CIDFontType0", "italic": false, "monospaced": false, "name": "*Arial-16671", "subset": false, "weight": 400}, "HasClip": false, "Lang": "en", "Page": 2, "Path": "//Document/Sect[4]/Sect/Table/TR[3]/TD[2]/P", "Text": "People related data (salary, benefits), data with need-to\u00adknow restrictions like source code, Customer Files, product road maps, Adobe financial information. ", "TextSize": 8.5, "attributes": {"LineHeight": 10.125}}, {"Bounds": [443.2565002441406, 419.60699462890625, 558.3431091308594, 448.13299560546875], "Page": 2, "Path": "//Document/Sect[4]/Sect/Table/TR[3]/TD[3]", "attributes": {"BBox": [431.2619999999879, 388.0969999999943, 560.8569999999891, 450.73499999998603], "BlockAlign": "Before", "ColIndex": 2, "Height": 62.625, "InlineAlign": "Start", "RowIndex": 2, "Width": 129.625}}, {"Bounds": [443.2565002441406, 419.60699462890625, 558.3431091308594, 448.13299560546875], "Font": {"alt_family_name": "* Arial", "embedded": true, "encoding": "Identity-H", "family_name": "* Arial", "font_type": "CIDFontType0", "italic": false, "monospaced": false, "name": "*Arial-16671", "subset": false, "weight": 400}, "HasClip": false, "Lang": "en", "Page": 2, "Path": "//Document/Sect[4]/Sect/Table/TR[3]/TD[3]/P", "Text": "Likely to cause significant harm to Adobe, its employees, customers, stockholders, or business partners ", "TextSize": 8.5, "attributes": {"LineHeight": 10.125, "TextAlign": "Justify"}}, {"Bounds": [185.0399932861328, 334.8995056152344, 284.4001007080078, 384.29649353027344], "Page": 2, "Path": "//Document/Sect[4]/Sect/Table/TR[4]/TD", "attributes": {"BBox": [185.03199999999924, 334.8189999999886, 303.82799999999406, 388.0969999999943], "BlockAlign": "After", "ColIndex": 0, "Height": 53.25, "InlineAlign": "Start", "RowIndex": 3, "Width": 118.75}}, {"Bounds": [185.2760009765625, 365.85150146484375, 284.4001007080078, 384.29649353027344], "Font": {"alt_family_name": "* Arial", "embedded": true, "encoding": "Identity-H", "family_name": "* Arial", "font_type": "CIDFontType0", "italic": false, "monospaced": false, "name": "*Arial-Bold-16672", "subset": false, "weight": 700}, "HasClip": false, "Lang": "en", "Page": 2, "Path": "//Document/Sect[4]/Sect/Table/TR[4]/TD/P", "Text": "Internal data has a Moderate Business Impact ", "TextSize": 7.5, "attributes": {"LineHeight": 10.125}}, {"Bounds": [185.0399932861328, 334.8995056152344, 272.4232940673828, 362.4564971923828], "Font": {"alt_family_name": "* Times New Roman", "embedded": true, "encoding": "Identity-H", "family_name": "* Times New Roman", "font_type": "CIDFontType0", "italic": true, "monospaced": false, "name": "*Times New Roman-BoldItalic-16668", "subset": false, "weight": 700}, "HasClip": false, "Lang": "en", "Page": 2, "Path": "//Document/Sect[4]/Sect/Table/TR[4]/TD/P[2]", "Text": "Note: The default type for unclassified data is Internal ", "TextSize": 8.0, "attributes": {"LineHeight": 9.625}}, {"Bounds": [319.6649932861328, 345.6909942626953, 422.6594696044922, 384.2895050048828], "Page": 2, "Path": "//Document/Sect[4]/Sect/Table/TR[4]/TD[2]", "attributes": {"BBox": [303.82799999999406, 334.8189999999886, 431.2619999999879, 388.0969999999943], "BlockAlign": "Before", "ColIndex": 1, "Height": 53.25, "InlineAlign": "Start", "RowIndex": 3, "Width": 127.375}}, {"Bounds": [319.6649932861328, 345.6909942626953, 422.6594696044922, 384.2895050048828], "Font": {"alt_family_name": "* Arial", "embedded": true, "encoding": "Identity-H", "family_name": "* Arial", "font_type": "CIDFontType0", "italic": false, "monospaced": false, "name": "*Arial-16671", "subset": false, "weight": 400}, "HasClip": false, "Lang": "en", "Page": 2, "Path": "//Document/Sect[4]/Sect/Table/TR[4]/TD[2]/P", "Text": "Operational planning, collaboration and internal communications, IT Knowledge Center articles. ", "TextSize": 8.5, "attributes": {"LineHeight": 10.125}}, {"Bounds": [443.2480010986328, 365.9040069580078, 555.4388275146484, 384.2895050048828], "Page": 2, "Path": "//Document/Sect[4]/Sect/Table/TR[4]/TD[3]", "attributes": {"BBox": [431.2619999999879, 334.8189999999886, 560.8569999999891, 388.0969999999943], "BlockAlign": "Before", "ColIndex": 2, "Height": 53.25, "InlineAlign": "Start", "RowIndex": 3, "Width": 129.625}}, {"Bounds": [443.2480010986328, 365.9040069580078, 555.4388275146484, 384.2895050048828], "Font": {"alt_family_name": "* Arial", "embedded": true, "encoding": "Identity-H", "family_name": "* Arial", "font_type": "CIDFontType0", "italic": false, "monospaced": false, "name": "*Arial-16671", "subset": false, "weight": 400}, "HasClip": false, "Lang": "en", "Page": 2, "Path": "//Document/Sect[4]/Sect/Table/TR[4]/TD[3]/P", "Text": "May cause minor embarrassment or operational inconvenience ", "TextSize": 8.5, "attributes": {"LineHeight": 10}}, {"Bounds": [185.27999877929688, 323.6125030517578, 224.7775115966797, 331.97650146484375], "Page": 2, "Path": "//Document/Sect[4]/Sect/Table/TR[5]/TD", "attributes": {"BBox": [185.03199999999924, 314.65999999998894, 303.82799999999406, 334.8189999999886], "BlockAlign": "Before", "ColIndex": 0, "Height": 20.125, "InlineAlign": "Start", "RowIndex": 4, "Width": 118.75}}, {"Bounds": [185.27999877929688, 323.6125030517578, 224.7775115966797, 331.97650146484375], "Font": {"alt_family_name": "* Arial", "embedded": true, "encoding": "Identity-H", "family_name": "* Arial", "font_type": "CIDFontType0", "italic": false, "monospaced": false, "name": "*Arial-Bold-16672", "subset": false, "weight": 700}, "HasClip": false, "Lang": "en", "Page": 2, "Path": "//Document/Sect[4]/Sect/Table/TR[5]/TD/P", "Text": "Public data ", "TextSize": 7.5, "attributes": {"LineHeight": 9}}, {"Bounds": [319.6649932861328, 313.0509948730469, 407.2404327392578, 331.9720001220703], "Page": 2, "Path": "//Document/Sect[4]/Sect/Table/TR[5]/TD[2]", "attributes": {"BBox": [303.82799999999406, 314.65999999998894, 431.2619999999879, 334.8189999999886], "BlockAlign": "After", "ColIndex": 1, "Height": 20.125, "InlineAlign": "Start", "RowIndex": 4, "Width": 127.375}}, {"Bounds": [319.6649932861328, 313.0509948730469, 407.2404327392578, 331.9720001220703], "Font": {"alt_family_name": "* Arial", "embedded": true, "encoding": "Identity-H", "family_name": "* Arial", "font_type": "CIDFontType0", "italic": false, "monospaced": false, "name": "*Arial-16671", "subset": false, "weight": 400}, "HasClip": false, "Lang": "en", "Page": 2, "Path": "//Document/Sect[4]/Sect/Table/TR[5]/TD[2]/P", "Text": "Information that is openly available ", "TextSize": 8.5, "attributes": {"LineHeight": 10.5}}, {"Bounds": [443.4945068359375, 323.6080017089844, 479.87745666503906, 331.9720001220703], "Page": 2, "Path": "//Document/Sect[4]/Sect/Table/TR[5]/TD[3]", "attributes": {"BBox": [431.2619999999879, 314.65999999998894, 560.8569999999891, 334.8189999999886], "BlockAlign": "Before", "ColIndex": 2, "Height": 20.125, "InlineAlign": "Start", "RowIndex": 4, "Width": 129.625}}, {"Bounds": [443.4945068359375, 323.6080017089844, 479.87745666503906, 331.9720001220703], "Font": {"alt_family_name": "* Arial", "embedded": true, "encoding": "Identity-H", "family_name": "* Arial", "font_type": "CIDFontType0", "italic": false, "monospaced": false, "name": "*Arial-16671", "subset": false, "weight": 400}, "HasClip": false, "Lang": "en", "Page": 2, "Path": "//Document/Sect[4]/Sect/Table/TR[5]/TD[3]/P", "Text": "No impact ", "TextSize": 8.5, "attributes": {"LineHeight": 10.25}}, {"Bounds": [184.8000030517578, 278.03489685058594, 309.9182434082031, 286.4349060058594], "Font": {"alt_family_name": "* Arial", "embedded": true, "encoding": "Identity-H", "family_name": "* Arial", "font_type": "CIDFontType0", "italic": false, "monospaced": false, "name": "*Arial-Bold-16670", "subset": false, "weight": 700}, "HasClip": false, "Lang": "en", "Page": 2, "Path": "//Document/Sect[4]/Sect[2]/H2", "Text": "Adobe Confidential Data ", "TextSize": 10.5, "attributes": {"SpaceAfter": 2.875}}, {"Bounds": [184.79100036621094, 211.81790161132812, 554.8398895263672, 271.02740478515625], "Font": {"alt_family_name": "* Arial", "embedded": true, "encoding": "Identity-H", "family_name": "* Arial", "font_type": "CIDFontType0", "italic": false, "monospaced": false, "name": "*Arial-16669", "subset": false, "weight": 400}, "HasClip": false, "Lang": "en", "Page": 2, "Path": "//Document/Sect[4]/Sect[2]/P", "Text": "Only limited segments of the Adobe workforce need access to data classified as Adobe Confidential in order to perform their jobs. Unauthorized disclosure of Adobe Confidential data would likely cause significant harm (such as financial, contractual, or legal or reputational harm orservice disruptions) to Adobe, its employees, customers, stockholders, and business partners. ", "TextSize": 8.5}, {"Bounds": [184.80799865722656, 199.4759063720703, 320.3317565917969, 208.85989379882812], "Font": {"alt_family_name": "* Arial", "embedded": true, "encoding": "Identity-H", "family_name": "* Arial", "font_type": "CIDFontType0", "italic": false, "monospaced": false, "name": "*Arial-16669", "subset": false, "weight": 400}, "HasClip": false, "Lang": "en", "Page": 2, "Path": "//Document/Sect[4]/Sect[2]/P[2]", "Text": "Adobe Confidential data includes: ", "TextSize": 8.5}, {"Bounds": [0.0, 0.0, 630.0, 810.0], "ClipBounds": [184.4219970703125, 184.09500122070312, 192.36199951171875, 193.47500610351562], "Page": 2, "Path": "//Document/Sect[4]/Sect[2]/L/LI/Lbl/Figure", "attributes": {"BBox": [184.67199999999866, 184.3449999999939, 192.1119999999937, 193.22499999999854]}}, {"Bounds": [0.0, 0.0, 630.0, 810.0], "ClipBounds": [184.4219970703125, 184.09500122070312, 192.36199951171875, 193.47500610351562], "Page": 2, "Path": "//Document/Sect[4]/Sect[2]/L/LI/Lbl/Figure", "attributes": {"BBox": [184.67199999999866, 184.3449999999939, 192.1119999999937, 193.22499999999854]}}, {"Bounds": [192.24549865722656, 184.2353973388672, 445.4832000732422, 193.61940002441406], "Font": {"alt_family_name": "* Arial", "embedded": true, "encoding": "Identity-H", "family_name": "* Arial", "font_type": "CIDFontType0", "italic": false, "monospaced": false, "name": "*Arial-16669", "subset": false, "weight": 400}, "HasClip": false, "Page": 2, "Path": "//Document/Sect[4]/Sect[2]/L/LI/LBody", "Text": "Data that Adobe is contractually required to treat as confidential ", "TextSize": 8.5}, {"Bounds": [0.0, 0.0, 630.0, 810.0], "ClipBounds": [184.54200744628906, 165.8560028076172, 192.3620147705078, 175.71600341796875], "Page": 2, "Path": "//Document/Sect[4]/Sect[2]/L/LI[2]/Lbl/Figure", "attributes": {"BBox": [184.791999999994, 166.10599999999977, 192.1119999999937, 175.46599999999307]}}, {"Bounds": [0.0, 0.0, 630.0, 810.0], "ClipBounds": [184.54200744628906, 165.8560028076172, 192.3620147705078, 175.71600341796875], "Page": 2, "Path": "//Document/Sect[4]/Sect[2]/L/LI[2]/Lbl/Figure", "attributes": {"BBox": [184.791999999994, 166.10599999999977, 192.1119999999937, 175.46599999999307]}}, {"Bounds": [191.75250244140625, 104.84809875488281, 551.8211364746094, 175.55690002441406], "Font": {"alt_family_name": "* Arial", "embedded": true, "encoding": "Identity-H", "family_name": "* Arial", "font_type": "CIDFontType0", "italic": false, "monospaced": false, "name": "*Arial-16669", "subset": false, "weight": 400}, "HasClip": false, "Page": 2, "Path": "//Document/Sect[4]/Sect[2]/L/LI[2]/LBody", "Text": "Personal information (Pl) (unless the personal information meets the definition of Adobe Restricted data) about an individual (including free users, paid users, enterprise users, suppliers, or employees). This can include directly identifiable personal information, such as name, email address, phone number, home address, or precise geolocation information. Personal informationcan also include indirectly identifiable personal information, such as a user GUlD, IP address, cookie ID, or device identifier. ", "TextSize": 8.5}, {"Bounds": [0.0, 0.0, 630.0, 810.0], "ClipBounds": [183.7030029296875, 86.65899658203125, 192.1230010986328, 96.27900695800781], "Page": 2, "Path": "//Document/Sect[4]/Sect[2]/L/LI[3]/Lbl/Figure", "attributes": {"BBox": [183.95299999999406, 86.90939999999682, 191.87199999999575, 96.02909999999974]}}, {"Bounds": [0.0, 0.0, 630.0, 810.0], "ClipBounds": [183.7030029296875, 86.65899658203125, 192.1230010986328, 96.27900695800781], "Page": 2, "Path": "//Document/Sect[4]/Sect[2]/L/LI[3]/Lbl/Figure", "attributes": {"BBox": [183.95299999999406, 86.90939999999682, 191.87199999999575, 96.02909999999974]}}, {"Bounds": [191.99349975585938, 74.56260681152344, 548.5813446044922, 96.22059631347656], "Font": {"alt_family_name": "* Arial", "embedded": true, "encoding": "Identity-H", "family_name": "* Arial", "font_type": "CIDFontType0", "italic": false, "monospaced": false, "name": "*Arial-16669", "subset": false, "weight": 400}, "HasClip": false, "Page": 2, "Path": "//Document/Sect[4]/Sect[2]/L/LI[3]/LBody", "Text": "Content or data that customers, partners, or users provide to Adobe (unless the content or datameets the definition of Restricted data below) ", "TextSize": 8.5}], "pages": [{"boxes": {"CropBox": [0.0, 0.0, 630.0, 810.0], "MediaBox": [0.0, 0.0, 630.0, 810.0]}, "height": 810.0, "is_scanned": true, "page_number": 0, "rotation": 0, "width": 630.0}, {"boxes": {"CropBox": [0.0, 0.0, 630.0, 810.0], "MediaBox": [0.0, 0.0, 630.0, 810.0]}, "height": 810.0, "is_scanned": true, "page_number": 1, "rotation": 0, "width": 630.0}, {"boxes": {"CropBox": [0.0, 0.0, 630.0, 810.0], "MediaBox": [0.0, 0.0, 630.0, 810.0]}, "height": 810.0, "is_scanned": true, "page_number": 2, "rotation": 0, "width": 630.0}]}
+{
+	"version": {
+		"json_export": "193",
+		"page_segmentation": "5",
+		"schema": "1.1.0",
+		"structure": "1.1074.0",
+		"table_structure": "5"
+	},
+	"extended_metadata": {
+		"ID_instance": "37 92 F6 90 D7 B8 B2 11 0A 00 67 45 8B 6B C6 23 ",
+		"ID_permanent": "32 41 20 31 34 20 45 42 20 39 30 20 44 37 20 42 38 20 42 32 20 31 31 20 30 41 20 30 30 20 36 37 20 34 35 20 38 42 20 36 42 20 43 36 20 32 33 20 ",
+		"pdf_version": "1.6",
+		"pdfa_compliance_level": "",
+		"is_encrypted": false,
+		"has_acroform": false,
+		"is_digitally_signed": false,
+		"pdfua_compliance_level": "",
+		"page_count": 3,
+		"has_embedded_files": false,
+		"is_certified": false,
+		"is_XFA": false,
+		"language": "en"
+	},
+	"elements": [
+		{
+			"Bounds": [
+				44.62139892578125,
+				756.9429931640625,
+				245.0037841796875,
+				766.3184967041016
+			],
+			"Font": {
+				"alt_family_name": "* Arial",
+				"embedded": true,
+				"encoding": "Identity-H",
+				"family_name": "* Arial",
+				"font_type": "CIDFontType0",
+				"italic": false,
+				"monospaced": false,
+				"name": "*Arial-6539",
+				"subset": false,
+				"weight": 400
+			},
+			"HasClip": false,
+			"Lang": "en",
+			"Page": 0,
+			"Path": "//Document/Sect/P",
+			"Text": "Adobe Vendor Security Review Program White Paper ",
+			"TextSize": 8.5,
+			"attributes": {
+				"SpaceAfter": 18
+			}
+		},
+		{
+			"Bounds": [
+				0.0,
+				0.0,
+				630.0,
+				820.7799987792969
+			],
+			"ClipBounds": [
+				548.72802734375,
+				739.1929931640625,
+				602.5444488525391,
+				820.7799987792969
+			],
+			"Page": 0,
+			"Path": "//Document/Sect/Figure",
+			"attributes": {
+				"BBox": [
+					548.9779999999737,
+					739.4429999999993,
+					587.61599999998,
+					790.920999999973
+				],
+				"Placement": "Block"
+			}
+		},
+		{
+			"Bounds": [
+				0.0,
+				0.0,
+				630.0,
+				820.7799987792969
+			],
+			"ClipBounds": [
+				548.72802734375,
+				739.1929931640625,
+				602.5444488525391,
+				820.7799987792969
+			],
+			"Font": {
+				"alt_family_name": "* Times New Roman",
+				"embedded": true,
+				"encoding": "Identity-H",
+				"family_name": "* Times New Roman",
+				"font_type": "CIDFontType0",
+				"italic": false,
+				"monospaced": false,
+				"name": "*Times New Roman-Bold-6537",
+				"subset": false,
+				"weight": 700
+			},
+			"HasClip": false,
+			"Page": 0,
+			"Path": "//Document/Sect/Figure",
+			"Text": ", .., Adobe ",
+			"TextSize": 18.0,
+			"attributes": {
+				"BBox": [
+					548.9779999999737,
+					739.4429999999993,
+					587.61599999998,
+					790.920999999973
+				],
+				"Placement": "Block"
+			}
+		},
+		{
+			"Bounds": [
+				185.0399932861328,
+				634.2005004882812,
+				510.10943603515625,
+				655.0820007324219
+			],
+			"Font": {
+				"alt_family_name": "* Arial",
+				"embedded": true,
+				"encoding": "Identity-H",
+				"family_name": "* Arial",
+				"font_type": "CIDFontType0",
+				"italic": false,
+				"monospaced": false,
+				"name": "*Arial-Bold-6543",
+				"subset": false,
+				"weight": 700
+			},
+			"HasClip": false,
+			"Lang": "en",
+			"Page": 0,
+			"Path": "//Document/Sect/Title",
+			"Text": "Adobe\u00aeVendor Security Review Program ",
+			"TextSize": 18.5,
+			"attributes": {
+				"LineHeight": 22.25,
+				"SpaceAfter": 14.625
+			}
+		},
+		{
+			"Bounds": [
+				184.8582000732422,
+				608.8079986572266,
+				239.6191864013672,
+				621.7799987792969
+			],
+			"Font": {
+				"alt_family_name": "* Arial",
+				"embedded": true,
+				"encoding": "Identity-H",
+				"family_name": "* Arial",
+				"font_type": "CIDFontType0",
+				"italic": false,
+				"monospaced": false,
+				"name": "*Arial-6540",
+				"subset": false,
+				"weight": 400
+			},
+			"HasClip": false,
+			"Lang": "en",
+			"Page": 0,
+			"Path": "//Document/Sect[2]/H1",
+			"Text": "Overview ",
+			"TextSize": 12.0,
+			"attributes": {
+				"LineHeight": 14.375
+			}
+		},
+		{
+			"Bounds": [
+				45.600006103515625,
+				493.0574951171875,
+				108.43504333496094,
+				499.0800018310547
+			],
+			"Font": {
+				"alt_family_name": "* Arial",
+				"embedded": true,
+				"encoding": "Identity-H",
+				"family_name": "* Arial",
+				"font_type": "CIDFontType0",
+				"italic": false,
+				"monospaced": false,
+				"name": "*Arial-Bold-6542",
+				"subset": false,
+				"weight": 700
+			},
+			"HasClip": false,
+			"Lang": "en",
+			"Page": 0,
+			"Path": "//Document/Sect[2]/P",
+			"Text": "Table of Contents ",
+			"TextSize": 7.5
+		},
+		{
+			"Bounds": [
+				45.600006103515625,
+				479.8630065917969,
+				49.21759033203125,
+				489.2384948730469
+			],
+			"Font": {
+				"alt_family_name": "* Arial",
+				"embedded": true,
+				"encoding": "Identity-H",
+				"family_name": "* Arial",
+				"font_type": "CIDFontType0",
+				"italic": false,
+				"monospaced": false,
+				"name": "*Arial-6539",
+				"subset": false,
+				"weight": 400
+			},
+			"HasClip": false,
+			"Page": 0,
+			"Path": "//Document/Sect[2]/L/LI/Lbl",
+			"Text": "1 ",
+			"TextSize": 8.5
+		},
+		{
+			"Bounds": [
+				51.72599792480469,
+				479.7429962158203,
+				90.68144226074219,
+				489.1184997558594
+			],
+			"Font": {
+				"alt_family_name": "* Arial",
+				"embedded": true,
+				"encoding": "Identity-H",
+				"family_name": "* Arial",
+				"font_type": "CIDFontType0",
+				"italic": false,
+				"monospaced": false,
+				"name": "*Arial-6539",
+				"subset": false,
+				"weight": 400
+			},
+			"HasClip": false,
+			"Page": 0,
+			"Path": "//Document/Sect[2]/L/LI/LBody",
+			"Text": "Overview ",
+			"TextSize": 8.5
+		},
+		{
+			"Bounds": [
+				45.600006103515625,
+				468.88299560546875,
+				48.634490966796875,
+				478.2584991455078
+			],
+			"Font": {
+				"alt_family_name": "* Arial",
+				"embedded": true,
+				"encoding": "Identity-H",
+				"family_name": "* Arial",
+				"font_type": "CIDFontType0",
+				"italic": false,
+				"monospaced": false,
+				"name": "*Arial-6539",
+				"subset": false,
+				"weight": 400
+			},
+			"HasClip": false,
+			"Page": 0,
+			"Path": "//Document/Sect[2]/L/LI[2]/Lbl",
+			"Text": "1 ",
+			"TextSize": 8.5
+		},
+		{
+			"Bounds": [
+				50.160003662109375,
+				459.2259979248047,
+				133.18125915527344,
+				478.1385040283203
+			],
+			"Font": {
+				"alt_family_name": "* Arial",
+				"embedded": true,
+				"encoding": "Identity-H",
+				"family_name": "* Arial",
+				"font_type": "CIDFontType0",
+				"italic": false,
+				"monospaced": false,
+				"name": "*Arial-6539",
+				"subset": false,
+				"weight": 400
+			},
+			"HasClip": false,
+			"Page": 0,
+			"Path": "//Document/Sect[2]/L/LI[2]/LBody",
+			"Text": "Adobe Vendor Security Review {VSR) Process ",
+			"TextSize": 8.5
+		},
+		{
+			"Bounds": [
+				45.600006103515625,
+				448.2429962158203,
+				48.634490966796875,
+				457.6184997558594
+			],
+			"Font": {
+				"alt_family_name": "* Arial",
+				"embedded": true,
+				"encoding": "Identity-H",
+				"family_name": "* Arial",
+				"font_type": "CIDFontType0",
+				"italic": false,
+				"monospaced": false,
+				"name": "*Arial-6539",
+				"subset": false,
+				"weight": 400
+			},
+			"HasClip": false,
+			"Page": 0,
+			"Path": "//Document/Sect[2]/L/LI[3]/Lbl",
+			"Text": "1 ",
+			"TextSize": 8.5
+		},
+		{
+			"Bounds": [
+				51.839996337890625,
+				448.18299865722656,
+				116.05351257324219,
+				457.5585021972656
+			],
+			"Font": {
+				"alt_family_name": "* Arial",
+				"embedded": true,
+				"encoding": "Identity-H",
+				"family_name": "* Arial",
+				"font_type": "CIDFontType0",
+				"italic": false,
+				"monospaced": false,
+				"name": "*Arial-6539",
+				"subset": false,
+				"weight": 400
+			},
+			"HasClip": false,
+			"Page": 0,
+			"Path": "//Document/Sect[2]/L/LI[3]/LBody",
+			"Text": "Data Classification ",
+			"TextSize": 8.5
+		},
+		{
+			"Bounds": [
+				45.600006103515625,
+				437.14300537109375,
+				51.32704162597656,
+				446.51849365234375
+			],
+			"Font": {
+				"alt_family_name": "* Arial",
+				"embedded": true,
+				"encoding": "Identity-H",
+				"family_name": "* Arial",
+				"font_type": "CIDFontType0",
+				"italic": false,
+				"monospaced": false,
+				"name": "*Arial-6539",
+				"subset": false,
+				"weight": 400
+			},
+			"HasClip": false,
+			"Page": 0,
+			"Path": "//Document/Sect[2]/L/LI[4]/Lbl",
+			"Text": "4 ",
+			"TextSize": 8.5
+		},
+		{
+			"Bounds": [
+				56.399993896484375,
+				437.14300537109375,
+				130.58421325683594,
+				446.51849365234375
+			],
+			"Font": {
+				"alt_family_name": "* Arial",
+				"embedded": true,
+				"encoding": "Identity-H",
+				"family_name": "* Arial",
+				"font_type": "CIDFontType0",
+				"italic": false,
+				"monospaced": false,
+				"name": "*Arial-6539",
+				"subset": false,
+				"weight": 400
+			},
+			"HasClip": false,
+			"Page": 0,
+			"Path": "//Document/Sect[2]/L/LI[4]/LBody",
+			"Text": "VSR Security Controls ",
+			"TextSize": 8.5
+		},
+		{
+			"Bounds": [
+				45.839996337890625,
+				426.1029968261719,
+				51.314971923828125,
+				435.47850036621094
+			],
+			"Font": {
+				"alt_family_name": "* Arial",
+				"embedded": true,
+				"encoding": "Identity-H",
+				"family_name": "* Arial",
+				"font_type": "CIDFontType0",
+				"italic": false,
+				"monospaced": false,
+				"name": "*Arial-6539",
+				"subset": false,
+				"weight": 400
+			},
+			"HasClip": false,
+			"Page": 0,
+			"Path": "//Document/Sect[2]/L/LI[5]/Lbl",
+			"Text": "5 ",
+			"TextSize": 8.5
+		},
+		{
+			"Bounds": [
+				56.399993896484375,
+				406.6634979248047,
+				123.48707580566406,
+				435.47850036621094
+			],
+			"Font": {
+				"alt_family_name": "* Arial",
+				"embedded": true,
+				"encoding": "Identity-H",
+				"family_name": "* Arial",
+				"font_type": "CIDFontType0",
+				"italic": false,
+				"monospaced": false,
+				"name": "*Arial-6539",
+				"subset": false,
+				"weight": 400
+			},
+			"HasClip": false,
+			"Page": 0,
+			"Path": "//Document/Sect[2]/L/LI[5]/LBody",
+			"Text": "The Adobe Vendor Information Security Standard ",
+			"TextSize": 8.5
+		},
+		{
+			"Bounds": [
+				46.08000183105469,
+				395.6230010986328,
+				51.30110168457031,
+				404.9985046386719
+			],
+			"Font": {
+				"alt_family_name": "* Arial",
+				"embedded": true,
+				"encoding": "Identity-H",
+				"family_name": "* Arial",
+				"font_type": "CIDFontType0",
+				"italic": false,
+				"monospaced": false,
+				"name": "*Arial-6539",
+				"subset": false,
+				"weight": 400
+			},
+			"HasClip": false,
+			"Page": 0,
+			"Path": "//Document/Sect[2]/L/LI[6]/Lbl",
+			"Text": "5 ",
+			"TextSize": 8.5
+		},
+		{
+			"Bounds": [
+				56.399993896484375,
+				395.56300354003906,
+				127.16777038574219,
+				404.9385070800781
+			],
+			"Font": {
+				"alt_family_name": "* Arial",
+				"embedded": true,
+				"encoding": "Identity-H",
+				"family_name": "* Arial",
+				"font_type": "CIDFontType0",
+				"italic": false,
+				"monospaced": false,
+				"name": "*Arial-6539",
+				"subset": false,
+				"weight": 400
+			},
+			"HasClip": false,
+			"Page": 0,
+			"Path": "//Document/Sect[2]/L/LI[6]/LBody",
+			"Text": "Vendor Engagement ",
+			"TextSize": 8.5
+		},
+		{
+			"Bounds": [
+				45.839996337890625,
+				386.7519989013672,
+				51.483062744140625,
+				392.03700256347656
+			],
+			"Font": {
+				"alt_family_name": "* Arial",
+				"embedded": true,
+				"encoding": "Identity-H",
+				"family_name": "* Arial",
+				"font_type": "CIDFontType0",
+				"italic": true,
+				"monospaced": false,
+				"name": "*Arial-Italic-6541",
+				"subset": false,
+				"weight": 400
+			},
+			"HasClip": false,
+			"Page": 0,
+			"Path": "//Document/Sect[2]/L/LI[7]/Lbl",
+			"Text": "6 ",
+			"TextSize": 7.0
+		},
+		{
+			"Bounds": [
+				56.8800048828125,
+				384.5229949951172,
+				122.72946166992188,
+				393.89849853515625
+			],
+			"Font": {
+				"alt_family_name": "* Arial",
+				"embedded": true,
+				"encoding": "Identity-H",
+				"family_name": "* Arial",
+				"font_type": "CIDFontType0",
+				"italic": false,
+				"monospaced": false,
+				"name": "*Arial-6539",
+				"subset": false,
+				"weight": 400
+			},
+			"HasClip": false,
+			"Page": 0,
+			"Path": "//Document/Sect[2]/L/LI[7]/LBody",
+			"Text": "Privacy Assessment ",
+			"TextSize": 8.5
+		},
+		{
+			"Bounds": [
+				45.839996337890625,
+				373.5429992675781,
+				51.314971923828125,
+				382.9185028076172
+			],
+			"Font": {
+				"alt_family_name": "* Arial",
+				"embedded": true,
+				"encoding": "Identity-H",
+				"family_name": "* Arial",
+				"font_type": "CIDFontType0",
+				"italic": false,
+				"monospaced": false,
+				"name": "*Arial-6539",
+				"subset": false,
+				"weight": 400
+			},
+			"HasClip": false,
+			"Page": 0,
+			"Path": "//Document/Sect[2]/L/LI[8]/Lbl",
+			"Text": "6 ",
+			"TextSize": 8.5
+		},
+		{
+			"Bounds": [
+				56.8800048828125,
+				373.5429992675781,
+				115.98051452636719,
+				382.9185028076172
+			],
+			"Font": {
+				"alt_family_name": "* Arial",
+				"embedded": true,
+				"encoding": "Identity-H",
+				"family_name": "* Arial",
+				"font_type": "CIDFontType0",
+				"italic": false,
+				"monospaced": false,
+				"name": "*Arial-6539",
+				"subset": false,
+				"weight": 400
+			},
+			"HasClip": false,
+			"Page": 0,
+			"Path": "//Document/Sect[2]/L/LI[8]/LBody",
+			"Text": "Legal Obligations ",
+			"TextSize": 8.5
+		},
+		{
+			"Bounds": [
+				45.36000061035156,
+				362.5030059814453,
+				50.58110046386719,
+				371.8784942626953
+			],
+			"Font": {
+				"alt_family_name": "* Arial",
+				"embedded": true,
+				"encoding": "Identity-H",
+				"family_name": "* Arial",
+				"font_type": "CIDFontType0",
+				"italic": false,
+				"monospaced": false,
+				"name": "*Arial-6539",
+				"subset": false,
+				"weight": 400
+			},
+			"HasClip": false,
+			"Page": 0,
+			"Path": "//Document/Sect[2]/L/LI[9]/Lbl",
+			"Text": "7 ",
+			"TextSize": 8.5
+		},
+		{
+			"Bounds": [
+				56.8800048828125,
+				362.5030059814453,
+				95.5078125,
+				371.8784942626953
+			],
+			"Font": {
+				"alt_family_name": "* Arial",
+				"embedded": true,
+				"encoding": "Identity-H",
+				"family_name": "* Arial",
+				"font_type": "CIDFontType0",
+				"italic": false,
+				"monospaced": false,
+				"name": "*Arial-6539",
+				"subset": false,
+				"weight": 400
+			},
+			"HasClip": false,
+			"Page": 0,
+			"Path": "//Document/Sect[2]/L/LI[9]/LBody",
+			"Text": "Conclusion ",
+			"TextSize": 8.5
+		},
+		{
+			"Bounds": [
+				184.5,
+				543.5155029296875,
+				572.9459686279297,
+				602.0384979248047
+			],
+			"Font": {
+				"alt_family_name": "* Arial",
+				"embedded": true,
+				"encoding": "Identity-H",
+				"family_name": "* Arial",
+				"font_type": "CIDFontType0",
+				"italic": false,
+				"monospaced": false,
+				"name": "*Arial-6539",
+				"subset": false,
+				"weight": 400
+			},
+			"HasClip": false,
+			"Lang": "en",
+			"Page": 0,
+			"Path": "//Document/Sect[2]/P[2]",
+			"Text": "Managed by the Adobe Information Security team, Adobe's vendor security review (VSR) program includes a set of requirements to which third-party vendors that collect, store, process, transmit, or dispose of Adobe Internal, Confidential, or Restricted data outside of Adobe-controlled physical offices or data center locations must adhere. Typical scenarios include vendors processing and storing Adobe data at their site, cloud services (e.g., Saas, PaaS, laaS, and XaaS), and data centers. ",
+			"TextSize": 8.5,
+			"attributes": {
+				"SpaceAfter": 5.625
+			}
+		},
+		{
+			"Bounds": [
+				184.55859375,
+				488.8350067138672,
+				583.2221069335938,
+				534.9389953613281
+			],
+			"Font": {
+				"alt_family_name": "* Arial",
+				"embedded": true,
+				"encoding": "Identity-H",
+				"family_name": "* Arial",
+				"font_type": "CIDFontType0",
+				"italic": false,
+				"monospaced": false,
+				"name": "*Arial-6539",
+				"subset": false,
+				"weight": 400
+			},
+			"HasClip": false,
+			"Lang": "en",
+			"Page": 0,
+			"Path": "//Document/Sect[2]/P[3]",
+			"Text": "The Adobe VSR program evaluates each vendor's compliance to Adobe's Vendor Information Security Standard, providing a risk-based review of the vendor's security practices and enabling Adobe managers to make fact-based decisions concerning whether or not to enter into a relationship with that vendor. ",
+			"TextSize": 8.5,
+			"attributes": {
+				"SpaceAfter": 5.875
+			}
+		},
+		{
+			"Bounds": [
+				184.3159942626953,
+				397.06500244140625,
+				579.3908386230469,
+				480.06300354003906
+			],
+			"Font": {
+				"alt_family_name": "* Arial",
+				"embedded": true,
+				"encoding": "Identity-H",
+				"family_name": "* Arial",
+				"font_type": "CIDFontType0",
+				"italic": false,
+				"monospaced": false,
+				"name": "*Arial-6539",
+				"subset": false,
+				"weight": 400
+			},
+			"HasClip": false,
+			"Lang": "en",
+			"Page": 0,
+			"Path": "//Document/Sect[2]/P[4]",
+			"Text": "The management of vendor relationships and their interactions with Adobe information and technologyresources is an essential element of information security. The VSR program is a logical extension of Adobe's belief that every action taken on or interaction with data should be conducted with a lens of security to help ensure the security, privacy, and availability of our customers' and employees' data, no matter where it is stored or processed, which is one of the key controls within the Adobe Common Controls Framework (CCF). With the VSR program, Adobe helps ensure that its culture of security extends to any vendor with whom the company does business. ",
+			"TextSize": 8.5
+		},
+		{
+			"Bounds": [
+				184.8000030517578,
+				368.0279998779297,
+				484.4060516357422,
+				381.0
+			],
+			"Font": {
+				"alt_family_name": "* Arial",
+				"embedded": true,
+				"encoding": "Identity-H",
+				"family_name": "* Arial",
+				"font_type": "CIDFontType0",
+				"italic": false,
+				"monospaced": false,
+				"name": "*Arial-6540",
+				"subset": false,
+				"weight": 400
+			},
+			"HasClip": false,
+			"Lang": "en",
+			"Page": 0,
+			"Path": "//Document/Sect[3]/H1",
+			"Text": "Adobe Vendor Security Review (VSR) Program Process ",
+			"TextSize": 12.0,
+			"attributes": {
+				"LineHeight": 14.375,
+				"SpaceAfter": 4.625
+			}
+		},
+		{
+			"Bounds": [
+				184.55999755859375,
+				339.4642028808594,
+				574.7658538818359,
+				361.18170166015625
+			],
+			"Font": {
+				"alt_family_name": "* Arial",
+				"embedded": true,
+				"encoding": "Identity-H",
+				"family_name": "* Arial",
+				"font_type": "CIDFontType0",
+				"italic": false,
+				"monospaced": false,
+				"name": "*Arial-6539",
+				"subset": false,
+				"weight": 400
+			},
+			"HasClip": false,
+			"Lang": "en",
+			"Page": 0,
+			"Path": "//Document/Sect[3]/P",
+			"Text": "The VSR program evaluates a third-party vendor's compliance with the Adobe Vendor Information Security Standard (described above). ",
+			"TextSize": 8.5,
+			"attributes": {
+				"SpaceAfter": 5.625
+			}
+		},
+		{
+			"Bounds": [
+				184.5540008544922,
+				284.5639953613281,
+				567.9839935302734,
+				330.8385009765625
+			],
+			"Font": {
+				"alt_family_name": "* Arial",
+				"embedded": true,
+				"encoding": "Identity-H",
+				"family_name": "* Arial",
+				"font_type": "CIDFontType0",
+				"italic": false,
+				"monospaced": false,
+				"name": "*Arial-6539",
+				"subset": false,
+				"weight": 400
+			},
+			"HasClip": false,
+			"Lang": "en",
+			"Page": 0,
+			"Path": "//Document/Sect[3]/P[2]",
+			"Text": "Business owners within Adobe that wish to enter into a relationship with a third-party vendor initiatethe process with a VSR request, which includes a description of the service provided by the vendor, whether the vendor will process Adobe data off-site, and the classification of the data the vendor intends to process. ",
+			"TextSize": 8.5,
+			"attributes": {
+				"SpaceAfter": 5.5
+			}
+		},
+		{
+			"Bounds": [
+				184.80149841308594,
+				242.18569946289062,
+				550.8556518554688,
+				277.0791015625
+			],
+			"Font": {
+				"alt_family_name": "* Arial",
+				"embedded": true,
+				"encoding": "Identity-H",
+				"family_name": "* Arial",
+				"font_type": "CIDFontType0",
+				"italic": false,
+				"monospaced": false,
+				"name": "*Arial-6539",
+				"subset": false,
+				"weight": 400
+			},
+			"HasClip": false,
+			"Lang": "en",
+			"Page": 0,
+			"Path": "//Document/Sect[3]/P[3]",
+			"Text": "Based on the information provided by the business owner, Adobe sends the main point of contactat the vendor a detailed questionnaire, including questions from each security control area (see VSR Security Controls section). ",
+			"TextSize": 8.5,
+			"attributes": {
+				"SpaceAfter": 5.625
+			}
+		},
+		{
+			"Bounds": [
+				184.79200744628906,
+				138.34840393066406,
+				582.8944396972656,
+				233.63470458984375
+			],
+			"Font": {
+				"alt_family_name": "* Arial",
+				"embedded": true,
+				"encoding": "Identity-H",
+				"family_name": "* Arial",
+				"font_type": "CIDFontType0",
+				"italic": false,
+				"monospaced": false,
+				"name": "*Arial-6539",
+				"subset": false,
+				"weight": 400
+			},
+			"HasClip": false,
+			"Lang": "en",
+			"Page": 0,
+			"Path": "//Document/Sect[3]/P[4]",
+			"Text": "After the vendor completes and returns the questionnaire, Adobe information security analysts review the information and perform a gap assessment. A vendor is assigned a risk level score of \"critical,\" \"high,\" \"medium,\" or \"low\" based upon a risk matrix used by our risk analysts. If Adobe finds any gaps in, or deviations from, Adobe security standards, a risk analyst holds discussions with the business owner to understand the details about the gap and to provide potential remediation suggestions. The analyst documents the recommended remediation and the actions to be performed by the vendor and/or the business owner. If necessary, risk analysts will meet directly with vendors to resolve more complex issues. ",
+			"TextSize": 8.5
+		},
+		{
+			"Bounds": [
+				185.52000427246094,
+				109.27290344238281,
+				286.5287628173828,
+				122.24490356445312
+			],
+			"Font": {
+				"alt_family_name": "* Arial",
+				"embedded": true,
+				"encoding": "Identity-H",
+				"family_name": "* Arial",
+				"font_type": "CIDFontType0",
+				"italic": false,
+				"monospaced": false,
+				"name": "*Arial-6540",
+				"subset": false,
+				"weight": 400
+			},
+			"HasClip": false,
+			"Lang": "en",
+			"Page": 0,
+			"Path": "//Document/Sect[4]/H1",
+			"Text": "Data Classification ",
+			"TextSize": 12.0,
+			"attributes": {
+				"LineHeight": 14.375,
+				"SpaceAfter": 4.75
+			}
+		},
+		{
+			"Bounds": [
+				184.5574951171875,
+				31.568099975585938,
+				579.3262176513672,
+				102.53759765625
+			],
+			"Font": {
+				"alt_family_name": "* Arial",
+				"embedded": true,
+				"encoding": "Identity-H",
+				"family_name": "* Arial",
+				"font_type": "CIDFontType0",
+				"italic": false,
+				"monospaced": false,
+				"name": "*Arial-6539",
+				"subset": false,
+				"weight": 400
+			},
+			"HasClip": false,
+			"Lang": "en",
+			"Page": 0,
+			"Path": "//Document/Sect[4]/P",
+			"Text": "Adobe developed the Adobe Data Classification and Handling Standard to aid in ensuring the security and privacy of all data that Adobe collects, processes, stores, uses, or otherwise handles regardless of whether the data is owned by Adobe or a third party, where the data is located (e.g., Adobe data center,colocation), or the type of hardware or media on which the data resides, whether paper or electronic (e.g., server, desktop, laptop, mobile device, USB flash drive). The standard establishes that all data ",
+			"TextSize": 8.5
+		},
+		{
+			"Bounds": [
+				184.67250061035156,
+				719.8399047851562,
+				536.2516479492188,
+				766.0204010009766
+			],
+			"Font": {
+				"alt_family_name": "* Arial",
+				"embedded": true,
+				"encoding": "Identity-H",
+				"family_name": "* Arial",
+				"font_type": "CIDFontType0",
+				"italic": false,
+				"monospaced": false,
+				"name": "*Arial-11622",
+				"subset": false,
+				"weight": 400
+			},
+			"HasClip": false,
+			"Lang": "en",
+			"Page": 1,
+			"Path": "//Document/Sect[4]/P[2]",
+			"Text": "collected, processed, transmitted, stored, or destroyed by or on behalf of Adobe must be classified and then protected in accordance with its designated classification. The specific classifications in the standard define with whom employees can share Adobe data and determine where and how toshare, protect, and secure this data. ",
+			"TextSize": 8.5
+		},
+		{
+			"Bounds": [
+				184.57049560546875,
+				701.8368988037109,
+				515.8367767333984,
+				711.2209014892578
+			],
+			"Font": {
+				"alt_family_name": "* Arial",
+				"embedded": true,
+				"encoding": "Identity-H",
+				"family_name": "* Arial",
+				"font_type": "CIDFontType0",
+				"italic": false,
+				"monospaced": false,
+				"name": "*Arial-11622",
+				"subset": false,
+				"weight": 400
+			},
+			"HasClip": false,
+			"Lang": "en",
+			"Page": 1,
+			"Path": "//Document/Sect[4]/P[3]",
+			"Text": "The Adobe Data Classification and Handling Standard includes four (4) classifications: ",
+			"TextSize": 8.5
+		},
+		{
+			"Bounds": [
+				0.0,
+				0.0,
+				630.0,
+				810.0
+			],
+			"ClipBounds": [
+				184.4219970703125,
+				688.5549926757812,
+				191.8820037841797,
+				695.7749633789062
+			],
+			"Page": 1,
+			"Path": "//Document/Sect[4]/L/LI/Lbl/Figure",
+			"attributes": {
+				"BBox": [
+					184.67199999999866,
+					688.804999999993,
+					191.6319999999978,
+					695.5249999999942
+				]
+			}
+		},
+		{
+			"Bounds": [
+				0.0,
+				0.0,
+				630.0,
+				810.0
+			],
+			"ClipBounds": [
+				184.4219970703125,
+				688.5549926757812,
+				191.8820037841797,
+				695.7749633789062
+			],
+			"Page": 1,
+			"Path": "//Document/Sect[4]/L/LI/Lbl/Figure",
+			"attributes": {
+				"BBox": [
+					184.67199999999866,
+					688.804999999993,
+					191.6319999999978,
+					695.5249999999942
+				]
+			}
+		},
+		{
+			"Bounds": [
+				192.08450317382812,
+				686.7153930664062,
+				262.75633239746094,
+				696.0993957519531
+			],
+			"Font": {
+				"alt_family_name": "* Arial",
+				"embedded": true,
+				"encoding": "Identity-H",
+				"family_name": "* Arial",
+				"font_type": "CIDFontType0",
+				"italic": false,
+				"monospaced": false,
+				"name": "*Arial-11622",
+				"subset": false,
+				"weight": 400
+			},
+			"HasClip": false,
+			"Page": 1,
+			"Path": "//Document/Sect[4]/L/LI/LBody",
+			"Text": "Adobe Restricted ",
+			"TextSize": 8.5
+		},
+		{
+			"Bounds": [
+				0.0,
+				0.0,
+				630.0,
+				810.0
+			],
+			"ClipBounds": [
+				184.4219970703125,
+				670.3159790039062,
+				191.8820037841797,
+				677.7760009765625
+			],
+			"Page": 1,
+			"Path": "//Document/Sect[4]/L/LI[2]/Lbl/Figure",
+			"attributes": {
+				"BBox": [
+					184.67199999999866,
+					670.5659999999916,
+					191.6319999999978,
+					677.5249999999942
+				]
+			}
+		},
+		{
+			"Bounds": [
+				0.0,
+				0.0,
+				630.0,
+				810.0
+			],
+			"ClipBounds": [
+				184.4219970703125,
+				670.3159790039062,
+				191.8820037841797,
+				677.7760009765625
+			],
+			"Page": 1,
+			"Path": "//Document/Sect[4]/L/LI[2]/Lbl/Figure",
+			"attributes": {
+				"BBox": [
+					184.67199999999866,
+					670.5659999999916,
+					191.6319999999978,
+					677.5249999999942
+				]
+			}
+		},
+		{
+			"Bounds": [
+				191.76150512695312,
+				668.5594024658203,
+				270.9207305908203,
+				677.9434051513672
+			],
+			"Font": {
+				"alt_family_name": "* Arial",
+				"embedded": true,
+				"encoding": "Identity-H",
+				"family_name": "* Arial",
+				"font_type": "CIDFontType0",
+				"italic": false,
+				"monospaced": false,
+				"name": "*Arial-11622",
+				"subset": false,
+				"weight": 400
+			},
+			"HasClip": false,
+			"Page": 1,
+			"Path": "//Document/Sect[4]/L/LI[2]/LBody",
+			"Text": "Adobe Confidential ",
+			"TextSize": 8.5
+		},
+		{
+			"Bounds": [
+				0.0,
+				0.0,
+				630.0,
+				810.0
+			],
+			"ClipBounds": [
+				184.1820068359375,
+				652.3159790039062,
+				191.8820037841797,
+				659.7760009765625
+			],
+			"Page": 1,
+			"Path": "//Document/Sect[4]/L/LI[3]/Lbl/Figure",
+			"attributes": {
+				"BBox": [
+					184.43199999999342,
+					652.5659999999916,
+					191.6319999999978,
+					659.5259999999835
+				]
+			}
+		},
+		{
+			"Bounds": [
+				0.0,
+				0.0,
+				630.0,
+				810.0
+			],
+			"ClipBounds": [
+				184.1820068359375,
+				652.3159790039062,
+				191.8820037841797,
+				659.7760009765625
+			],
+			"Page": 1,
+			"Path": "//Document/Sect[4]/L/LI[3]/Lbl/Figure",
+			"attributes": {
+				"BBox": [
+					184.43199999999342,
+					652.5659999999916,
+					191.6319999999978,
+					659.5259999999835
+				]
+			}
+		},
+		{
+			"Bounds": [
+				191.76150512695312,
+				650.5733947753906,
+				253.85025024414062,
+				659.9573974609375
+			],
+			"Font": {
+				"alt_family_name": "* Arial",
+				"embedded": true,
+				"encoding": "Identity-H",
+				"family_name": "* Arial",
+				"font_type": "CIDFontType0",
+				"italic": false,
+				"monospaced": false,
+				"name": "*Arial-11622",
+				"subset": false,
+				"weight": 400
+			},
+			"HasClip": false,
+			"Page": 1,
+			"Path": "//Document/Sect[4]/L/LI[3]/LBody",
+			"Text": "Adobe Internal ",
+			"TextSize": 8.5
+		},
+		{
+			"Bounds": [
+				0.0,
+				0.0,
+				630.0,
+				810.0
+			],
+			"ClipBounds": [
+				184.78199768066406,
+				634.3170166015625,
+				192.36199951171875,
+				641.5369873046875
+			],
+			"Page": 1,
+			"Path": "//Document/Sect[4]/L/LI[4]/Lbl/Figure",
+			"attributes": {
+				"BBox": [
+					185.03199999999924,
+					634.5669999999809,
+					192.1119999999937,
+					641.2869999999821
+				]
+			}
+		},
+		{
+			"Bounds": [
+				0.0,
+				0.0,
+				630.0,
+				810.0
+			],
+			"ClipBounds": [
+				184.78199768066406,
+				634.3170166015625,
+				192.36199951171875,
+				641.5369873046875
+			],
+			"Page": 1,
+			"Path": "//Document/Sect[4]/L/LI[4]/Lbl/Figure",
+			"attributes": {
+				"BBox": [
+					185.03199999999924,
+					634.5669999999809,
+					192.1119999999937,
+					641.2869999999821
+				]
+			}
+		},
+		{
+			"Bounds": [
+				192.24600219726562,
+				632.4853973388672,
+				218.7928009033203,
+				641.8694000244141
+			],
+			"Font": {
+				"alt_family_name": "* Arial",
+				"embedded": true,
+				"encoding": "Identity-H",
+				"family_name": "* Arial",
+				"font_type": "CIDFontType0",
+				"italic": false,
+				"monospaced": false,
+				"name": "*Arial-11622",
+				"subset": false,
+				"weight": 400
+			},
+			"HasClip": false,
+			"Page": 1,
+			"Path": "//Document/Sect[4]/L/LI[4]/LBody",
+			"Text": "Public ",
+			"TextSize": 8.5
+		},
+		{
+			"Bounds": [
+				184.53399658203125,
+				575.0717926025391,
+				544.5558929443359,
+				622.1217956542969
+			],
+			"Font": {
+				"alt_family_name": "* Arial",
+				"embedded": true,
+				"encoding": "Identity-H",
+				"family_name": "* Arial",
+				"font_type": "CIDFontType0",
+				"italic": false,
+				"monospaced": false,
+				"name": "*Arial-11622",
+				"subset": false,
+				"weight": 400
+			},
+			"HasClip": false,
+			"Lang": "en",
+			"Page": 1,
+			"Path": "//Document/Sect[4]/P[4]",
+			"Text": "A VSR is required for all third-party vendors that store or process data classified as Adobe Restricted, Confidential, or Internal off-premise (not at Adobe). Depending on the classification of the data handled by the vendor, a new VSR is required either annually or bi\u00adannually (see Recertification section). ",
+			"TextSize": 8.5,
+			"attributes": {
+				"SpaceAfter": 5.875
+			}
+		},
+		{
+			"Bounds": [
+				184.55099487304688,
+				532.4187927246094,
+				547.1853790283203,
+				566.4273071289062
+			],
+			"Font": {
+				"alt_family_name": "* Arial",
+				"embedded": true,
+				"encoding": "Identity-H",
+				"family_name": "* Arial",
+				"font_type": "CIDFontType0",
+				"italic": false,
+				"monospaced": false,
+				"name": "*Arial-11622",
+				"subset": false,
+				"weight": 400
+			},
+			"HasClip": false,
+			"Lang": "en",
+			"Page": 1,
+			"Path": "//Document/Sect[4]/P[5]",
+			"Text": "Each data classification includes specific protection and handling requirements, and if data falls into multiple classifications, it must be protected in accordance with the most restrictive classification. ",
+			"TextSize": 8.5,
+			"attributes": {
+				"SpaceAfter": 5.75
+			}
+		},
+		{
+			"Bounds": [
+				184.79750061035156,
+				489.8580017089844,
+				553.7337341308594,
+				523.7913055419922
+			],
+			"Font": {
+				"alt_family_name": "* Arial",
+				"embedded": true,
+				"encoding": "Identity-H",
+				"family_name": "* Arial",
+				"font_type": "CIDFontType0",
+				"italic": false,
+				"monospaced": false,
+				"name": "*Arial-11622",
+				"subset": false,
+				"weight": 400
+			},
+			"HasClip": false,
+			"Lang": "en",
+			"Page": 1,
+			"Path": "//Document/Sect[4]/P[6]",
+			"Text": "Any business owner requesting an exception to the Data Classification and Handling Standard mustsubmit a request in writing to the appropriate management personnel for review and approval. ",
+			"TextSize": 8.5,
+			"attributes": {
+				"SpaceAfter": 5.5
+			}
+		},
+		{
+			"Bounds": [
+				184.78799438476562,
+				447.2899932861328,
+				561.4839782714844,
+				481.3580017089844
+			],
+			"Font": {
+				"alt_family_name": "* Arial",
+				"embedded": true,
+				"encoding": "Identity-H",
+				"family_name": "* Arial",
+				"font_type": "CIDFontType0",
+				"italic": false,
+				"monospaced": false,
+				"name": "*Arial-11622",
+				"subset": false,
+				"weight": 400
+			},
+			"HasClip": false,
+			"Lang": "en",
+			"Page": 1,
+			"Path": "//Document/Sect[4]/P[7]",
+			"Text": "If Adobe finds that data that should be classified as Adobe Restricted or Adobe Confidential has been handled incorrectly, either due to incorrect classification or negligence in its handling, Adobe may take disciplinary action against the offender. ",
+			"TextSize": 8.5
+		},
+		{
+			"Bounds": [
+				184.8000030517578,
+				425.843994140625,
+				299.0189514160156,
+				434.28599548339844
+			],
+			"Font": {
+				"alt_family_name": "* Arial",
+				"embedded": true,
+				"encoding": "Identity-H",
+				"family_name": "* Arial",
+				"font_type": "CIDFontType0",
+				"italic": false,
+				"monospaced": false,
+				"name": "*Arial-Bold-11624",
+				"subset": false,
+				"weight": 700
+			},
+			"HasClip": false,
+			"Lang": "en",
+			"Page": 1,
+			"Path": "//Document/Sect[4]/Sect/H2",
+			"Text": "Adobe Restricted Data ",
+			"TextSize": 10.5,
+			"attributes": {
+				"SpaceAfter": 3
+			}
+		},
+		{
+			"Bounds": [
+				184.31199645996094,
+				359.27720642089844,
+				565.3503875732422,
+				417.7657012939453
+			],
+			"Font": {
+				"alt_family_name": "* Arial",
+				"embedded": true,
+				"encoding": "Identity-H",
+				"family_name": "* Arial",
+				"font_type": "CIDFontType0",
+				"italic": true,
+				"monospaced": false,
+				"name": "*Arial-Italic-11623",
+				"subset": false,
+				"weight": 400
+			},
+			"HasClip": false,
+			"Lang": "en",
+			"Page": 1,
+			"Path": "//Document/Sect[4]/Sect/P",
+			"Text": "Adobe Restricted data is the most restrictive classification and requires the most care; only very limited segments of the Adobe workforce need access to Adobe Restricted data to perform their jobs. Unauthorized disclosure of Adobe Restricted data could cause severe harm to Adobe, its employees, customers, stockholders, or business partners. Adobe Restricted data includes the following: ",
+			"TextSize": 9.0
+		},
+		{
+			"Bounds": [
+				0.0,
+				0.0,
+				630.0,
+				810.0
+			],
+			"ClipBounds": [
+				184.66200256347656,
+				343.9289855957031,
+				192.12200927734375,
+				353.5489807128906
+			],
+			"Page": 1,
+			"Path": "//Document/Sect[4]/Sect/L/LI/Lbl/Figure",
+			"attributes": {
+				"BBox": [
+					184.91199999999662,
+					344.1789999999892,
+					191.87199999999575,
+					353.29899999999907
+				]
+			}
+		},
+		{
+			"Bounds": [
+				0.0,
+				0.0,
+				630.0,
+				810.0
+			],
+			"ClipBounds": [
+				184.66200256347656,
+				343.9289855957031,
+				192.12200927734375,
+				353.5489807128906
+			],
+			"Page": 1,
+			"Path": "//Document/Sect[4]/Sect/L/LI/Lbl/Figure",
+			"attributes": {
+				"BBox": [
+					184.91199999999662,
+					344.1789999999892,
+					191.87199999999575,
+					353.29899999999907
+				]
+			}
+		},
+		{
+			"Bounds": [
+				192.00450134277344,
+				344.1811981201172,
+				361.9842987060547,
+				353.56520080566406
+			],
+			"Font": {
+				"alt_family_name": "* Arial",
+				"embedded": true,
+				"encoding": "Identity-H",
+				"family_name": "* Arial",
+				"font_type": "CIDFontType0",
+				"italic": false,
+				"monospaced": false,
+				"name": "*Arial-11622",
+				"subset": false,
+				"weight": 400
+			},
+			"HasClip": false,
+			"Page": 1,
+			"Path": "//Document/Sect[4]/Sect/L/LI/LBody",
+			"Text": "Cardholder data, as defined by the PCI DSS ",
+			"TextSize": 8.5
+		},
+		{
+			"Bounds": [
+				0.0,
+				0.0,
+				630.0,
+				810.0
+			],
+			"ClipBounds": [
+				184.54200744628906,
+				328.0899963378906,
+				192.3620147705078,
+				335.30999755859375
+			],
+			"Page": 1,
+			"Path": "//Document/Sect[4]/Sect/L/LI[2]/Lbl/Figure",
+			"attributes": {
+				"BBox": [
+					184.791999999994,
+					328.3399999999965,
+					192.1119999999937,
+					335.05899999999383
+				]
+			}
+		},
+		{
+			"Bounds": [
+				0.0,
+				0.0,
+				630.0,
+				810.0
+			],
+			"ClipBounds": [
+				184.54200744628906,
+				328.0899963378906,
+				192.3620147705078,
+				335.30999755859375
+			],
+			"Page": 1,
+			"Path": "//Document/Sect[4]/Sect/L/LI[2]/Lbl/Figure",
+			"attributes": {
+				"BBox": [
+					184.791999999994,
+					328.3399999999965,
+					192.1119999999937,
+					335.05899999999383
+				]
+			}
+		},
+		{
+			"Bounds": [
+				192.25950622558594,
+				326.2377014160156,
+				284.5728454589844,
+				335.6217041015625
+			],
+			"Font": {
+				"alt_family_name": "* Arial",
+				"embedded": true,
+				"encoding": "Identity-H",
+				"family_name": "* Arial",
+				"font_type": "CIDFontType0",
+				"italic": false,
+				"monospaced": false,
+				"name": "*Arial-11622",
+				"subset": false,
+				"weight": 400
+			},
+			"HasClip": false,
+			"Page": 1,
+			"Path": "//Document/Sect[4]/Sect/L/LI[2]/LBody",
+			"Text": "Bank account numbers ",
+			"TextSize": 8.5
+		},
+		{
+			"Bounds": [
+				0.0,
+				0.0,
+				630.0,
+				810.0
+			],
+			"ClipBounds": [
+				184.66200256347656,
+				307.69000244140625,
+				191.8820037841797,
+				317.30999755859375
+			],
+			"Page": 1,
+			"Path": "//Document/Sect[4]/Sect/L/LI[3]/Lbl/Figure",
+			"attributes": {
+				"BBox": [
+					184.91199999999662,
+					307.9399999999878,
+					191.6319999999978,
+					317.0599999999977
+				]
+			}
+		},
+		{
+			"Bounds": [
+				0.0,
+				0.0,
+				630.0,
+				810.0
+			],
+			"ClipBounds": [
+				184.66200256347656,
+				307.69000244140625,
+				191.8820037841797,
+				317.30999755859375
+			],
+			"Page": 1,
+			"Path": "//Document/Sect[4]/Sect/L/LI[3]/Lbl/Figure",
+			"attributes": {
+				"BBox": [
+					184.91199999999662,
+					307.9399999999878,
+					191.6319999999978,
+					317.0599999999977
+				]
+			}
+		},
+		{
+			"Bounds": [
+				191.77499389648438,
+				308.158203125,
+				489.9954376220703,
+				317.5422058105469
+			],
+			"Font": {
+				"alt_family_name": "* Arial",
+				"embedded": true,
+				"encoding": "Identity-H",
+				"family_name": "* Arial",
+				"font_type": "CIDFontType0",
+				"italic": false,
+				"monospaced": false,
+				"name": "*Arial-11622",
+				"subset": false,
+				"weight": 400
+			},
+			"HasClip": false,
+			"Page": 1,
+			"Path": "//Document/Sect[4]/Sect/L/LI[3]/LBody",
+			"Text": "Social Security and taxpayer identification numbers relating to an individual ",
+			"TextSize": 8.5
+		},
+		{
+			"Bounds": [
+				0.0,
+				0.0,
+				630.0,
+				810.0
+			],
+			"ClipBounds": [
+				184.1820068359375,
+				289.6910095214844,
+				192.36199951171875,
+				299.3110046386719
+			],
+			"Page": 1,
+			"Path": "//Document/Sect[4]/Sect/L/LI[4]/Lbl/Figure",
+			"attributes": {
+				"BBox": [
+					184.43199999999342,
+					289.9409999999916,
+					192.1119999999937,
+					299.06099999998696
+				]
+			}
+		},
+		{
+			"Bounds": [
+				0.0,
+				0.0,
+				630.0,
+				810.0
+			],
+			"ClipBounds": [
+				184.1820068359375,
+				289.6910095214844,
+				192.36199951171875,
+				299.3110046386719
+			],
+			"Page": 1,
+			"Path": "//Document/Sect[4]/Sect/L/LI[4]/Lbl/Figure",
+			"attributes": {
+				"BBox": [
+					184.43199999999342,
+					289.9409999999916,
+					192.1119999999937,
+					299.06099999998696
+				]
+			}
+		},
+		{
+			"Bounds": [
+				191.86000061035156,
+				277.7536926269531,
+				520.9809875488281,
+				299.3182067871094
+			],
+			"Font": {
+				"alt_family_name": "* Arial",
+				"embedded": true,
+				"encoding": "Identity-H",
+				"family_name": "* Arial",
+				"font_type": "CIDFontType0",
+				"italic": false,
+				"monospaced": false,
+				"name": "*Arial-11622",
+				"subset": false,
+				"weight": 400
+			},
+			"HasClip": false,
+			"Page": 1,
+			"Path": "//Document/Sect[4]/Sect/L/LI[4]/LBody",
+			"Text": "Driver's license numbers or identification card number used to verify an individual's identity(state, military, student, voter, tribal, operator's number, etc.) ",
+			"TextSize": 8.5
+		},
+		{
+			"Bounds": [
+				0.0,
+				0.0,
+				630.0,
+				810.0
+			],
+			"ClipBounds": [
+				183.822998046875,
+				259.4519958496094,
+				192.3629913330078,
+				269.0719909667969
+			],
+			"Page": 1,
+			"Path": "//Document/Sect[4]/Sect/L/LI[5]/Lbl/Figure",
+			"attributes": {
+				"BBox": [
+					184.07299999999668,
+					259.7019999999902,
+					192.1119999999937,
+					268.82199999998556
+				]
+			}
+		},
+		{
+			"Bounds": [
+				0.0,
+				0.0,
+				630.0,
+				810.0
+			],
+			"ClipBounds": [
+				183.822998046875,
+				259.4519958496094,
+				192.3629913330078,
+				269.0719909667969
+			],
+			"Page": 1,
+			"Path": "//Document/Sect[4]/Sect/L/LI[5]/Lbl/Figure",
+			"attributes": {
+				"BBox": [
+					184.07299999999668,
+					259.7019999999902,
+					192.1119999999937,
+					268.82199999998556
+				]
+			}
+		},
+		{
+			"Bounds": [
+				192.25950622558594,
+				259.7507019042969,
+				276.5856628417969,
+				269.13470458984375
+			],
+			"Font": {
+				"alt_family_name": "* Arial",
+				"embedded": true,
+				"encoding": "Identity-H",
+				"family_name": "* Arial",
+				"font_type": "CIDFontType0",
+				"italic": false,
+				"monospaced": false,
+				"name": "*Arial-11622",
+				"subset": false,
+				"weight": 400
+			},
+			"HasClip": false,
+			"Page": 1,
+			"Path": "//Document/Sect[4]/Sect/L/LI[5]/LBody",
+			"Text": "Passport information ",
+			"TextSize": 8.5
+		},
+		{
+			"Bounds": [
+				0.0,
+				0.0,
+				630.0,
+				810.0
+			],
+			"ClipBounds": [
+				184.06199645996094,
+				241.4530029296875,
+				192.1219940185547,
+				250.8330078125
+			],
+			"Page": 1,
+			"Path": "//Document/Sect[4]/Sect/L/LI[6]/Lbl/Figure",
+			"attributes": {
+				"BBox": [
+					184.31299999999464,
+					241.70299999999406,
+					191.87199999999575,
+					250.58299999999872
+				]
+			}
+		},
+		{
+			"Bounds": [
+				0.0,
+				0.0,
+				630.0,
+				810.0
+			],
+			"ClipBounds": [
+				184.06199645996094,
+				241.4530029296875,
+				192.1219940185547,
+				250.8330078125
+			],
+			"Page": 1,
+			"Path": "//Document/Sect[4]/Sect/L/LI[6]/Lbl/Figure",
+			"attributes": {
+				"BBox": [
+					184.31299999999464,
+					241.70299999999406,
+					191.87199999999575,
+					250.58299999999872
+				]
+			}
+		},
+		{
+			"Bounds": [
+				192.02149963378906,
+				229.51620483398438,
+				549.0724487304688,
+				250.97019958496094
+			],
+			"Font": {
+				"alt_family_name": "* Arial",
+				"embedded": true,
+				"encoding": "Identity-H",
+				"family_name": "* Arial",
+				"font_type": "CIDFontType0",
+				"italic": false,
+				"monospaced": false,
+				"name": "*Arial-11622",
+				"subset": false,
+				"weight": 400
+			},
+			"HasClip": false,
+			"Page": 1,
+			"Path": "//Document/Sect[4]/Sect/L/LI[6]/LBody",
+			"Text": "Credential stores used to authenticate Adobe users or employees, such as Active Directory {butnot including personal password managers, such as Splash ID) ",
+			"TextSize": 8.5
+		},
+		{
+			"Bounds": [
+				0.0,
+				0.0,
+				630.0,
+				810.0
+			],
+			"ClipBounds": [
+				183.58299255371094,
+				211.21400451660156,
+				192.12298583984375,
+				220.59400939941406
+			],
+			"Page": 1,
+			"Path": "//Document/Sect[4]/Sect/L/LI[7]/Lbl/Figure",
+			"attributes": {
+				"BBox": [
+					183.83299999999872,
+					211.46399999999994,
+					191.87199999999575,
+					220.34399999999732
+				]
+			}
+		},
+		{
+			"Bounds": [
+				0.0,
+				0.0,
+				630.0,
+				810.0
+			],
+			"ClipBounds": [
+				183.58299255371094,
+				211.21400451660156,
+				192.12298583984375,
+				220.59400939941406
+			],
+			"Page": 1,
+			"Path": "//Document/Sect[4]/Sect/L/LI[7]/Lbl/Figure",
+			"attributes": {
+				"BBox": [
+					183.83299999999872,
+					211.46399999999994,
+					191.87199999999575,
+					220.34399999999732
+				]
+			}
+		},
+		{
+			"Bounds": [
+				192.02999877929688,
+				186.8632049560547,
+				539.0001983642578,
+				220.89720153808594
+			],
+			"Font": {
+				"alt_family_name": "* Arial",
+				"embedded": true,
+				"encoding": "Identity-H",
+				"family_name": "* Arial",
+				"font_type": "CIDFontType0",
+				"italic": false,
+				"monospaced": false,
+				"name": "*Arial-11622",
+				"subset": false,
+				"weight": 400
+			},
+			"HasClip": false,
+			"Page": 1,
+			"Path": "//Document/Sect[4]/Sect/L/LI[7]/LBody",
+			"Text": "Credentials, secrets, tokens, or keys permitting access to systems storing Restricted data or permitting decryption of Restricted data (e.g., identity management systems, deployment systems, or secret stores) ",
+			"TextSize": 8.5
+		},
+		{
+			"Bounds": [
+				0.0,
+				0.0,
+				630.0,
+				810.0
+			],
+			"ClipBounds": [
+				184.06199645996094,
+				168.49600219726562,
+				192.36199951171875,
+				178.11599731445312
+			],
+			"Page": 1,
+			"Path": "//Document/Sect[4]/Sect/L/LI[8]/Lbl/Figure",
+			"attributes": {
+				"BBox": [
+					184.31299999999464,
+					168.74599999999919,
+					192.1119999999937,
+					177.86599999999453
+				]
+			}
+		},
+		{
+			"Bounds": [
+				0.0,
+				0.0,
+				630.0,
+				810.0
+			],
+			"ClipBounds": [
+				184.06199645996094,
+				168.49600219726562,
+				192.36199951171875,
+				178.11599731445312
+			],
+			"Page": 1,
+			"Path": "//Document/Sect[4]/Sect/L/LI[8]/Lbl/Figure",
+			"attributes": {
+				"BBox": [
+					184.31299999999464,
+					168.74599999999919,
+					192.1119999999937,
+					177.86599999999453
+				]
+			}
+		},
+		{
+			"Bounds": [
+				192.28500366210938,
+				168.877197265625,
+				392.76300048828125,
+				179.22520446777344
+			],
+			"Font": {
+				"alt_family_name": "* Arial",
+				"embedded": true,
+				"encoding": "Identity-H",
+				"family_name": "* Arial",
+				"font_type": "CIDFontType0",
+				"italic": false,
+				"monospaced": false,
+				"name": "*Arial-11622",
+				"subset": false,
+				"weight": 400
+			},
+			"HasClip": false,
+			"Page": 1,
+			"Path": "//Document/Sect[4]/Sect/L/LI[8]/LBody",
+			"Text": "Digital certificates used for signing Adobe software ",
+			"TextSize": 8.5
+		},
+		{
+			"Bounds": [
+				0.0,
+				0.0,
+				630.0,
+				810.0
+			],
+			"ClipBounds": [
+				183.7030029296875,
+				150.4969940185547,
+				192.36300659179688,
+				160.35699462890625
+			],
+			"Page": 1,
+			"Path": "//Document/Sect[4]/Sect/L/LI[9]/Lbl/Figure",
+			"attributes": {
+				"BBox": [
+					183.95299999999406,
+					150.74699999999575,
+					192.1119999999937,
+					160.10599999999977
+				]
+			}
+		},
+		{
+			"Bounds": [
+				0.0,
+				0.0,
+				630.0,
+				810.0
+			],
+			"ClipBounds": [
+				183.7030029296875,
+				150.4969940185547,
+				192.36300659179688,
+				160.35699462890625
+			],
+			"Page": 1,
+			"Path": "//Document/Sect[4]/Sect/L/LI[9]/Lbl/Figure",
+			"attributes": {
+				"BBox": [
+					183.95299999999406,
+					150.74699999999575,
+					192.1119999999937,
+					160.10599999999977
+				]
+			}
+		},
+		{
+			"Bounds": [
+				192.23599243164062,
+				150.91270446777344,
+				549.0762786865234,
+				160.2967071533203
+			],
+			"Font": {
+				"alt_family_name": "* Arial",
+				"embedded": true,
+				"encoding": "Identity-H",
+				"family_name": "* Arial",
+				"font_type": "CIDFontType0",
+				"italic": false,
+				"monospaced": false,
+				"name": "*Arial-11622",
+				"subset": false,
+				"weight": 400
+			},
+			"HasClip": false,
+			"Page": 1,
+			"Path": "//Document/Sect[4]/Sect/L/LI[9]/LBody",
+			"Text": "Medical or health information, including electronically protected health information (ePHI) ",
+			"TextSize": 8.5
+		},
+		{
+			"Bounds": [
+				0.0,
+				0.0,
+				630.0,
+				810.0
+			],
+			"ClipBounds": [
+				184.06199645996094,
+				132.4980010986328,
+				192.36199951171875,
+				142.1179962158203
+			],
+			"Page": 1,
+			"Path": "//Document/Sect[4]/Sect/L/LI[10]/Lbl/Figure",
+			"attributes": {
+				"BBox": [
+					184.31299999999464,
+					132.7479999999996,
+					192.1119999999937,
+					141.86699999999837
+				]
+			}
+		},
+		{
+			"Bounds": [
+				0.0,
+				0.0,
+				630.0,
+				810.0
+			],
+			"ClipBounds": [
+				184.06199645996094,
+				132.4980010986328,
+				192.36199951171875,
+				142.1179962158203
+			],
+			"Page": 1,
+			"Path": "//Document/Sect[4]/Sect/L/LI[10]/Lbl/Figure",
+			"attributes": {
+				"BBox": [
+					184.31299999999464,
+					132.7479999999996,
+					192.1119999999937,
+					141.86699999999837
+				]
+			}
+		},
+		{
+			"Bounds": [
+				192.2274932861328,
+				132.84170532226562,
+				357.7143096923828,
+				142.22569274902344
+			],
+			"Font": {
+				"alt_family_name": "* Arial",
+				"embedded": true,
+				"encoding": "Identity-H",
+				"family_name": "* Arial",
+				"font_type": "CIDFontType0",
+				"italic": false,
+				"monospaced": false,
+				"name": "*Arial-11622",
+				"subset": false,
+				"weight": 400
+			},
+			"HasClip": false,
+			"Page": 1,
+			"Path": "//Document/Sect[4]/Sect/L/LI[10]/LBody",
+			"Text": "Federal classified or intelligence contracts ",
+			"TextSize": 8.5
+		},
+		{
+			"Bounds": [
+				0.0,
+				0.0,
+				630.0,
+				810.0
+			],
+			"ClipBounds": [
+				184.54200744628906,
+				114.49800109863281,
+				191.8820037841797,
+				124.35800170898438
+			],
+			"Page": 1,
+			"Path": "//Document/Sect[4]/Sect/L/LI[11]/Lbl/Figure",
+			"attributes": {
+				"BBox": [
+					184.791999999994,
+					114.74799999999959,
+					191.6319999999978,
+					124.10799999999654
+				]
+			}
+		},
+		{
+			"Bounds": [
+				0.0,
+				0.0,
+				630.0,
+				810.0
+			],
+			"ClipBounds": [
+				184.54200744628906,
+				114.49800109863281,
+				191.8820037841797,
+				124.35800170898438
+			],
+			"Page": 1,
+			"Path": "//Document/Sect[4]/Sect/L/LI[11]/Lbl/Figure",
+			"attributes": {
+				"BBox": [
+					184.791999999994,
+					114.74799999999959,
+					191.6319999999978,
+					124.10799999999654
+				]
+			}
+		},
+		{
+			"Bounds": [
+				191.75999450683594,
+				102.47970581054688,
+				485.2201690673828,
+				124.18020629882812
+			],
+			"Font": {
+				"alt_family_name": "* Arial",
+				"embedded": true,
+				"encoding": "Identity-H",
+				"family_name": "* Arial",
+				"font_type": "CIDFontType0",
+				"italic": false,
+				"monospaced": false,
+				"name": "*Arial-11622",
+				"subset": false,
+				"weight": 400
+			},
+			"HasClip": false,
+			"Page": 1,
+			"Path": "//Document/Sect[4]/Sect/L/LI[11]/LBody",
+			"Text": "Security question response (including mother's maiden name) or Personal Identification Number (PIN) ",
+			"TextSize": 8.5
+		},
+		{
+			"Bounds": [
+				0.0,
+				0.0,
+				630.0,
+				810.0
+			],
+			"ClipBounds": [
+				184.78199768066406,
+				84.260009765625,
+				192.36199951171875,
+				93.63999938964844
+			],
+			"Page": 1,
+			"Path": "//Document/Sect[4]/Sect/L/LI[12]/Lbl/Figure",
+			"attributes": {
+				"BBox": [
+					185.03199999999924,
+					84.50949999999648,
+					192.1119999999937,
+					93.3891999999978
+				]
+			}
+		},
+		{
+			"Bounds": [
+				0.0,
+				0.0,
+				630.0,
+				810.0
+			],
+			"ClipBounds": [
+				184.78199768066406,
+				84.260009765625,
+				192.36199951171875,
+				93.63999938964844
+			],
+			"Page": 1,
+			"Path": "//Document/Sect[4]/Sect/L/LI[12]/Lbl/Figure",
+			"attributes": {
+				"BBox": [
+					185.03199999999924,
+					84.50949999999648,
+					192.1119999999937,
+					93.3891999999978
+				]
+			}
+		},
+		{
+			"Bounds": [
+				192.2530059814453,
+				84.55320739746094,
+				305.5239562988281,
+				93.93719482421875
+			],
+			"Font": {
+				"alt_family_name": "* Arial",
+				"embedded": true,
+				"encoding": "Identity-H",
+				"family_name": "* Arial",
+				"font_type": "CIDFontType0",
+				"italic": false,
+				"monospaced": false,
+				"name": "*Arial-11622",
+				"subset": false,
+				"weight": 400
+			},
+			"HasClip": false,
+			"Page": 1,
+			"Path": "//Document/Sect[4]/Sect/L/LI[12]/LBody",
+			"Text": "Private key digital signatures ",
+			"TextSize": 8.5
+		},
+		{
+			"Bounds": [
+				0.0,
+				0.0,
+				630.0,
+				810.0
+			],
+			"ClipBounds": [
+				184.302001953125,
+				68.18000793457031,
+				192.36199951171875,
+				75.63999938964844
+			],
+			"Page": 1,
+			"Path": "//Document/Sect[4]/Sect/L/LI[13]/Lbl/Figure",
+			"attributes": {
+				"BBox": [
+					184.55199999999604,
+					68.43019999999888,
+					192.1119999999937,
+					75.3898999999983
+				]
+			}
+		},
+		{
+			"Bounds": [
+				0.0,
+				0.0,
+				630.0,
+				810.0
+			],
+			"ClipBounds": [
+				184.302001953125,
+				68.18000793457031,
+				192.36199951171875,
+				75.63999938964844
+			],
+			"Page": 1,
+			"Path": "//Document/Sect[4]/Sect/L/LI[13]/Lbl/Figure",
+			"attributes": {
+				"BBox": [
+					184.55199999999604,
+					68.43019999999888,
+					192.1119999999937,
+					75.3898999999983
+				]
+			}
+		},
+		{
+			"Bounds": [
+				192.26150512695312,
+				66.38870239257812,
+				280.6277618408203,
+				75.772705078125
+			],
+			"Font": {
+				"alt_family_name": "* Arial",
+				"embedded": true,
+				"encoding": "Identity-H",
+				"family_name": "* Arial",
+				"font_type": "CIDFontType0",
+				"italic": false,
+				"monospaced": false,
+				"name": "*Arial-11622",
+				"subset": false,
+				"weight": 400
+			},
+			"HasClip": false,
+			"Page": 1,
+			"Path": "//Document/Sect[4]/Sect/L/LI[13]/LBody",
+			"Text": "Biometric information ",
+			"TextSize": 8.5
+		},
+		{
+			"Bounds": [
+				0.0,
+				0.0,
+				630.0,
+				810.0
+			],
+			"ClipBounds": [
+				184.4219970703125,
+				758.3920288085938,
+				192.1219940185547,
+				765.85205078125
+			],
+			"Page": 2,
+			"Path": "//Document/Sect[4]/Sect/L/LI[14]/Lbl/Figure",
+			"attributes": {
+				"BBox": [
+					184.67199999999866,
+					758.6419999999925,
+					191.87199999999575,
+					765.6019999999844
+				]
+			}
+		},
+		{
+			"Bounds": [
+				0.0,
+				0.0,
+				630.0,
+				810.0
+			],
+			"ClipBounds": [
+				184.4219970703125,
+				758.3920288085938,
+				192.1219940185547,
+				765.85205078125
+			],
+			"Page": 2,
+			"Path": "//Document/Sect[4]/Sect/L/LI[14]/Lbl/Figure",
+			"attributes": {
+				"BBox": [
+					184.67199999999866,
+					758.6419999999925,
+					191.87199999999575,
+					765.6019999999844
+				]
+			}
+		},
+		{
+			"Bounds": [
+				192.0,
+				756.6331939697266,
+				272.8689422607422,
+				766.0171966552734
+			],
+			"Font": {
+				"alt_family_name": "* Arial",
+				"embedded": true,
+				"encoding": "Identity-H",
+				"family_name": "* Arial",
+				"font_type": "CIDFontType0",
+				"italic": false,
+				"monospaced": false,
+				"name": "*Arial-16669",
+				"subset": false,
+				"weight": 400
+			},
+			"HasClip": false,
+			"Page": 2,
+			"Path": "//Document/Sect[4]/Sect/L/LI[14]/LBody",
+			"Text": "Genetic information ",
+			"TextSize": 8.5
+		},
+		{
+			"Bounds": [
+				0.0,
+				0.0,
+				630.0,
+				810.0
+			],
+			"ClipBounds": [
+				184.54200744628906,
+				738.2329711914062,
+				192.3620147705078,
+				747.6129760742188
+			],
+			"Page": 2,
+			"Path": "//Document/Sect[4]/Sect/L/LI[15]/Lbl/Figure",
+			"attributes": {
+				"BBox": [
+					184.791999999994,
+					738.4829999999783,
+					192.1119999999937,
+					747.362999999983
+				]
+			}
+		},
+		{
+			"Bounds": [
+				0.0,
+				0.0,
+				630.0,
+				810.0
+			],
+			"ClipBounds": [
+				184.54200744628906,
+				738.2329711914062,
+				192.3620147705078,
+				747.6129760742188
+			],
+			"Page": 2,
+			"Path": "//Document/Sect[4]/Sect/L/LI[15]/Lbl/Figure",
+			"attributes": {
+				"BBox": [
+					184.791999999994,
+					738.4829999999783,
+					192.1119999999937,
+					747.362999999983
+				]
+			}
+		},
+		{
+			"Bounds": [
+				192.2465057373047,
+				738.5706939697266,
+				242.89271545410156,
+				747.9546966552734
+			],
+			"Font": {
+				"alt_family_name": "* Arial",
+				"embedded": true,
+				"encoding": "Identity-H",
+				"family_name": "* Arial",
+				"font_type": "CIDFontType0",
+				"italic": false,
+				"monospaced": false,
+				"name": "*Arial-16669",
+				"subset": false,
+				"weight": 400
+			},
+			"HasClip": false,
+			"Page": 2,
+			"Path": "//Document/Sect[4]/Sect/L/LI[15]/LBody",
+			"Text": "Racial origin ",
+			"TextSize": 8.5
+		},
+		{
+			"Bounds": [
+				0.0,
+				0.0,
+				630.0,
+				810.0
+			],
+			"ClipBounds": [
+				184.66200256347656,
+				720.2340087890625,
+				192.36199951171875,
+				729.614013671875
+			],
+			"Page": 2,
+			"Path": "//Document/Sect[4]/Sect/L/LI[16]/Lbl/Figure",
+			"attributes": {
+				"BBox": [
+					184.91199999999662,
+					720.4839999999967,
+					192.1119999999937,
+					729.362999999983
+				]
+			}
+		},
+		{
+			"Bounds": [
+				0.0,
+				0.0,
+				630.0,
+				810.0
+			],
+			"ClipBounds": [
+				184.66200256347656,
+				720.2340087890625,
+				192.36199951171875,
+				729.614013671875
+			],
+			"Page": 2,
+			"Path": "//Document/Sect[4]/Sect/L/LI[16]/Lbl/Figure",
+			"attributes": {
+				"BBox": [
+					184.91199999999662,
+					720.4839999999967,
+					192.1119999999937,
+					729.362999999983
+				]
+			}
+		},
+		{
+			"Bounds": [
+				191.78750610351562,
+				720.5081939697266,
+				242.89688110351562,
+				729.8921966552734
+			],
+			"Font": {
+				"alt_family_name": "* Arial",
+				"embedded": true,
+				"encoding": "Identity-H",
+				"family_name": "* Arial",
+				"font_type": "CIDFontType0",
+				"italic": false,
+				"monospaced": false,
+				"name": "*Arial-16669",
+				"subset": false,
+				"weight": 400
+			},
+			"HasClip": false,
+			"Page": 2,
+			"Path": "//Document/Sect[4]/Sect/L/LI[16]/LBody",
+			"Text": "Ethnic origin ",
+			"TextSize": 8.5
+		},
+		{
+			"Bounds": [
+				0.0,
+				0.0,
+				630.0,
+				810.0
+			],
+			"ClipBounds": [
+				184.90199279785156,
+				702.2340087890625,
+				192.36199951171875,
+				711.614013671875
+			],
+			"Page": 2,
+			"Path": "//Document/Sect[4]/Sect/L/LI[17]/Lbl/Figure",
+			"attributes": {
+				"BBox": [
+					185.1519999999946,
+					702.4839999999967,
+					192.1119999999937,
+					711.3639999999723
+				]
+			}
+		},
+		{
+			"Bounds": [
+				0.0,
+				0.0,
+				630.0,
+				810.0
+			],
+			"ClipBounds": [
+				184.90199279785156,
+				702.2340087890625,
+				192.36199951171875,
+				711.614013671875
+			],
+			"Page": 2,
+			"Path": "//Document/Sect[4]/Sect/L/LI[17]/Lbl/Figure",
+			"attributes": {
+				"BBox": [
+					185.1519999999946,
+					702.4839999999967,
+					192.1119999999937,
+					711.3639999999723
+				]
+			}
+		},
+		{
+			"Bounds": [
+				192.2550048828125,
+				702.4201965332031,
+				261.42356872558594,
+				711.80419921875
+			],
+			"Font": {
+				"alt_family_name": "* Arial",
+				"embedded": true,
+				"encoding": "Identity-H",
+				"family_name": "* Arial",
+				"font_type": "CIDFontType0",
+				"italic": false,
+				"monospaced": false,
+				"name": "*Arial-16669",
+				"subset": false,
+				"weight": 400
+			},
+			"HasClip": false,
+			"Page": 2,
+			"Path": "//Document/Sect[4]/Sect/L/LI[17]/LBody",
+			"Text": "Political opinions ",
+			"TextSize": 8.5
+		},
+		{
+			"Bounds": [
+				0.0,
+				0.0,
+				630.0,
+				810.0
+			],
+			"ClipBounds": [
+				184.90199279785156,
+				683.9949951171875,
+				192.36199951171875,
+				693.614990234375
+			],
+			"Page": 2,
+			"Path": "//Document/Sect[4]/Sect/L/LI[18]/Lbl/Figure",
+			"attributes": {
+				"BBox": [
+					185.1519999999946,
+					684.2449999999953,
+					192.1119999999937,
+					693.3649999999907
+				]
+			}
+		},
+		{
+			"Bounds": [
+				0.0,
+				0.0,
+				630.0,
+				810.0
+			],
+			"ClipBounds": [
+				184.90199279785156,
+				683.9949951171875,
+				192.36199951171875,
+				693.614990234375
+			],
+			"Page": 2,
+			"Path": "//Document/Sect[4]/Sect/L/LI[18]/Lbl/Figure",
+			"attributes": {
+				"BBox": [
+					185.1519999999946,
+					684.2449999999953,
+					192.1119999999937,
+					693.3649999999907
+				]
+			}
+		},
+		{
+			"Bounds": [
+				192.2550048828125,
+				684.3661956787109,
+				257.74729919433594,
+				693.7501983642578
+			],
+			"Font": {
+				"alt_family_name": "* Arial",
+				"embedded": true,
+				"encoding": "Identity-H",
+				"family_name": "* Arial",
+				"font_type": "CIDFontType0",
+				"italic": false,
+				"monospaced": false,
+				"name": "*Arial-16669",
+				"subset": false,
+				"weight": 400
+			},
+			"HasClip": false,
+			"Page": 2,
+			"Path": "//Document/Sect[4]/Sect/L/LI[18]/LBody",
+			"Text": "Religious beliefs ",
+			"TextSize": 8.5
+		},
+		{
+			"Bounds": [
+				0.0,
+				0.0,
+				630.0,
+				810.0
+			],
+			"ClipBounds": [
+				184.54200744628906,
+				666.2360229492188,
+				192.3620147705078,
+				675.6160278320312
+			],
+			"Page": 2,
+			"Path": "//Document/Sect[4]/Sect/L/LI[19]/Lbl/Figure",
+			"attributes": {
+				"BBox": [
+					184.791999999994,
+					666.4859999999753,
+					192.1119999999937,
+					675.3649999999907
+				]
+			}
+		},
+		{
+			"Bounds": [
+				0.0,
+				0.0,
+				630.0,
+				810.0
+			],
+			"ClipBounds": [
+				184.54200744628906,
+				666.2360229492188,
+				192.3620147705078,
+				675.6160278320312
+			],
+			"Page": 2,
+			"Path": "//Document/Sect[4]/Sect/L/LI[19]/Lbl/Figure",
+			"attributes": {
+				"BBox": [
+					184.791999999994,
+					666.4859999999753,
+					192.1119999999937,
+					675.3649999999907
+				]
+			}
+		},
+		{
+			"Bounds": [
+				192.50999450683594,
+				666.439697265625,
+				274.7752380371094,
+				675.8236999511719
+			],
+			"Font": {
+				"alt_family_name": "* Arial",
+				"embedded": true,
+				"encoding": "Identity-H",
+				"family_name": "* Arial",
+				"font_type": "CIDFontType0",
+				"italic": false,
+				"monospaced": false,
+				"name": "*Arial-16669",
+				"subset": false,
+				"weight": 400
+			},
+			"HasClip": false,
+			"Page": 2,
+			"Path": "//Document/Sect[4]/Sect/L/LI[19]/LBody",
+			"Text": "Philosophical beliefs ",
+			"TextSize": 8.5
+		},
+		{
+			"Bounds": [
+				0.0,
+				0.0,
+				630.0,
+				810.0
+			],
+			"ClipBounds": [
+				184.54200744628906,
+				648.2369995117188,
+				191.8820037841797,
+				657.3770141601562
+			],
+			"Page": 2,
+			"Path": "//Document/Sect[4]/Sect/L/LI[20]/Lbl/Figure",
+			"attributes": {
+				"BBox": [
+					184.791999999994,
+					648.4869999999937,
+					191.6319999999978,
+					657.1259999999893
+				]
+			}
+		},
+		{
+			"Bounds": [
+				0.0,
+				0.0,
+				630.0,
+				810.0
+			],
+			"ClipBounds": [
+				184.54200744628906,
+				648.2369995117188,
+				191.8820037841797,
+				657.3770141601562
+			],
+			"Page": 2,
+			"Path": "//Document/Sect[4]/Sect/L/LI[20]/Lbl/Figure",
+			"attributes": {
+				"BBox": [
+					184.791999999994,
+					648.4869999999937,
+					191.6319999999978,
+					657.1259999999893
+				]
+			}
+		},
+		{
+			"Bounds": [
+				191.7790069580078,
+				648.3262023925781,
+				293.99989318847656,
+				657.710205078125
+			],
+			"Font": {
+				"alt_family_name": "* Arial",
+				"embedded": true,
+				"encoding": "Identity-H",
+				"family_name": "* Arial",
+				"font_type": "CIDFontType0",
+				"italic": false,
+				"monospaced": false,
+				"name": "*Arial-16669",
+				"subset": false,
+				"weight": 400
+			},
+			"HasClip": false,
+			"Page": 2,
+			"Path": "//Document/Sect[4]/Sect/L/LI[20]/LBody",
+			"Text": "Trade union membership ",
+			"TextSize": 8.5
+		},
+		{
+			"Bounds": [
+				0.0,
+				0.0,
+				630.0,
+				810.0
+			],
+			"ClipBounds": [
+				184.302001953125,
+				631.9169921875,
+				192.12200927734375,
+				639.3770141601562
+			],
+			"Page": 2,
+			"Path": "//Document/Sect[4]/Sect/L/LI[21]/Lbl/Figure",
+			"attributes": {
+				"BBox": [
+					184.55199999999604,
+					632.1669999999867,
+					191.87199999999575,
+					639.1269999999786
+				]
+			}
+		},
+		{
+			"Bounds": [
+				0.0,
+				0.0,
+				630.0,
+				810.0
+			],
+			"ClipBounds": [
+				184.302001953125,
+				631.9169921875,
+				192.12200927734375,
+				639.3770141601562
+			],
+			"Page": 2,
+			"Path": "//Document/Sect[4]/Sect/L/LI[21]/Lbl/Figure",
+			"attributes": {
+				"BBox": [
+					184.55199999999604,
+					632.1669999999867,
+					191.87199999999575,
+					639.1269999999786
+				]
+			}
+		},
+		{
+			"Bounds": [
+				192.02549743652344,
+				630.2127075195312,
+				270.4880065917969,
+				639.5966949462891
+			],
+			"Font": {
+				"alt_family_name": "* Arial",
+				"embedded": true,
+				"encoding": "Identity-H",
+				"family_name": "* Arial",
+				"font_type": "CIDFontType0",
+				"italic": false,
+				"monospaced": false,
+				"name": "*Arial-16669",
+				"subset": false,
+				"weight": 400
+			},
+			"HasClip": false,
+			"Page": 2,
+			"Path": "//Document/Sect[4]/Sect/L/LI[21]/LBody",
+			"Text": "Sex life information ",
+			"TextSize": 8.5
+		},
+		{
+			"Bounds": [
+				0.0,
+				0.0,
+				630.0,
+				810.0
+			],
+			"ClipBounds": [
+				184.4219970703125,
+				614.1580200195312,
+				191.8820037841797,
+				621.1380004882812
+			],
+			"Page": 2,
+			"Path": "//Document/Sect[4]/Sect/L/LI[22]/Lbl/Figure",
+			"attributes": {
+				"BBox": [
+					184.67199999999866,
+					614.4079999999958,
+					191.6319999999978,
+					620.8879999999772
+				]
+			}
+		},
+		{
+			"Bounds": [
+				0.0,
+				0.0,
+				630.0,
+				810.0
+			],
+			"ClipBounds": [
+				184.4219970703125,
+				614.1580200195312,
+				191.8820037841797,
+				621.1380004882812
+			],
+			"Page": 2,
+			"Path": "//Document/Sect[4]/Sect/L/LI[22]/Lbl/Figure",
+			"attributes": {
+				"BBox": [
+					184.67199999999866,
+					614.4079999999958,
+					191.6319999999978,
+					620.8879999999772
+				]
+			}
+		},
+		{
+			"Bounds": [
+				191.78750610351562,
+				612.2691955566406,
+				265.9226837158203,
+				621.6531982421875
+			],
+			"Font": {
+				"alt_family_name": "* Arial",
+				"embedded": true,
+				"encoding": "Identity-H",
+				"family_name": "* Arial",
+				"font_type": "CIDFontType0",
+				"italic": false,
+				"monospaced": false,
+				"name": "*Arial-16669",
+				"subset": false,
+				"weight": 400
+			},
+			"HasClip": false,
+			"Page": 2,
+			"Path": "//Document/Sect[4]/Sect/L/LI[22]/LBody",
+			"Text": "Sexual orientation ",
+			"TextSize": 8.5
+		},
+		{
+			"Bounds": [
+				0.0,
+				0.0,
+				630.0,
+				810.0
+			],
+			"ClipBounds": [
+				184.78199768066406,
+				595.9190063476562,
+				192.1219940185547,
+				603.3790283203125
+			],
+			"Page": 2,
+			"Path": "//Document/Sect[4]/Sect/L/LI[23]/Lbl/Figure",
+			"attributes": {
+				"BBox": [
+					185.03199999999924,
+					596.1689999999944,
+					191.87199999999575,
+					603.127999999997
+				]
+			}
+		},
+		{
+			"Bounds": [
+				0.0,
+				0.0,
+				630.0,
+				810.0
+			],
+			"ClipBounds": [
+				184.78199768066406,
+				595.9190063476562,
+				192.1219940185547,
+				603.3790283203125
+			],
+			"Page": 2,
+			"Path": "//Document/Sect[4]/Sect/L/LI[23]/Lbl/Figure",
+			"attributes": {
+				"BBox": [
+					185.03199999999924,
+					596.1689999999944,
+					191.87199999999575,
+					603.127999999997
+				]
+			}
+		},
+		{
+			"Bounds": [
+				192.02549743652344,
+				594.2066955566406,
+				325.3677520751953,
+				603.5906982421875
+			],
+			"Font": {
+				"alt_family_name": "* Arial",
+				"embedded": true,
+				"encoding": "Identity-H",
+				"family_name": "* Arial",
+				"font_type": "CIDFontType0",
+				"italic": false,
+				"monospaced": false,
+				"name": "*Arial-16669",
+				"subset": false,
+				"weight": 400
+			},
+			"HasClip": false,
+			"Page": 2,
+			"Path": "//Document/Sect[4]/Sect/L/LI[23]/LBody",
+			"Text": "Criminal offenses and convictions ",
+			"TextSize": 8.5
+		},
+		{
+			"Bounds": [
+				0.0,
+				0.0,
+				630.0,
+				810.0
+			],
+			"ClipBounds": [
+				184.54200744628906,
+				577.9190063476562,
+				192.3620147705078,
+				585.3790283203125
+			],
+			"Page": 2,
+			"Path": "//Document/Sect[4]/Sect/L/LI[24]/Lbl/Figure",
+			"attributes": {
+				"BBox": [
+					184.791999999994,
+					578.1689999999944,
+					192.1119999999937,
+					585.1289999999863
+				]
+			}
+		},
+		{
+			"Bounds": [
+				0.0,
+				0.0,
+				630.0,
+				810.0
+			],
+			"ClipBounds": [
+				184.54200744628906,
+				577.9190063476562,
+				192.3620147705078,
+				585.3790283203125
+			],
+			"Page": 2,
+			"Path": "//Document/Sect[4]/Sect/L/LI[24]/Lbl/Figure",
+			"attributes": {
+				"BBox": [
+					184.791999999994,
+					578.1689999999944,
+					192.1119999999937,
+					585.1289999999863
+				]
+			}
+		},
+		{
+			"Bounds": [
+				192.2635040283203,
+				576.1611938476562,
+				253.39230346679688,
+				585.5451965332031
+			],
+			"Font": {
+				"alt_family_name": "* Arial",
+				"embedded": true,
+				"encoding": "Identity-H",
+				"family_name": "* Arial",
+				"font_type": "CIDFontType0",
+				"italic": false,
+				"monospaced": false,
+				"name": "*Arial-16669",
+				"subset": false,
+				"weight": 400
+			},
+			"HasClip": false,
+			"Page": 2,
+			"Path": "//Document/Sect[4]/Sect/L/LI[24]/LBody",
+			"Text": "Birth certificate ",
+			"TextSize": 8.5
+		},
+		{
+			"Bounds": [
+				0.0,
+				0.0,
+				630.0,
+				810.0
+			],
+			"ClipBounds": [
+				184.66200256347656,
+				557.760009765625,
+				192.36199951171875,
+				567.3800048828125
+			],
+			"Page": 2,
+			"Path": "//Document/Sect[4]/Sect/L/LI[25]/Lbl/Figure",
+			"attributes": {
+				"BBox": [
+					184.91199999999662,
+					558.0099999999802,
+					192.1119999999937,
+					567.1299999999756
+				]
+			}
+		},
+		{
+			"Bounds": [
+				0.0,
+				0.0,
+				630.0,
+				810.0
+			],
+			"ClipBounds": [
+				184.66200256347656,
+				557.760009765625,
+				192.36199951171875,
+				567.3800048828125
+			],
+			"Page": 2,
+			"Path": "//Document/Sect[4]/Sect/L/LI[25]/Lbl/Figure",
+			"attributes": {
+				"BBox": [
+					184.91199999999662,
+					558.0099999999802,
+					192.1119999999937,
+					567.1299999999756
+				]
+			}
+		},
+		{
+			"Bounds": [
+				192.2635040283203,
+				558.0222015380859,
+				270.8649139404297,
+				567.4062042236328
+			],
+			"Font": {
+				"alt_family_name": "* Arial",
+				"embedded": true,
+				"encoding": "Identity-H",
+				"family_name": "* Arial",
+				"font_type": "CIDFontType0",
+				"italic": false,
+				"monospaced": false,
+				"name": "*Arial-16669",
+				"subset": false,
+				"weight": 400
+			},
+			"HasClip": false,
+			"Page": 2,
+			"Path": "//Document/Sect[4]/Sect/L/LI[25]/LBody",
+			"Text": "Marriage certificate ",
+			"TextSize": 8.5
+		},
+		{
+			"Bounds": [
+				0.0,
+				0.0,
+				630.0,
+				810.0
+			],
+			"ClipBounds": [
+				183.9429931640625,
+				539.52099609375,
+				192.3629913330078,
+				549.1409912109375
+			],
+			"Page": 2,
+			"Path": "//Document/Sect[4]/Sect/L/LI[26]/Lbl/Figure",
+			"attributes": {
+				"BBox": [
+					184.1929999999993,
+					539.7709999999788,
+					192.1119999999937,
+					548.8909999999742
+				]
+			}
+		},
+		{
+			"Bounds": [
+				0.0,
+				0.0,
+				630.0,
+				810.0
+			],
+			"ClipBounds": [
+				183.9429931640625,
+				539.52099609375,
+				192.3629913330078,
+				549.1409912109375
+			],
+			"Page": 2,
+			"Path": "//Document/Sect[4]/Sect/L/LI[26]/Lbl/Figure",
+			"attributes": {
+				"BBox": [
+					184.1929999999993,
+					539.7709999999788,
+					192.1119999999937,
+					548.8909999999742
+				]
+			}
+		},
+		{
+			"Bounds": [
+				192.2469940185547,
+				527.7384948730469,
+				506.23377990722656,
+				550.2200012207031
+			],
+			"Font": {
+				"alt_family_name": "* Arial",
+				"embedded": true,
+				"encoding": "Identity-H",
+				"family_name": "* Arial",
+				"font_type": "CIDFontType0",
+				"italic": false,
+				"monospaced": false,
+				"name": "*Arial-16669",
+				"subset": false,
+				"weight": 400
+			},
+			"HasClip": false,
+			"Page": 2,
+			"Path": "//Document/Sect[4]/Sect/L/LI[26]/LBody",
+			"Text": "Information or data collected through use or operation of an automated license platerecognition system ",
+			"TextSize": 8.5
+		},
+		{
+			"Bounds": [
+				184.90499877929688,
+				313.0509948730469,
+				563.3807373046875,
+				504.36000061035156
+			],
+			"Page": 2,
+			"Path": "//Document/Sect[4]/Sect/Table",
+			"attributes": {
+				"BBox": [
+					185.03199999999924,
+					314.65999999998894,
+					560.8569999999891,
+					504.25199999999313
+				],
+				"NumCol": 3,
+				"NumRow": 5,
+				"Placement": "Block",
+				"SpaceAfter": 4.125
+			}
+		},
+		{
+			"Bounds": [
+				185.4998016357422,
+				496.44000244140625,
+				231.7296905517578,
+				504.36000061035156
+			],
+			"Page": 2,
+			"Path": "//Document/Sect[4]/Sect/Table/TR/TH",
+			"attributes": {
+				"BBox": [
+					185.03199999999924,
+					493.93299999999,
+					303.82799999999406,
+					504.25199999999313
+				],
+				"BlockAlign": "Before",
+				"ColIndex": 0,
+				"Height": 10.375,
+				"InlineAlign": "Start",
+				"RowIndex": 0,
+				"Width": 118.75
+			}
+		},
+		{
+			"Bounds": [
+				185.4998016357422,
+				496.44000244140625,
+				231.7296905517578,
+				504.36000061035156
+			],
+			"Font": {
+				"alt_family_name": "* Arial",
+				"embedded": true,
+				"encoding": "Identity-H",
+				"family_name": "* Arial",
+				"font_type": "CIDFontType0",
+				"italic": false,
+				"monospaced": false,
+				"name": "*Arial-Bold-16672",
+				"subset": false,
+				"weight": 700
+			},
+			"HasClip": false,
+			"Lang": "en",
+			"Page": 2,
+			"Path": "//Document/Sect[4]/Sect/Table/TR/TH/P",
+			"Text": "Classification ",
+			"TextSize": 7.5,
+			"attributes": {
+				"LineHeight": 9
+			}
+		},
+		{
+			"Bounds": [
+				320.1542053222656,
+				496.44000244140625,
+				354.45912170410156,
+				504.36000061035156
+			],
+			"Page": 2,
+			"Path": "//Document/Sect[4]/Sect/Table/TR/TH[2]",
+			"attributes": {
+				"BBox": [
+					303.82799999999406,
+					493.93299999999,
+					431.2619999999879,
+					504.25199999999313
+				],
+				"BlockAlign": "Before",
+				"ColIndex": 1,
+				"Height": 10.375,
+				"InlineAlign": "Start",
+				"RowIndex": 0,
+				"Width": 127.375
+			}
+		},
+		{
+			"Bounds": [
+				320.1542053222656,
+				496.44000244140625,
+				354.45912170410156,
+				504.36000061035156
+			],
+			"Font": {
+				"alt_family_name": "* Arial",
+				"embedded": true,
+				"encoding": "Identity-H",
+				"family_name": "* Arial",
+				"font_type": "CIDFontType0",
+				"italic": false,
+				"monospaced": false,
+				"name": "*Arial-Bold-16672",
+				"subset": false,
+				"weight": 700
+			},
+			"HasClip": false,
+			"Lang": "en",
+			"Page": 2,
+			"Path": "//Document/Sect[4]/Sect/Table/TR/TH[2]/P",
+			"Text": "Examples ",
+			"TextSize": 7.5,
+			"attributes": {
+				"LineHeight": 9
+			}
+		},
+		{
+			"Bounds": [
+				443.52000427246094,
+				496.44000244140625,
+				563.3807373046875,
+				504.36000061035156
+			],
+			"Page": 2,
+			"Path": "//Document/Sect[4]/Sect/Table/TR/TH[3]",
+			"attributes": {
+				"BBox": [
+					431.2619999999879,
+					493.93299999999,
+					560.8569999999891,
+					504.25199999999313
+				],
+				"BlockAlign": "Before",
+				"ColIndex": 2,
+				"Height": 10.375,
+				"InlineAlign": "End",
+				"RowIndex": 0,
+				"Width": 129.625
+			}
+		},
+		{
+			"Bounds": [
+				443.52000427246094,
+				496.44000244140625,
+				563.3807373046875,
+				504.36000061035156
+			],
+			"Font": {
+				"alt_family_name": "* Arial",
+				"embedded": true,
+				"encoding": "Identity-H",
+				"family_name": "* Arial",
+				"font_type": "CIDFontType0",
+				"italic": false,
+				"monospaced": false,
+				"name": "*Arial-Bold-16672",
+				"subset": false,
+				"weight": 700
+			},
+			"HasClip": false,
+			"Lang": "en",
+			"Page": 2,
+			"Path": "//Document/Sect[4]/Sect/Table/TR/TH[3]/P",
+			"Text": "Impact of Unauthorized Disclosure ",
+			"TextSize": 7.5,
+			"attributes": {
+				"LineHeight": 9
+			}
+		},
+		{
+			"Bounds": [
+				185.2790069580078,
+				473.3695068359375,
+				273.40708923339844,
+				491.6365051269531
+			],
+			"Page": 2,
+			"Path": "//Document/Sect[4]/Sect/Table/TR[2]/TD",
+			"attributes": {
+				"BBox": [
+					185.03199999999924,
+					450.73499999998603,
+					303.82799999999406,
+					493.93299999999
+				],
+				"BlockAlign": "Before",
+				"ColIndex": 0,
+				"Height": 43.25,
+				"InlineAlign": "Start",
+				"RowIndex": 1,
+				"Width": 118.75
+			}
+		},
+		{
+			"Bounds": [
+				185.2790069580078,
+				473.3695068359375,
+				273.40708923339844,
+				491.6365051269531
+			],
+			"Font": {
+				"alt_family_name": "* Arial",
+				"embedded": true,
+				"encoding": "Identity-H",
+				"family_name": "* Arial",
+				"font_type": "CIDFontType0",
+				"italic": false,
+				"monospaced": false,
+				"name": "*Arial-Bold-16672",
+				"subset": false,
+				"weight": 700
+			},
+			"HasClip": false,
+			"Lang": "en",
+			"Page": 2,
+			"Path": "//Document/Sect[4]/Sect/Table/TR[2]/TD/P",
+			"Text": "Restricted data has a High Business Impact ",
+			"TextSize": 7.5,
+			"attributes": {
+				"LineHeight": 10
+			}
+		},
+		{
+			"Bounds": [
+				319.6734924316406,
+				452.73150634765625,
+				410.48094177246094,
+				491.5765075683594
+			],
+			"Page": 2,
+			"Path": "//Document/Sect[4]/Sect/Table/TR[2]/TD[2]",
+			"attributes": {
+				"BBox": [
+					303.82799999999406,
+					450.73499999998603,
+					431.2619999999879,
+					493.93299999999
+				],
+				"BlockAlign": "Before",
+				"ColIndex": 1,
+				"Height": 43.25,
+				"InlineAlign": "Start",
+				"RowIndex": 1,
+				"Width": 127.375
+			}
+		},
+		{
+			"Bounds": [
+				319.6734924316406,
+				452.73150634765625,
+				410.48094177246094,
+				491.5765075683594
+			],
+			"Font": {
+				"alt_family_name": "* Arial",
+				"embedded": true,
+				"encoding": "Identity-H",
+				"family_name": "* Arial",
+				"font_type": "CIDFontType0",
+				"italic": false,
+				"monospaced": false,
+				"name": "*Arial-16671",
+				"subset": false,
+				"weight": 400
+			},
+			"HasClip": false,
+			"Lang": "en",
+			"Page": 2,
+			"Path": "//Document/Sect[4]/Sect/Table/TR[2]/TD[2]/P",
+			"Text": "Regulatory protected data, material financial data, intellectual property, passwords and credential. ",
+			"TextSize": 8.5,
+			"attributes": {
+				"LineHeight": 10.125
+			}
+		},
+		{
+			"Bounds": [
+				442.8314971923828,
+				463.2884979248047,
+				560.0465240478516,
+				491.5765075683594
+			],
+			"Page": 2,
+			"Path": "//Document/Sect[4]/Sect/Table/TR[2]/TD[3]",
+			"attributes": {
+				"BBox": [
+					431.2619999999879,
+					450.73499999998603,
+					560.8569999999891,
+					493.93299999999
+				],
+				"BlockAlign": "Before",
+				"ColIndex": 2,
+				"Height": 43.25,
+				"InlineAlign": "Start",
+				"RowIndex": 1,
+				"Width": 129.625
+			}
+		},
+		{
+			"Bounds": [
+				442.8314971923828,
+				463.2884979248047,
+				560.0465240478516,
+				491.5765075683594
+			],
+			"Font": {
+				"alt_family_name": "* Arial",
+				"embedded": true,
+				"encoding": "Identity-H",
+				"family_name": "* Arial",
+				"font_type": "CIDFontType0",
+				"italic": false,
+				"monospaced": false,
+				"name": "*Arial-16671",
+				"subset": false,
+				"weight": 400
+			},
+			"HasClip": false,
+			"Lang": "en",
+			"Page": 2,
+			"Path": "//Document/Sect[4]/Sect/Table/TR[2]/TD[3]/P",
+			"Text": "Likely to cause severe harm to Adobe, its employees, customers, stockholders, or business partners. ",
+			"TextSize": 8.5,
+			"attributes": {
+				"LineHeight": 10
+			}
+		},
+		{
+			"Bounds": [
+				184.90499877929688,
+				429.6914978027344,
+				291.9852294921875,
+				448.1365051269531
+			],
+			"Page": 2,
+			"Path": "//Document/Sect[4]/Sect/Table/TR[3]/TD",
+			"attributes": {
+				"BBox": [
+					185.03199999999924,
+					388.0969999999943,
+					303.82799999999406,
+					450.73499999998603
+				],
+				"BlockAlign": "Before",
+				"ColIndex": 0,
+				"Height": 62.625,
+				"InlineAlign": "Start",
+				"RowIndex": 2,
+				"Width": 118.75
+			}
+		},
+		{
+			"Bounds": [
+				184.90499877929688,
+				429.6914978027344,
+				291.9852294921875,
+				448.1365051269531
+			],
+			"Font": {
+				"alt_family_name": "* Arial",
+				"embedded": true,
+				"encoding": "Identity-H",
+				"family_name": "* Arial",
+				"font_type": "CIDFontType0",
+				"italic": false,
+				"monospaced": false,
+				"name": "*Arial-16671",
+				"subset": false,
+				"weight": 400
+			},
+			"HasClip": false,
+			"Lang": "en",
+			"Page": 2,
+			"Path": "//Document/Sect[4]/Sect/Table/TR[3]/TD/P",
+			"Text": "Confidential data has a Medium Business Impact ",
+			"TextSize": 8.5,
+			"attributes": {
+				"LineHeight": 10.125
+			}
+		},
+		{
+			"Bounds": [
+				319.6649932861328,
+				388.88800048828125,
+				420.73707580566406,
+				448.13299560546875
+			],
+			"Page": 2,
+			"Path": "//Document/Sect[4]/Sect/Table/TR[3]/TD[2]",
+			"attributes": {
+				"BBox": [
+					303.82799999999406,
+					388.0969999999943,
+					431.2619999999879,
+					450.73499999998603
+				],
+				"BlockAlign": "Before",
+				"ColIndex": 1,
+				"Height": 62.625,
+				"InlineAlign": "Start",
+				"RowIndex": 2,
+				"Width": 127.375
+			}
+		},
+		{
+			"Bounds": [
+				319.6649932861328,
+				388.88800048828125,
+				420.73707580566406,
+				448.13299560546875
+			],
+			"Font": {
+				"alt_family_name": "* Arial",
+				"embedded": true,
+				"encoding": "Identity-H",
+				"family_name": "* Arial",
+				"font_type": "CIDFontType0",
+				"italic": false,
+				"monospaced": false,
+				"name": "*Arial-16671",
+				"subset": false,
+				"weight": 400
+			},
+			"HasClip": false,
+			"Lang": "en",
+			"Page": 2,
+			"Path": "//Document/Sect[4]/Sect/Table/TR[3]/TD[2]/P",
+			"Text": "People related data (salary, benefits), data with need-to\u00adknow restrictions like source code, Customer Files, product road maps, Adobe financial information. ",
+			"TextSize": 8.5,
+			"attributes": {
+				"LineHeight": 10.125
+			}
+		},
+		{
+			"Bounds": [
+				443.2565002441406,
+				419.60699462890625,
+				558.3431091308594,
+				448.13299560546875
+			],
+			"Page": 2,
+			"Path": "//Document/Sect[4]/Sect/Table/TR[3]/TD[3]",
+			"attributes": {
+				"BBox": [
+					431.2619999999879,
+					388.0969999999943,
+					560.8569999999891,
+					450.73499999998603
+				],
+				"BlockAlign": "Before",
+				"ColIndex": 2,
+				"Height": 62.625,
+				"InlineAlign": "Start",
+				"RowIndex": 2,
+				"Width": 129.625
+			}
+		},
+		{
+			"Bounds": [
+				443.2565002441406,
+				419.60699462890625,
+				558.3431091308594,
+				448.13299560546875
+			],
+			"Font": {
+				"alt_family_name": "* Arial",
+				"embedded": true,
+				"encoding": "Identity-H",
+				"family_name": "* Arial",
+				"font_type": "CIDFontType0",
+				"italic": false,
+				"monospaced": false,
+				"name": "*Arial-16671",
+				"subset": false,
+				"weight": 400
+			},
+			"HasClip": false,
+			"Lang": "en",
+			"Page": 2,
+			"Path": "//Document/Sect[4]/Sect/Table/TR[3]/TD[3]/P",
+			"Text": "Likely to cause significant harm to Adobe, its employees, customers, stockholders, or business partners ",
+			"TextSize": 8.5,
+			"attributes": {
+				"LineHeight": 10.125,
+				"TextAlign": "Justify"
+			}
+		},
+		{
+			"Bounds": [
+				185.0399932861328,
+				334.8995056152344,
+				284.4001007080078,
+				384.29649353027344
+			],
+			"Page": 2,
+			"Path": "//Document/Sect[4]/Sect/Table/TR[4]/TD",
+			"attributes": {
+				"BBox": [
+					185.03199999999924,
+					334.8189999999886,
+					303.82799999999406,
+					388.0969999999943
+				],
+				"BlockAlign": "After",
+				"ColIndex": 0,
+				"Height": 53.25,
+				"InlineAlign": "Start",
+				"RowIndex": 3,
+				"Width": 118.75
+			}
+		},
+		{
+			"Bounds": [
+				185.2760009765625,
+				365.85150146484375,
+				284.4001007080078,
+				384.29649353027344
+			],
+			"Font": {
+				"alt_family_name": "* Arial",
+				"embedded": true,
+				"encoding": "Identity-H",
+				"family_name": "* Arial",
+				"font_type": "CIDFontType0",
+				"italic": false,
+				"monospaced": false,
+				"name": "*Arial-Bold-16672",
+				"subset": false,
+				"weight": 700
+			},
+			"HasClip": false,
+			"Lang": "en",
+			"Page": 2,
+			"Path": "//Document/Sect[4]/Sect/Table/TR[4]/TD/P",
+			"Text": "Internal data has a Moderate Business Impact ",
+			"TextSize": 7.5,
+			"attributes": {
+				"LineHeight": 10.125
+			}
+		},
+		{
+			"Bounds": [
+				185.0399932861328,
+				334.8995056152344,
+				272.4232940673828,
+				362.4564971923828
+			],
+			"Font": {
+				"alt_family_name": "* Times New Roman",
+				"embedded": true,
+				"encoding": "Identity-H",
+				"family_name": "* Times New Roman",
+				"font_type": "CIDFontType0",
+				"italic": true,
+				"monospaced": false,
+				"name": "*Times New Roman-BoldItalic-16668",
+				"subset": false,
+				"weight": 700
+			},
+			"HasClip": false,
+			"Lang": "en",
+			"Page": 2,
+			"Path": "//Document/Sect[4]/Sect/Table/TR[4]/TD/P[2]",
+			"Text": "Note: The default type for unclassified data is Internal ",
+			"TextSize": 8.0,
+			"attributes": {
+				"LineHeight": 9.625
+			}
+		},
+		{
+			"Bounds": [
+				319.6649932861328,
+				345.6909942626953,
+				422.6594696044922,
+				384.2895050048828
+			],
+			"Page": 2,
+			"Path": "//Document/Sect[4]/Sect/Table/TR[4]/TD[2]",
+			"attributes": {
+				"BBox": [
+					303.82799999999406,
+					334.8189999999886,
+					431.2619999999879,
+					388.0969999999943
+				],
+				"BlockAlign": "Before",
+				"ColIndex": 1,
+				"Height": 53.25,
+				"InlineAlign": "Start",
+				"RowIndex": 3,
+				"Width": 127.375
+			}
+		},
+		{
+			"Bounds": [
+				319.6649932861328,
+				345.6909942626953,
+				422.6594696044922,
+				384.2895050048828
+			],
+			"Font": {
+				"alt_family_name": "* Arial",
+				"embedded": true,
+				"encoding": "Identity-H",
+				"family_name": "* Arial",
+				"font_type": "CIDFontType0",
+				"italic": false,
+				"monospaced": false,
+				"name": "*Arial-16671",
+				"subset": false,
+				"weight": 400
+			},
+			"HasClip": false,
+			"Lang": "en",
+			"Page": 2,
+			"Path": "//Document/Sect[4]/Sect/Table/TR[4]/TD[2]/P",
+			"Text": "Operational planning, collaboration and internal communications, IT Knowledge Center articles. ",
+			"TextSize": 8.5,
+			"attributes": {
+				"LineHeight": 10.125
+			}
+		},
+		{
+			"Bounds": [
+				443.2480010986328,
+				365.9040069580078,
+				555.4388275146484,
+				384.2895050048828
+			],
+			"Page": 2,
+			"Path": "//Document/Sect[4]/Sect/Table/TR[4]/TD[3]",
+			"attributes": {
+				"BBox": [
+					431.2619999999879,
+					334.8189999999886,
+					560.8569999999891,
+					388.0969999999943
+				],
+				"BlockAlign": "Before",
+				"ColIndex": 2,
+				"Height": 53.25,
+				"InlineAlign": "Start",
+				"RowIndex": 3,
+				"Width": 129.625
+			}
+		},
+		{
+			"Bounds": [
+				443.2480010986328,
+				365.9040069580078,
+				555.4388275146484,
+				384.2895050048828
+			],
+			"Font": {
+				"alt_family_name": "* Arial",
+				"embedded": true,
+				"encoding": "Identity-H",
+				"family_name": "* Arial",
+				"font_type": "CIDFontType0",
+				"italic": false,
+				"monospaced": false,
+				"name": "*Arial-16671",
+				"subset": false,
+				"weight": 400
+			},
+			"HasClip": false,
+			"Lang": "en",
+			"Page": 2,
+			"Path": "//Document/Sect[4]/Sect/Table/TR[4]/TD[3]/P",
+			"Text": "May cause minor embarrassment or operational inconvenience ",
+			"TextSize": 8.5,
+			"attributes": {
+				"LineHeight": 10
+			}
+		},
+		{
+			"Bounds": [
+				185.27999877929688,
+				323.6125030517578,
+				224.7775115966797,
+				331.97650146484375
+			],
+			"Page": 2,
+			"Path": "//Document/Sect[4]/Sect/Table/TR[5]/TD",
+			"attributes": {
+				"BBox": [
+					185.03199999999924,
+					314.65999999998894,
+					303.82799999999406,
+					334.8189999999886
+				],
+				"BlockAlign": "Before",
+				"ColIndex": 0,
+				"Height": 20.125,
+				"InlineAlign": "Start",
+				"RowIndex": 4,
+				"Width": 118.75
+			}
+		},
+		{
+			"Bounds": [
+				185.27999877929688,
+				323.6125030517578,
+				224.7775115966797,
+				331.97650146484375
+			],
+			"Font": {
+				"alt_family_name": "* Arial",
+				"embedded": true,
+				"encoding": "Identity-H",
+				"family_name": "* Arial",
+				"font_type": "CIDFontType0",
+				"italic": false,
+				"monospaced": false,
+				"name": "*Arial-Bold-16672",
+				"subset": false,
+				"weight": 700
+			},
+			"HasClip": false,
+			"Lang": "en",
+			"Page": 2,
+			"Path": "//Document/Sect[4]/Sect/Table/TR[5]/TD/P",
+			"Text": "Public data ",
+			"TextSize": 7.5,
+			"attributes": {
+				"LineHeight": 9
+			}
+		},
+		{
+			"Bounds": [
+				319.6649932861328,
+				313.0509948730469,
+				407.2404327392578,
+				331.9720001220703
+			],
+			"Page": 2,
+			"Path": "//Document/Sect[4]/Sect/Table/TR[5]/TD[2]",
+			"attributes": {
+				"BBox": [
+					303.82799999999406,
+					314.65999999998894,
+					431.2619999999879,
+					334.8189999999886
+				],
+				"BlockAlign": "After",
+				"ColIndex": 1,
+				"Height": 20.125,
+				"InlineAlign": "Start",
+				"RowIndex": 4,
+				"Width": 127.375
+			}
+		},
+		{
+			"Bounds": [
+				319.6649932861328,
+				313.0509948730469,
+				407.2404327392578,
+				331.9720001220703
+			],
+			"Font": {
+				"alt_family_name": "* Arial",
+				"embedded": true,
+				"encoding": "Identity-H",
+				"family_name": "* Arial",
+				"font_type": "CIDFontType0",
+				"italic": false,
+				"monospaced": false,
+				"name": "*Arial-16671",
+				"subset": false,
+				"weight": 400
+			},
+			"HasClip": false,
+			"Lang": "en",
+			"Page": 2,
+			"Path": "//Document/Sect[4]/Sect/Table/TR[5]/TD[2]/P",
+			"Text": "Information that is openly available ",
+			"TextSize": 8.5,
+			"attributes": {
+				"LineHeight": 10.5
+			}
+		},
+		{
+			"Bounds": [
+				443.4945068359375,
+				323.6080017089844,
+				479.87745666503906,
+				331.9720001220703
+			],
+			"Page": 2,
+			"Path": "//Document/Sect[4]/Sect/Table/TR[5]/TD[3]",
+			"attributes": {
+				"BBox": [
+					431.2619999999879,
+					314.65999999998894,
+					560.8569999999891,
+					334.8189999999886
+				],
+				"BlockAlign": "Before",
+				"ColIndex": 2,
+				"Height": 20.125,
+				"InlineAlign": "Start",
+				"RowIndex": 4,
+				"Width": 129.625
+			}
+		},
+		{
+			"Bounds": [
+				443.4945068359375,
+				323.6080017089844,
+				479.87745666503906,
+				331.9720001220703
+			],
+			"Font": {
+				"alt_family_name": "* Arial",
+				"embedded": true,
+				"encoding": "Identity-H",
+				"family_name": "* Arial",
+				"font_type": "CIDFontType0",
+				"italic": false,
+				"monospaced": false,
+				"name": "*Arial-16671",
+				"subset": false,
+				"weight": 400
+			},
+			"HasClip": false,
+			"Lang": "en",
+			"Page": 2,
+			"Path": "//Document/Sect[4]/Sect/Table/TR[5]/TD[3]/P",
+			"Text": "No impact ",
+			"TextSize": 8.5,
+			"attributes": {
+				"LineHeight": 10.25
+			}
+		},
+		{
+			"Bounds": [
+				184.8000030517578,
+				278.03489685058594,
+				309.9182434082031,
+				286.4349060058594
+			],
+			"Font": {
+				"alt_family_name": "* Arial",
+				"embedded": true,
+				"encoding": "Identity-H",
+				"family_name": "* Arial",
+				"font_type": "CIDFontType0",
+				"italic": false,
+				"monospaced": false,
+				"name": "*Arial-Bold-16670",
+				"subset": false,
+				"weight": 700
+			},
+			"HasClip": false,
+			"Lang": "en",
+			"Page": 2,
+			"Path": "//Document/Sect[4]/Sect[2]/H2",
+			"Text": "Adobe Confidential Data ",
+			"TextSize": 10.5,
+			"attributes": {
+				"SpaceAfter": 2.875
+			}
+		},
+		{
+			"Bounds": [
+				184.79100036621094,
+				211.81790161132812,
+				554.8398895263672,
+				271.02740478515625
+			],
+			"Font": {
+				"alt_family_name": "* Arial",
+				"embedded": true,
+				"encoding": "Identity-H",
+				"family_name": "* Arial",
+				"font_type": "CIDFontType0",
+				"italic": false,
+				"monospaced": false,
+				"name": "*Arial-16669",
+				"subset": false,
+				"weight": 400
+			},
+			"HasClip": false,
+			"Lang": "en",
+			"Page": 2,
+			"Path": "//Document/Sect[4]/Sect[2]/P",
+			"Text": "Only limited segments of the Adobe workforce need access to data classified as Adobe Confidential in order to perform their jobs. Unauthorized disclosure of Adobe Confidential data would likely cause significant harm (such as financial, contractual, or legal or reputational harm orservice disruptions) to Adobe, its employees, customers, stockholders, and business partners. ",
+			"TextSize": 8.5
+		},
+		{
+			"Bounds": [
+				184.80799865722656,
+				199.4759063720703,
+				320.3317565917969,
+				208.85989379882812
+			],
+			"Font": {
+				"alt_family_name": "* Arial",
+				"embedded": true,
+				"encoding": "Identity-H",
+				"family_name": "* Arial",
+				"font_type": "CIDFontType0",
+				"italic": false,
+				"monospaced": false,
+				"name": "*Arial-16669",
+				"subset": false,
+				"weight": 400
+			},
+			"HasClip": false,
+			"Lang": "en",
+			"Page": 2,
+			"Path": "//Document/Sect[4]/Sect[2]/P[2]",
+			"Text": "Adobe Confidential data includes: ",
+			"TextSize": 8.5
+		},
+		{
+			"Bounds": [
+				0.0,
+				0.0,
+				630.0,
+				810.0
+			],
+			"ClipBounds": [
+				184.4219970703125,
+				184.09500122070312,
+				192.36199951171875,
+				193.47500610351562
+			],
+			"Page": 2,
+			"Path": "//Document/Sect[4]/Sect[2]/L/LI/Lbl/Figure",
+			"attributes": {
+				"BBox": [
+					184.67199999999866,
+					184.3449999999939,
+					192.1119999999937,
+					193.22499999999854
+				]
+			}
+		},
+		{
+			"Bounds": [
+				0.0,
+				0.0,
+				630.0,
+				810.0
+			],
+			"ClipBounds": [
+				184.4219970703125,
+				184.09500122070312,
+				192.36199951171875,
+				193.47500610351562
+			],
+			"Page": 2,
+			"Path": "//Document/Sect[4]/Sect[2]/L/LI/Lbl/Figure",
+			"attributes": {
+				"BBox": [
+					184.67199999999866,
+					184.3449999999939,
+					192.1119999999937,
+					193.22499999999854
+				]
+			}
+		},
+		{
+			"Bounds": [
+				192.24549865722656,
+				184.2353973388672,
+				445.4832000732422,
+				193.61940002441406
+			],
+			"Font": {
+				"alt_family_name": "* Arial",
+				"embedded": true,
+				"encoding": "Identity-H",
+				"family_name": "* Arial",
+				"font_type": "CIDFontType0",
+				"italic": false,
+				"monospaced": false,
+				"name": "*Arial-16669",
+				"subset": false,
+				"weight": 400
+			},
+			"HasClip": false,
+			"Page": 2,
+			"Path": "//Document/Sect[4]/Sect[2]/L/LI/LBody",
+			"Text": "Data that Adobe is contractually required to treat as confidential ",
+			"TextSize": 8.5
+		},
+		{
+			"Bounds": [
+				0.0,
+				0.0,
+				630.0,
+				810.0
+			],
+			"ClipBounds": [
+				184.54200744628906,
+				165.8560028076172,
+				192.3620147705078,
+				175.71600341796875
+			],
+			"Page": 2,
+			"Path": "//Document/Sect[4]/Sect[2]/L/LI[2]/Lbl/Figure",
+			"attributes": {
+				"BBox": [
+					184.791999999994,
+					166.10599999999977,
+					192.1119999999937,
+					175.46599999999307
+				]
+			}
+		},
+		{
+			"Bounds": [
+				0.0,
+				0.0,
+				630.0,
+				810.0
+			],
+			"ClipBounds": [
+				184.54200744628906,
+				165.8560028076172,
+				192.3620147705078,
+				175.71600341796875
+			],
+			"Page": 2,
+			"Path": "//Document/Sect[4]/Sect[2]/L/LI[2]/Lbl/Figure",
+			"attributes": {
+				"BBox": [
+					184.791999999994,
+					166.10599999999977,
+					192.1119999999937,
+					175.46599999999307
+				]
+			}
+		},
+		{
+			"Bounds": [
+				191.75250244140625,
+				104.84809875488281,
+				551.8211364746094,
+				175.55690002441406
+			],
+			"Font": {
+				"alt_family_name": "* Arial",
+				"embedded": true,
+				"encoding": "Identity-H",
+				"family_name": "* Arial",
+				"font_type": "CIDFontType0",
+				"italic": false,
+				"monospaced": false,
+				"name": "*Arial-16669",
+				"subset": false,
+				"weight": 400
+			},
+			"HasClip": false,
+			"Page": 2,
+			"Path": "//Document/Sect[4]/Sect[2]/L/LI[2]/LBody",
+			"Text": "Personal information (Pl) (unless the personal information meets the definition of Adobe Restricted data) about an individual (including free users, paid users, enterprise users, suppliers, or employees). This can include directly identifiable personal information, such as name, email address, phone number, home address, or precise geolocation information. Personal informationcan also include indirectly identifiable personal information, such as a user GUlD, IP address, cookie ID, or device identifier. ",
+			"TextSize": 8.5
+		},
+		{
+			"Bounds": [
+				0.0,
+				0.0,
+				630.0,
+				810.0
+			],
+			"ClipBounds": [
+				183.7030029296875,
+				86.65899658203125,
+				192.1230010986328,
+				96.27900695800781
+			],
+			"Page": 2,
+			"Path": "//Document/Sect[4]/Sect[2]/L/LI[3]/Lbl/Figure",
+			"attributes": {
+				"BBox": [
+					183.95299999999406,
+					86.90939999999682,
+					191.87199999999575,
+					96.02909999999974
+				]
+			}
+		},
+		{
+			"Bounds": [
+				0.0,
+				0.0,
+				630.0,
+				810.0
+			],
+			"ClipBounds": [
+				183.7030029296875,
+				86.65899658203125,
+				192.1230010986328,
+				96.27900695800781
+			],
+			"Page": 2,
+			"Path": "//Document/Sect[4]/Sect[2]/L/LI[3]/Lbl/Figure",
+			"attributes": {
+				"BBox": [
+					183.95299999999406,
+					86.90939999999682,
+					191.87199999999575,
+					96.02909999999974
+				]
+			}
+		},
+		{
+			"Bounds": [
+				191.99349975585938,
+				74.56260681152344,
+				548.5813446044922,
+				96.22059631347656
+			],
+			"Font": {
+				"alt_family_name": "* Arial",
+				"embedded": true,
+				"encoding": "Identity-H",
+				"family_name": "* Arial",
+				"font_type": "CIDFontType0",
+				"italic": false,
+				"monospaced": false,
+				"name": "*Arial-16669",
+				"subset": false,
+				"weight": 400
+			},
+			"HasClip": false,
+			"Page": 2,
+			"Path": "//Document/Sect[4]/Sect[2]/L/LI[3]/LBody",
+			"Text": "Content or data that customers, partners, or users provide to Adobe (unless the content or datameets the definition of Restricted data below) ",
+			"TextSize": 8.5
+		}
+	],
+	"pages": [
+		{
+			"boxes": {
+				"CropBox": [
+					0.0,
+					0.0,
+					630.0,
+					810.0
+				],
+				"MediaBox": [
+					0.0,
+					0.0,
+					630.0,
+					810.0
+				]
+			},
+			"height": 810.0,
+			"is_scanned": true,
+			"page_number": 0,
+			"rotation": 0,
+			"width": 630.0
+		},
+		{
+			"boxes": {
+				"CropBox": [
+					0.0,
+					0.0,
+					630.0,
+					810.0
+				],
+				"MediaBox": [
+					0.0,
+					0.0,
+					630.0,
+					810.0
+				]
+			},
+			"height": 810.0,
+			"is_scanned": true,
+			"page_number": 1,
+			"rotation": 0,
+			"width": 630.0
+		},
+		{
+			"boxes": {
+				"CropBox": [
+					0.0,
+					0.0,
+					630.0,
+					810.0
+				],
+				"MediaBox": [
+					0.0,
+					0.0,
+					630.0,
+					810.0
+				]
+			},
+			"height": 810.0,
+			"is_scanned": true,
+			"page_number": 2,
+			"rotation": 0,
+			"width": 630.0
+		}
+	]
+}
