@@ -4,7 +4,6 @@ Demonstrate getting the metadata properties for a PDF.
 require('dotenv').config();
 
 const pdfSDK = require('@adobe/pdfservices-node-sdk');
-const fs = require('fs');
 const chalk = require('chalk');
 
 (async ()=> {
@@ -16,9 +15,8 @@ const chalk = require('chalk');
 		process.exit(1);
 	}
 
-	const creds = './pdfservices-api-credentials.json';
 
-	let result = await getPDFProperties(inputPDF, creds);
+	let result = await getPDFProperties(inputPDF);
 	console.log(JSON.stringify(result, null, '\t'));
 
 })();

@@ -11,6 +11,8 @@
   "license": "ISC",
   "dependencies": {
     "@adobe/jwt-auth": "^1.0.1",
+    "@aws-sdk/client-s3": "^3.405.0",
+    "@aws-sdk/s3-request-presigner": "^3.405.0",
     "dotenv": "^16.3.1",
     "node-fetch": "^2.6.7"
   }

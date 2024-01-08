@@ -24,15 +24,17 @@ class ServicesWrapper {
 		return new Promise(async (resolve, reject) => {
 
 			const params = new URLSearchParams();
+			params.append('client_id', this.creds.clientId);
 			params.append('client_secret', this.creds.clientSecret);
-			params.append('grant_type', 'client_credentials');
-			params.append('scope', 'openid,AdobeID,read_organizations');
 
-			let resp = await fetch(`https://ims-na1.adobelogin.com/ims/token/v2?client_id=${this.creds.clientId}`, 
+			let resp = await fetch('https://pdf-services-ue1.adobe.io/token', 
 				{ 
 					method: 'POST', 
-					body: params
-				}
+					body: params,
+					headers: {
+					'Content-Type':'application/x-www-form-urlencoded'
+				},
+			}
 			);
 			let data = await resp.json();
 			this._cachedToken = data.access_token;

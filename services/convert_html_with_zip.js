@@ -12,7 +12,7 @@ const AdmZip = require('adm-zip');
 const fs = require('fs');
 
 //remove previous test
-fs.unlinkSync('output/createPdfFromDynamicHtmlOutput.pdf');
+if(fs.existsSync('output/createPdfFromDynamicHtmlOutput.pdf')) fs.unlinkSync('output/createPdfFromDynamicHtmlOutput.pdf');
 
 let inputDir = './inputhtml';
 
@@ -48,8 +48,15 @@ try {
 		.withClientSecret(CLIENT_SECRET)
 		.build();
 
+	const clientConfig = PDFServicesSdk.ClientConfig
+		.clientConfigBuilder()
+		.withConnectTimeout(15000)
+		.withReadTimeout(15000)
+		.withProcessingTimeout(1200000)
+	.build();
+
 	// Create an ExecutionContext using credentials and create a new operation instance.
-	const executionContext = PDFServicesSdk.ExecutionContext.create(credentials), htmlToPDFOperation = PDFServicesSdk.CreatePDF.Operation.createNew();
+	const executionContext = PDFServicesSdk.ExecutionContext.create(credentials, clientConfig), htmlToPDFOperation = PDFServicesSdk.CreatePDF.Operation.createNew();
 
 	// Set operation input from a source file.
 	const input = PDFServicesSdk.FileRef.createFromLocalFile('./temp.zip');

@@ -1,7 +1,7 @@
 require('dotenv').config();
 const ServicesWrapper = require('./ServicesWrapper');
 
-let sw = new ServicesWrapper(process.env.CLIENTID, process.env.CLIENTSECRET);
+let sw = new ServicesWrapper(process.env.CLIENT_ID, process.env.CLIENT_SECRET);
 
 (async () => {
 	let filePath = '../source_pdfs/schoolcalendar.pdf';
