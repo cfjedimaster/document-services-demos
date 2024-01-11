@@ -1,13 +1,12 @@
-require('dotenv').config();
-const ServicesWrapper = require('./ServicesWrapper');
+import 'dotenv/config'
+import ServicesWrapper from './ServicesWrapper.js';
 
 let sw = new ServicesWrapper(process.env.CLIENT_ID, process.env.CLIENT_SECRET);
 
 (async () => {
 	let filePath = '../source_pdfs/schoolcalendar.pdf';
-	let mediaType = 'application/pdf';
 
-	let asset = await sw.upload(filePath, mediaType);
+	let asset = await sw.upload(filePath);
 	console.log('PDF uploaded');
 
 	let job = await sw.createExtractJob(asset);
@@ -25,6 +24,5 @@ let sw = new ServicesWrapper(process.env.CLIENT_ID, process.env.CLIENT_SECRET);
 	let jsonReq = await fetch(result.content.downloadUri);
 	let json = await jsonReq.json();
 	console.log(JSON.stringify(json.extended_metadata, null, '\t'));
-
 
 })();

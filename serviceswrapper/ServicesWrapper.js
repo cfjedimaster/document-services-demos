@@ -1,6 +1,10 @@
-const fs = require('fs');
-const { Readable } = require('stream');
-const { finished } = require('stream/promises');
+//const fs = require('fs');
+//const { Readable } = require('stream');
+//const { finished } = require('stream/promises');
+import fs from 'fs';
+import { Readable } from 'stream';
+import { finished } from 'stream/promises';
+import mime from 'mime';
 
 const REST_API = "https://pdf-services.adobe.io/";
 
@@ -94,6 +98,7 @@ class ServicesWrapper {
 	I simply the process of uploading. 
 	*/
 	async upload(filePath, mediaType) {
+		if(!mediaType) mediaType = mime.getType(filePath);
 		let uploadData = await this.getUploadData(mediaType);
 		await this.uploadFile(uploadData.uploadUri, filePath, mediaType);
 		return uploadData;
@@ -246,4 +251,4 @@ class ServicesWrapper {
 
 }
 
-module.exports = ServicesWrapper;
+export default ServicesWrapper;
