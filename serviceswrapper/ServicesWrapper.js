@@ -1,6 +1,3 @@
-//const fs = require('fs');
-//const { Readable } = require('stream');
-//const { finished } = require('stream/promises');
 import fs from 'fs';
 import { Readable } from 'stream';
 import { finished } from 'stream/promises';
@@ -95,7 +92,7 @@ class ServicesWrapper {
 	}
 
 	/*
-	I simply the process of uploading. 
+	I simplify the process of uploading. 
 	*/
 	async upload(filePath, mediaType) {
 		if(!mediaType) mediaType = mime.getType(filePath);
@@ -171,6 +168,16 @@ class ServicesWrapper {
 		return await this.apiWrapper('operation/extractpdf',body);
 	}
 
+	async createPDFJob(asset, options={}) {
+
+		let body = {
+			'assetID': asset.assetID,
+			'documentLanguage': options.documentLanguage?options.documentLanguage:'en-US'
+		};
+
+		return await this.apiWrapper('operation/createpdf',body);
+	}
+	
 	// ToDo: use style used for Extract
 	async createProtectJob(asset, passwordProtection, encryptionAlgorithm, contentToEncrypt, permissions) {
 

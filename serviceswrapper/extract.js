@@ -1,4 +1,4 @@
-import 'dotenv/config'
+import 'dotenv/config';
 import ServicesWrapper from './ServicesWrapper.js';
 
 let sw = new ServicesWrapper(process.env.CLIENT_ID, process.env.CLIENT_SECRET);
