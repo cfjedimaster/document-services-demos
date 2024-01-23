@@ -8,7 +8,6 @@ import * as http from 'http';
 
 async function handler(req, res) {
 	console.log('Entered webhook handler.');
-
 	let body = '';
 	req.on('data', chunk => {
 		body += chunk.toString();
@@ -17,6 +16,8 @@ async function handler(req, res) {
 	req.on('end', async () => {
 
 		console.log('BODY:\n', JSON.stringify(JSON.parse(body), null, '\t'));
+		// If you specified additional headers (see createpdf2.js), it will show up there:
+		console.log('HEADERS:\n',req.headers);
 		// Always respond with ack
 		res.writeHead(200, { 'Content-Type':'application/json' });
 		res.write(JSON.stringify({'ack':'done'}));
