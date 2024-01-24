@@ -68,7 +68,6 @@ class ServicesWrapper {
 
 	async uploadFile(url, filePath, mediaType) {
 
-
 		let stream = fs.createReadStream(filePath);
 		let stats = fs.statSync(filePath);
 		let fileSizeInBytes = stats.size;
@@ -210,7 +209,6 @@ class ServicesWrapper {
 			});
 
 			let res = await req.json();
-
 			status = res.status;
 			if(status === 'done') {
 				/*
@@ -222,6 +220,8 @@ class ServicesWrapper {
 				else if(res.content && res.resource) {
 					asset = { content: res.content, resource: res.resource};
 				}
+			} else if(status === 'failed') {
+				throw(res.error);
 			} else {
 				await this.delay(2000);
 			}
