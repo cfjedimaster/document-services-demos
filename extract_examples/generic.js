@@ -37,8 +37,9 @@ let getStyling = true;
 if(getStylingInfo === 'false') getStyling = false;
 
 const credentials = PDFServicesSdk.Credentials
-		.serviceAccountCredentialsBuilder()
-		.fromFile('pdfservices-api-credentials.json')
+		.servicePrincipalCredentialsBuilder()
+		.withClientId(process.env.PDF_SERVICES_CLIENT_ID)
+		.withClientSecret(process.env.PDF_SERVICES_CLIENT_SECRET)
 		.build();
 
 const config = PDFServicesSdk.ClientConfig.clientConfigBuilder().withConnectTimeout(360000).withReadTimeout(360000).build();
