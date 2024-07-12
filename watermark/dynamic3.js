@@ -9,11 +9,11 @@ let CLIENT_ID = process.env.CLIENT_ID;
 let CLIENT_SECRET = process.env.CLIENT_SECRET;
 
 const TSP = process.env.TSP;
-const TSP_ENDPOINT=process.env.TSPENDPOINT;
-const TSP_CLIENT_ID = process.env.TSPCLIENTID;
-const TSP_CLIENT_SECRET = process.env.TSPCLIENTSECRET;
-const TSP_PIN = process.env.TSPPIN;
-const TSP_CREDENTIAL_ID = process.env.TSPCREDENTIALID;
+const TSP_CLIENT_ID = process.env.TSP_CLIENT_ID;
+const TSP_CLIENT_SECRET = process.env.TSP_CLIENT_SECRET;
+const TSP_PIN = process.env.TSP_PIN;
+const TSP_CREDENTIAL_ID = process.env.TSP_CREDENTIAL_ID;
+const TSP_ENDPOINT = process.env.TSP_ENDPOINT;
 
 let SOURCE_PDF = './adobe_security.pdf';
 let WATERMARK_DOC = './source2.docx';
@@ -112,7 +112,6 @@ async function pollJob(url, token, clientId) {
 		});
 
 		let res = await req.json();
-console.log('POLLJOB', res);
 		status = res.status;
 		if(status === 'done') {
 			asset = res;
@@ -295,8 +294,8 @@ async function sealJob(asset, options, token, clientId) {
 	console.log('Seal Job created. Now to poll it.');
 
 	let result = await pollJob(job, accessToken, CLIENT_ID);
-	console.log('Job is done.'); 
-	console.log(result);
+
+	await downloadFile(result.asset.downloadUri, 'watermarked_dynamic3.pdf');
 
 	console.log('All done!');
 })();
