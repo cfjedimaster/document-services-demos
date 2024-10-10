@@ -10,7 +10,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "@adobe/pdfservices-node-sdk": "^3.4.2",
+    "@adobe/pdfservices-node-sdk": "^4.0.0",
     "adm-zip": "^0.5.10",
     "chalk": "^4.1.2",
     "dotenv": "^16.3.1"

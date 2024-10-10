@@ -2,6 +2,7 @@
   "dependencies": {
     "@adobe/pdfservices-node-sdk": "^2.2.2",
     "@azure/cognitiveservices-computervision": "^8.1.0",
+    "@google/generative-ai": "^0.15.0",
     "adm-zip": "^0.5.9",
     "dotenv": "^16.0.1",
     "globby": "^11.0.4",
