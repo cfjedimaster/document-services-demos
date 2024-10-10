@@ -1,0 +1,33 @@
+{
+    "toppingsOutput": "Basil,Broccoli,Ham",
+    "dob": "1971-04-08",
+    "billTo": {
+        "zip": "",
+        "address": {"line": {
+            "1": "",
+            "2": ""
+        }},
+        "city": "Lafayette",
+        "state": ""
+    },
+    "name": {
+        "middle": "K",
+        "last": "Camden",
+        "first": "Raymond"
+    },
+    "toppings": [
+        "Basil",
+        "Ham"
+    ],
+    "extraCheese": "Off",
+    "shipTo": {
+        "zip": "",
+        "address": {"line": {
+            "1": "",
+            "2": ""
+        }},
+        "city": "",
+        "state": ""
+    },
+    "crust": "thin"
+}
