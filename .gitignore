@@ -11,3 +11,4 @@ pdfservices-api-credentials.json
 /extract_examples/output/
 /services/inputhtml
 /trash
+.DS_Store
